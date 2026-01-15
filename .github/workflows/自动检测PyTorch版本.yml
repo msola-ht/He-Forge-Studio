@@ -28,172 +28,162 @@ jobs:
 
       - name: 安装依赖
         run: |
-          pip install requests beautifulsoup4
+          pip install requests
 
-      - name: 获取 PyTorch 版本信息
+      - name: 获取 PyTorch Docker 版本信息
         run: |
           python << 'EOF'
           #!/usr/bin/env python3
           """
-          PyTorch 仓库版本信息获取脚本
+          PyTorch 全平台版本全自动化采集工具
 
           @author HeGenAI
           @since 2026-01-15
+          @org 老何的AIGC研究室
 
-          此脚本从 PyTorch 官方仓库获取版本信息，并生成 JSON 文件
+          功能：
+          1. 远程抓取 Docker Hub 官方 PyTorch Runtime 镜像标签。
+          2. 自动计算 TorchVision 和 TorchAudio 匹配版本。
+          3. 自动生成 Windows/Linux(CUDA)、Mac(OSX)、CPU、AMD(ROCM) 的 pip 安装指令。
           """
 
           import requests
-          from bs4 import BeautifulSoup
           import re
           import json
-          import time
-          from concurrent.futures import ThreadPoolExecutor
-          import urllib3
-          from pathlib import Path
           from datetime import datetime
-
-          # 禁用安全请求警告
-          urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+          from pathlib import Path
 
           # [老何的AIGC研究室] 配置信息
-          BASE_URL = "http://download.pytorch.org/whl/"
-          CU_DIR_PATTERN = re.compile(r'^cu(\d+)/')
-          TORCH_WHL_PATTERN = re.compile(r'torch-([\d\.]+)')
-          HEADERS = {
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-          }
+          DOCKER_API_URL = "https://hub.docker.com/v2/repositories/pytorch/pytorch/tags/"
+          # 严格匹配 runtime 格式: 2.9.1-cuda12.8-cudnn9-runtime
+          TAG_PATTERN = re.compile(r'^(\d+\.\d+\.\d+)-cuda(\d+\.\d+)-cudnn\d+-runtime')
+          WHL_URL = "https://download.pytorch.org/whl"
 
-          # 配置文件路径
           CONFIG_DIR = Path("he-forge-magic-box")
-          CONFIG_FILE = CONFIG_DIR / "pytorch_versions.json"
+          CONFIG_FILE = CONFIG_DIR / "pytorch_docker_versions.json"
 
-
-          def robust_get(url, retries=3, timeout=30):
-              """带重试且支持 HTTP 的请求函数"""
-              for i in range(retries):
-                  try:
-                      resp = requests.get(url, headers=HEADERS, timeout=timeout, verify=False, allow_redirects=True)
-                      resp.raise_for_status()
-                      return resp
-                  except Exception:
-                      if i == retries - 1:
-                          return None
-                      time.sleep(2)
-              return None
-
-
-          def is_torch_ge_26(v_str):
-              """判断 PyTorch 版本是否 >= 2.6"""
+          def get_expected_versions(torch_v):
+              """根据 PyTorch 官方发布规律计算配套版本 (N=M+15)"""
               try:
-                  parts = [int(p) for p in v_str.split('.') if p.isdigit()]
-                  if not parts:
-                      return False
-                  if parts[0] > 2:
-                      return True
-                  if parts[0] == 2 and len(parts) >= 2 and parts[1] >= 6:
-                      return True
-                  return False
+                  parts = [int(p) for p in torch_v.split('.')]
+                  major, minor, patch = parts[0], parts[1], parts[2]
+                  # TorchVision 版本规律: 0.(minor+15).patch
+                  # TorchAudio 版本规律: major.minor.patch
+                  return f"0.{minor + 15}.{patch}", f"{major}.{minor}.{patch}"
               except:
-                  return False
+                  return "unknown", "unknown"
 
+          def generate_pip_commands(t, v, a, cu):
+              """生成全平台安装指令"""
+              base_pkg = f"torch=={t} torchvision=={v} torchaudio=={a}"
+              cu_flat = cu.replace('.', '')  # 12.6 -> 126
 
-          def get_filtered_versions(cuda_dir):
-              """抓取 CUDA 目录，返回统一的 HTTP 索引地址"""
-              check_paths = [f"{cuda_dir}torch/", cuda_dir]
-              version_map = {}
-
-              cu_code = cuda_dir.strip('/').replace('cu', '')
-              formatted_cu = f"{cu_code[:-1]}.{cu_code[-1]}"
-              canonical_url = f"http://download.pytorch.org/whl/{cuda_dir}"
-
-              for path in check_paths:
-                  full_url = f"{BASE_URL}{path}"
-                  resp = robust_get(full_url)
-                  if not resp:
-                      continue
-
-                  soup = BeautifulSoup(resp.text, 'html.parser')
-                  for a in soup.find_all('a'):
-                      m = TORCH_WHL_PATTERN.search(a.get('href', ''))
-                      if m:
-                          v = m.group(1)
-                          if is_torch_ge_26(v):
-                              if v not in version_map:
-                                  version_map[v] = {
-                                      "tag": f"{v}+{formatted_cu}",
-                                      "torch": v,
-                                      "cuda": formatted_cu,
-                                      "index_url": canonical_url
-                                  }
-              return list(version_map.values())
-
-
-          def main():
-              print("=" * 60)
-              print("PyTorch 仓库版本信息获取脚本")
-              print("=" * 60)
-
-              # 获取主页
-              resp = robust_get(BASE_URL)
-              if not resp:
-                  print("❌ 连接失败")
-                  return
-
-              soup = BeautifulSoup(resp.text, 'html.parser')
-              links = [a.get('href') for a in soup.find_all('a')]
-
-              # 过滤：>= 126 且 != 129
-              target_dirs = []
-              for l in links:
-                  match = CU_DIR_PATTERN.match(l)
-                  if match:
-                      cu_val = int(match.group(1))
-                      if cu_val >= 126 and cu_val != 129:
-                          target_dirs.append(l)
-
-              print(f"📦 找到 {len(target_dirs)} 个 CUDA 目录")
-
-              final_list = []
-              with ThreadPoolExecutor(max_workers=3) as executor:
-                  futures = [executor.submit(get_filtered_versions, d) for d in target_dirs]
-                  for f in futures:
-                      res = f.result()
-                      if res:
-                          final_list.extend(res)
-
-              # 排序：CUDA 降序，Torch 降序
-              final_list.sort(key=lambda x: (float(x['cuda']), [int(p) for p in x['torch'].split('.')]), reverse=True)
-
-              # 生成输出数据
-              output = {
-                  "updated_at": datetime.now().isoformat(),
-                  "total_versions": len(final_list),
-                  "versions": final_list
+              return {
+                  "windows_linux_cuda": f"pip install {base_pkg} --index-url {WHL_URL}/cu{cu_flat}",
+                  "linux_rocm": f"pip install {base_pkg} --index-url {WHL_URL}/rocm6.4",
+                  "cpu_only": f"pip install {base_pkg} --index-url {WHL_URL}/cpu",
+                  "osx_mac": f"pip install {base_pkg}"
               }
 
-              # 确保配置目录存在
-              CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+          def fetch_all_tags():
+              """遍历 Docker Hub API 获取标签"""
+              print("🔍 正在从 Docker Hub 抓取 PyTorch Runtime 镜像标签...")
+              tags = []
+              url = f"{DOCKER_API_URL}?page_size=100&ordering=last_updated"
 
-              # 写入 JSON 文件
+              max_pages = 5
+              current_page = 1
+
+              while url and current_page <= max_pages:
+                  try:
+                      resp = requests.get(url, timeout=15)
+                      data = resp.json()
+                      results = data.get('results', [])
+                      for item in results:
+                          tags.append(item['name'])
+                      url = data.get('next')
+                      current_page += 1
+                      print(f"  - 已获取第 {current_page-1} 页，当前总计 {len(tags)} 个标签")
+                  except Exception as e:
+                      print(f"❌ 网络请求异常: {e}")
+                      break
+              print(f"✅ 标签抓取完成，共检索到 {len(tags)} 个候选标签。")
+              return tags
+
+          def parse_tags(tag_list):
+              """解析并构建完整的数据结构"""
+              print("⚙️ 正在解析版本逻辑并生成全平台指令...")
+              version_map = {}
+
+              for tag in tag_list:
+                  match = TAG_PATTERN.match(tag)
+                  if match:
+                      torch_v = match.group(1)
+                      cuda_v = match.group(2)
+
+                      # 基础过滤逻辑
+                      t_parts = [int(p) for p in torch_v.split('.')]
+                      if t_parts[0] == 2 and t_parts[1] < 6:
+                          continue  # 只要 2.6+
+
+                      cu_val = float(cuda_v)
+                      if cu_val < 12.6 or cu_val == 12.9:
+                          continue  # 只要 12.6+, 排除 12.9
+
+                      key = f"{torch_v}-{cuda_v}"
+                      if key not in version_map:
+                          exp_v, exp_a = get_expected_versions(torch_v)
+
+                          # 生成指令
+                          commands = generate_pip_commands(torch_v, exp_v, exp_a, cuda_v)
+
+                          version_map[key] = {
+                              "tag": f"{torch_v}+cu{cuda_v}",
+                              "torch": torch_v,
+                              "torchvision": exp_v,
+                              "torchaudio": exp_a,
+                              "cuda": cuda_v,
+                              "docker_image": f"pytorch/pytorch:{tag}",
+                              "install_commands": commands
+                          }
+
+              # 排序：按 CUDA 版本降序，再按 Torch 版本降序
+              final_list = list(version_map.values())
+              final_list.sort(key=lambda x: (float(x['cuda']), [int(p) for p in x['torch'].split('.')]), reverse=True)
+              return final_list
+
+          def main():
+              print("=" * 70)
+              print("🚀 老何的AIGC研究室 - PyTorch 全平台自动化构建助手")
+              print(f"📅 当前时间: {datetime.now().strftime('%Y/%m/%d %H:%M:%S')}")
+              print("=" * 70)
+
+              tags = fetch_all_tags()
+              if not tags:
+                  print("❌ 未能获取到数据，请检查网络连接。")
+                  return
+
+              parsed_data = parse_tags(tags)
+
+              output = {
+                  "updated_at": datetime.now().isoformat(),
+                  "author": "HeGenAI (老何的AIGC研究室)",
+                  "source": "Docker Hub (pytorch/pytorch)",
+                  "total_combinations": len(parsed_data),
+                  "versions": parsed_data
+              }
+
+              # 确保目录存在
+              CONFIG_DIR.mkdir(parents=True, exist_ok=True)
               with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
                   json.dump(output, f, ensure_ascii=False, indent=2)
 
-              print(f"✅ 成功获取 {len(final_list)} 个 PyTorch 版本")
-              print(f"📄 文件已保存到: {CONFIG_FILE}")
-              print("=" * 60)
-
+              print("-" * 70)
+              print(f"🎉 成功！已识别 {len(parsed_data)} 组 PyTorch Runtime 黄金配比。")
+              print(f"📄 数据已存至: {CONFIG_FILE}")
+              print("💡 提示: 每组版本均已包含 Windows/Linux/Mac/CPU 的 pip 安装命令。")
+              print("=" * 70)
 
           if __name__ == "__main__":
               main()
           EOF
-
-      - name: 提交并推送
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add he-forge-magic-box/pytorch_versions.json
-          git diff --staged --quiet || git commit -m "chore: 自动更新 PyTorch 版本信息"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
