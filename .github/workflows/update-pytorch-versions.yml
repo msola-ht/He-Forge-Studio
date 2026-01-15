@@ -1,4 +1,4 @@
-name: Update PyTorch Versions
+name: 自动更新 PyTorch 版本
 
 # 每天北京时间 00:00 运行
 on:
@@ -10,30 +10,184 @@ permissions:
   contents: write
 
 jobs:
-  update-versions:
+  更新版本信息:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: 检出代码
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
-      - name: Set up Python
+      - name: 设置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: |
           pip install requests beautifulsoup4
 
-      - name: Fetch PyTorch versions
+      - name: 获取 PyTorch 版本信息
         run: |
-          python scripts/fetch_pytorch_versions.py
+          python << 'EOF'
+          #!/usr/bin/env python3
+          """
+          PyTorch 仓库版本信息获取脚本
 
-      - name: Commit and push
+          @author HeGenAI
+          @since 2026-01-15
+
+          此脚本从 PyTorch 官方仓库获取版本信息，并生成 JSON 文件
+          """
+
+          import requests
+          from bs4 import BeautifulSoup
+          import re
+          import json
+          import time
+          from concurrent.futures import ThreadPoolExecutor
+          import urllib3
+          from pathlib import Path
+          from datetime import datetime
+
+          # 禁用安全请求警告
+          urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+          # [老何的AIGC研究室] 配置信息
+          BASE_URL = "http://download.pytorch.org/whl/"
+          CU_DIR_PATTERN = re.compile(r'^cu(\d+)/')
+          TORCH_WHL_PATTERN = re.compile(r'torch-([\d\.]+)')
+          HEADERS = {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+          }
+
+          # 配置文件路径
+          CONFIG_DIR = Path("he-forge-magic-box")
+          CONFIG_FILE = CONFIG_DIR / "pytorch_versions.json"
+
+
+          def robust_get(url, retries=3, timeout=30):
+              """带重试且支持 HTTP 的请求函数"""
+              for i in range(retries):
+                  try:
+                      resp = requests.get(url, headers=HEADERS, timeout=timeout, verify=False, allow_redirects=True)
+                      resp.raise_for_status()
+                      return resp
+                  except Exception:
+                      if i == retries - 1:
+                          return None
+                      time.sleep(2)
+              return None
+
+
+          def is_torch_ge_26(v_str):
+              """判断 PyTorch 版本是否 >= 2.6"""
+              try:
+                  parts = [int(p) for p in v_str.split('.') if p.isdigit()]
+                  if not parts:
+                      return False
+                  if parts[0] > 2:
+                      return True
+                  if parts[0] == 2 and len(parts) >= 2 and parts[1] >= 6:
+                      return True
+                  return False
+              except:
+                  return False
+
+
+          def get_filtered_versions(cuda_dir):
+              """抓取 CUDA 目录，返回统一的 HTTP 索引地址"""
+              check_paths = [f"{cuda_dir}torch/", cuda_dir]
+              version_map = {}
+
+              cu_code = cuda_dir.strip('/').replace('cu', '')
+              formatted_cu = f"{cu_code[:-1]}.{cu_code[-1]}"
+              canonical_url = f"http://download.pytorch.org/whl/{cuda_dir}"
+
+              for path in check_paths:
+                  full_url = f"{BASE_URL}{path}"
+                  resp = robust_get(full_url)
+                  if not resp:
+                      continue
+
+                  soup = BeautifulSoup(resp.text, 'html.parser')
+                  for a in soup.find_all('a'):
+                      m = TORCH_WHL_PATTERN.search(a.get('href', ''))
+                      if m:
+                          v = m.group(1)
+                          if is_torch_ge_26(v):
+                              if v not in version_map:
+                                  version_map[v] = {
+                                      "tag": f"{v}+{formatted_cu}",
+                                      "torch": v,
+                                      "cuda": formatted_cu,
+                                      "index_url": canonical_url
+                                  }
+              return list(version_map.values())
+
+
+          def main():
+              print("=" * 60)
+              print("PyTorch 仓库版本信息获取脚本")
+              print("=" * 60)
+
+              # 获取主页
+              resp = robust_get(BASE_URL)
+              if not resp:
+                  print("❌ 连接失败")
+                  return
+
+              soup = BeautifulSoup(resp.text, 'html.parser')
+              links = [a.get('href') for a in soup.find_all('a')]
+
+              # 过滤：>= 126 且 != 129
+              target_dirs = []
+              for l in links:
+                  match = CU_DIR_PATTERN.match(l)
+                  if match:
+                      cu_val = int(match.group(1))
+                      if cu_val >= 126 and cu_val != 129:
+                          target_dirs.append(l)
+
+              print(f"📦 找到 {len(target_dirs)} 个 CUDA 目录")
+
+              final_list = []
+              with ThreadPoolExecutor(max_workers=3) as executor:
+                  futures = [executor.submit(get_filtered_versions, d) for d in target_dirs]
+                  for f in futures:
+                      res = f.result()
+                      if res:
+                          final_list.extend(res)
+
+              # 排序：CUDA 降序，Torch 降序
+              final_list.sort(key=lambda x: (float(x['cuda']), [int(p) for p in x['torch'].split('.')]), reverse=True)
+
+              # 生成输出数据
+              output = {
+                  "updated_at": datetime.now().isoformat(),
+                  "total_versions": len(final_list),
+                  "versions": final_list
+              }
+
+              # 确保配置目录存在
+              CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+
+              # 写入 JSON 文件
+              with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
+                  json.dump(output, f, ensure_ascii=False, indent=2)
+
+              print(f"✅ 成功获取 {len(final_list)} 个 PyTorch 版本")
+              print(f"📄 文件已保存到: {CONFIG_FILE}")
+              print("=" * 60)
+
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+      - name: 提交并推送
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
