@@ -1,0 +1,84 @@
+{
+  "updated_at": "2026-01-15T01:12:18.026145",
+  "total_versions": 13,
+  "versions": [
+    {
+      "tag": "2.9.1+13.0",
+      "torch": "2.9.1",
+      "cuda": "13.0",
+      "index_url": "http://download.pytorch.org/whl/cu130/"
+    },
+    {
+      "tag": "2.9.0+13.0",
+      "torch": "2.9.0",
+      "cuda": "13.0",
+      "index_url": "http://download.pytorch.org/whl/cu130/"
+    },
+    {
+      "tag": "2.9.1+12.8",
+      "torch": "2.9.1",
+      "cuda": "12.8",
+      "index_url": "http://download.pytorch.org/whl/cu128/"
+    },
+    {
+      "tag": "2.9.0+12.8",
+      "torch": "2.9.0",
+      "cuda": "12.8",
+      "index_url": "http://download.pytorch.org/whl/cu128/"
+    },
+    {
+      "tag": "2.8.0+12.8",
+      "torch": "2.8.0",
+      "cuda": "12.8",
+      "index_url": "http://download.pytorch.org/whl/cu128/"
+    },
+    {
+      "tag": "2.7.1+12.8",
+      "torch": "2.7.1",
+      "cuda": "12.8",
+      "index_url": "http://download.pytorch.org/whl/cu128/"
+    },
+    {
+      "tag": "2.7.0+12.8",
+      "torch": "2.7.0",
+      "cuda": "12.8",
+      "index_url": "http://download.pytorch.org/whl/cu128/"
+    },
+    {
+      "tag": "2.9.1+12.6",
+      "torch": "2.9.1",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    },
+    {
+      "tag": "2.9.0+12.6",
+      "torch": "2.9.0",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    },
+    {
+      "tag": "2.8.0+12.6",
+      "torch": "2.8.0",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    },
+    {
+      "tag": "2.7.1+12.6",
+      "torch": "2.7.1",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    },
+    {
+      "tag": "2.7.0+12.6",
+      "torch": "2.7.0",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    },
+    {
+      "tag": "2.6.0+12.6",
+      "torch": "2.6.0",
+      "cuda": "12.6",
+      "index_url": "http://download.pytorch.org/whl/cu126/"
+    }
+  ]
+}
