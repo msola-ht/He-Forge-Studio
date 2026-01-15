@@ -10,7 +10,8 @@ permissions:
   contents: write
 
 jobs:
-  更新版本信息:
+  check-versions:
+    name: 更新版本信息
     runs-on: ubuntu-latest
 
     steps:
