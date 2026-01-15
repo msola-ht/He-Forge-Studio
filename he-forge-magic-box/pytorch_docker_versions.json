@@ -1,0 +1,190 @@
+{
+  "updated_at": "2026-01-15T02:59:38.755912",
+  "author": "HeGenAI (老何的AIGC研究室)",
+  "source": "Docker Hub (pytorch/pytorch)",
+  "total_combinations": 13,
+  "versions": [
+    {
+      "tag": "2.9.1+cu13.0",
+      "torch": "2.9.1",
+      "torchvision": "0.24.1",
+      "torchaudio": "2.9.1",
+      "cuda": "13.0",
+      "docker_image": "pytorch/pytorch:2.9.1-cuda13.0-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu130",
+        "linux_rocm": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1"
+      }
+    },
+    {
+      "tag": "2.9.0+cu13.0",
+      "torch": "2.9.0",
+      "torchvision": "0.24.0",
+      "torchaudio": "2.9.0",
+      "cuda": "13.0",
+      "docker_image": "pytorch/pytorch:2.9.0-cuda13.0-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu130",
+        "linux_rocm": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0"
+      }
+    },
+    {
+      "tag": "2.9.1+cu12.8",
+      "torch": "2.9.1",
+      "torchvision": "0.24.1",
+      "torchaudio": "2.9.1",
+      "cuda": "12.8",
+      "docker_image": "pytorch/pytorch:2.9.1-cuda12.8-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu128",
+        "linux_rocm": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1"
+      }
+    },
+    {
+      "tag": "2.9.0+cu12.8",
+      "torch": "2.9.0",
+      "torchvision": "0.24.0",
+      "torchaudio": "2.9.0",
+      "cuda": "12.8",
+      "docker_image": "pytorch/pytorch:2.9.0-cuda12.8-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu128",
+        "linux_rocm": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0"
+      }
+    },
+    {
+      "tag": "2.8.0+cu12.8",
+      "torch": "2.8.0",
+      "torchvision": "0.23.0",
+      "torchaudio": "2.8.0",
+      "cuda": "12.8",
+      "docker_image": "pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128",
+        "linux_rocm": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0"
+      }
+    },
+    {
+      "tag": "2.7.1+cu12.8",
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "torchaudio": "2.7.1",
+      "cuda": "12.8",
+      "docker_image": "pytorch/pytorch:2.7.1-cuda12.8-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu128",
+        "linux_rocm": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1"
+      }
+    },
+    {
+      "tag": "2.7.0+cu12.8",
+      "torch": "2.7.0",
+      "torchvision": "0.22.0",
+      "torchaudio": "2.7.0",
+      "cuda": "12.8",
+      "docker_image": "pytorch/pytorch:2.7.0-cuda12.8-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu128",
+        "linux_rocm": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0"
+      }
+    },
+    {
+      "tag": "2.9.1+cu12.6",
+      "torch": "2.9.1",
+      "torchvision": "0.24.1",
+      "torchaudio": "2.9.1",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.9.1-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.1 torchvision==0.24.1 torchaudio==2.9.1"
+      }
+    },
+    {
+      "tag": "2.9.0+cu12.6",
+      "torch": "2.9.0",
+      "torchvision": "0.24.0",
+      "torchaudio": "2.9.0",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.9.0-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0"
+      }
+    },
+    {
+      "tag": "2.8.0+cu12.6",
+      "torch": "2.8.0",
+      "torchvision": "0.23.0",
+      "torchaudio": "2.8.0",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.8.0 torchvision==0.23.0 torchaudio==2.8.0"
+      }
+    },
+    {
+      "tag": "2.7.1+cu12.6",
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "torchaudio": "2.7.1",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.7.1-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1"
+      }
+    },
+    {
+      "tag": "2.7.0+cu12.6",
+      "torch": "2.7.0",
+      "torchvision": "0.22.0",
+      "torchaudio": "2.7.0",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.7.0-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0"
+      }
+    },
+    {
+      "tag": "2.6.0+cu12.6",
+      "torch": "2.6.0",
+      "torchvision": "0.21.0",
+      "torchaudio": "2.6.0",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.6.0-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0"
+      }
+    }
+  ]
+}
