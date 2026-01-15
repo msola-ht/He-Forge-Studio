@@ -187,3 +187,13 @@ jobs:
           if __name__ == "__main__":
               main()
           EOF
+
+      - name: 提交并推送
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add he-forge-magic-box/pytorch_docker_versions.json
+          git diff --staged --quiet || git commit -m "chore: 自动更新 PyTorch 版本信息"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
