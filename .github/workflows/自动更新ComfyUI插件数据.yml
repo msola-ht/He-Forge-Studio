@@ -78,45 +78,40 @@ jobs:
           json_file="$output_dir/comfyui_plugins_data.json"
           html_file="$output_dir/comfyui_plugins_dashboard.html"
 
+          echo "📋 检查文件状态..."
+          echo "JSON 文件路径: $json_file"
+          echo "HTML 文件路径: $html_file"
+
+          # 显示 Git 状态
+          echo ""
+          echo "🔍 Git 状态:"
+          git status --porcelain
+          echo ""
+
           files_changed=0
 
-          # 检查文件是否存在
-          if [[ ! -f "$json_file" ]]; then
-            echo "⚠️  JSON 文件不存在"
-          fi
+          # 简化检测逻辑：直接尝试添加文件
+          echo "📦 尝试添加文件..."
 
-          if [[ ! -f "$html_file" ]]; then
-            echo "⚠️  HTML 文件不存在"
-          fi
-
-          # 获取 Git 状态
-          git_status=$(git status --porcelain)
-
-          # 检查 JSON 文件
-          if echo "$git_status" | grep -q "??.*${json_file##*/}"; then
-            git add "$json_file"
+          if git add "$json_file" 2>/dev/null; then
             files_changed=1
-            echo "✅ 添加新文件: $json_file"
-          elif echo "$git_status" | grep -q "M.*${json_file##*/}"; then
-            git add "$json_file"
-            files_changed=1
-            echo "✅ JSON 文件有变化"
+            echo "✅ JSON 文件已添加到暂存区"
           else
-            echo "ℹ️  JSON 文件无变化"
+            echo "ℹ️  JSON 文件无变化或不存在"
           fi
 
-          # 检查 HTML 文件
-          if echo "$git_status" | grep -q "??.*${html_file##*/}"; then
-            git add "$html_file"
+          if git add "$html_file" 2>/dev/null; then
             files_changed=1
-            echo "✅ 添加新文件: $html_file"
-          elif echo "$git_status" | grep -q "M.*${html_file##*/}"; then
-            git add "$html_file"
-            files_changed=1
-            echo "✅ HTML 文件有变化"
+            echo "✅ HTML 文件已添加到暂存区"
           else
-            echo "ℹ️  HTML 文件无变化"
+            echo "ℹ️  HTML 文件无变化或不存在"
           fi
+
+          # 显示暂存状态
+          echo ""
+          echo "📋 暂存状态:"
+          git diff --cached --name-status
+          echo ""
 
           # 提交并推送
           if [[ $files_changed -eq 1 ]]; then
