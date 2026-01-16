@@ -1,0 +1,39 @@
+name: 部署到 GitHub Pages
+
+# 当 comfyui_plugin_analyzer 目录下的文件更新时触发
+on:
+  workflow_run:
+    workflows: [自动更新 ComfyUI 插件数据]
+    types:
+      - completed
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传到 Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # 将 comfyui_plugin_analyzer 目录作为 Pages 根目录
+          path: './he-forge-magic-box/comfyui_plugin_analyzer'
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
