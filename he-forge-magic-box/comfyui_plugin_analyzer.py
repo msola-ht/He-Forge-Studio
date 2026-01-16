@@ -358,8 +358,10 @@ class ComfyUIPluginAnalyzer:
         import html as html_module
         import json
 
-        # 生成时间
-        generated_time = datetime.now().strftime("%Y/%m/%d %a %H:%M:%S")
+        # 生成时间（使用东八区北京时间）
+        from datetime import timedelta, timezone
+        beijing_tz = timezone(timedelta(hours=8))
+        generated_time = datetime.now(beijing_tz).strftime("%Y/%m/%d %a %H:%M:%S (UTC+8)")
 
         # 统计数据
         total = len(merged_data)
@@ -759,7 +761,7 @@ class ComfyUIPluginAnalyzer:
                 <div class="w-full md:w-48">
                     <label class="block text-sm font-medium text-gray-700 mb-2">📊 排序方式</label>
                     <select id="sortSelect" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition">
-                        <option value="stars">星标数 ↓</option>
+                        <option value="stars" selected>星标数 ↓</option>
                         <option value="update">最近更新 ↑</option>
                         <option value="name">名称 A-Z</option>
                     </select>
@@ -822,7 +824,7 @@ class ComfyUIPluginAnalyzer:
         let currentData = [...allData];
         let currentPage = 1;
         let pageSize = 20;
-        let currentSort = {{ field: null, dir: 'desc' }};
+        let currentSort = {{ field: 'stars', dir: 'desc' }};
         let currentFilter = 'all';
         let searchQuery = '';
 
@@ -873,6 +875,8 @@ class ComfyUIPluginAnalyzer:
                     plugins: {{ legend: {{ position: 'bottom', labels: {{ padding: 15, font: {{ size: 12 }} }} }} }}
                 }}
             }});
+            // 默认按星标降序排序
+            sortDataInternal();
             renderTable();
         }}
 
