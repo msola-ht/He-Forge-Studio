@@ -78,46 +78,44 @@ jobs:
           json_file="$output_dir/comfyui_plugins_data.json"
           html_file="$output_dir/comfyui_plugins_dashboard.html"
 
-          # 检查文件是否有变化或是否为新文件
           files_changed=0
 
-          # 检查 JSON 文件
-          if [[ -f "$json_file" ]]; then
-            if [[ -n "$(git diff "$json_file")" ]]; then
-              git add "$json_file"
-              files_changed=1
-              echo "✅ JSON 文件有变化"
-            else
-              echo "ℹ️  JSON 文件无变化"
-            fi
-          else
+          # 检查文件是否存在
+          if [[ ! -f "$json_file" ]]; then
             echo "⚠️  JSON 文件不存在"
           fi
 
-          # 检查 HTML 文件
-          if [[ -f "$html_file" ]]; then
-            if [[ -n "$(git diff "$html_file")" ]]; then
-              git add "$html_file"
-              files_changed=1
-              echo "✅ HTML 文件有变化"
-            else
-              echo "ℹ️  HTML 文件无变化"
-            fi
-          else
+          if [[ ! -f "$html_file" ]]; then
             echo "⚠️  HTML 文件不存在"
           fi
 
-          # 检查是否有新文件未跟踪
-          if git status --porcelain | grep -q "^?.*$json_file"; then
+          # 获取 Git 状态
+          git_status=$(git status --porcelain)
+
+          # 检查 JSON 文件
+          if echo "$git_status" | grep -q "??.*${json_file##*/}"; then
             git add "$json_file"
             files_changed=1
             echo "✅ 添加新文件: $json_file"
+          elif echo "$git_status" | grep -q "M.*${json_file##*/}"; then
+            git add "$json_file"
+            files_changed=1
+            echo "✅ JSON 文件有变化"
+          else
+            echo "ℹ️  JSON 文件无变化"
           fi
 
-          if git status --porcelain | grep -q "^?.*$html_file"; then
+          # 检查 HTML 文件
+          if echo "$git_status" | grep -q "??.*${html_file##*/}"; then
             git add "$html_file"
             files_changed=1
             echo "✅ 添加新文件: $html_file"
+          elif echo "$git_status" | grep -q "M.*${html_file##*/}"; then
+            git add "$html_file"
+            files_changed=1
+            echo "✅ HTML 文件有变化"
+          else
+            echo "ℹ️  HTML 文件无变化"
           fi
 
           # 提交并推送
