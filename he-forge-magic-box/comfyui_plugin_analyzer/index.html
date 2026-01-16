@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComfyUI 插件统计 - 何为造物</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .material-shadow {
+            box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .material-shadow:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.14), 0 12px 24px rgba(0,0,0,0.12);
+            transform: translateY(-2px);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- 顶部导航栏 -->
+    <nav class="gradient-bg text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="material-icons mr-3">extension</span>
+                    <span class="font-bold text-xl">ComfyUI 插件统计</span>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="https://github.com/msola-ht/He-Forge-Studio" target="_blank"
+                       class="flex items-center px-4 py-2 rounded-lg hover:bg-white/20 transition">
+                        <span class="material-icons mr-2">github</span>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容区 -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- 标题区 -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">
+                🎨 ComfyUI 插件数据分析
+            </h1>
+            <p class="text-xl text-gray-600 mb-2">
+                由 <strong>何为造物 (He Forge Studio)</strong> 提供技术支持
+            </p>
+            <p class="text-gray-500">
+                数据来源: <a href="https://github.com/Comfy-Org/ComfyUI-Manager"
+                           class="text-purple-600 hover:underline">ComfyUI-Manager</a>
+            </p>
+        </div>
+
+        <!-- 卡片区 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- 仪表板卡片 -->
+            <a href="comfyui_plugins_dashboard.html"
+               class="material-shadow card-hover bg-white rounded-2xl p-8 block">
+                <div class="flex items-center mb-4">
+                    <div class="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-4 mr-4">
+                        <span class="material-icons text-white text-4xl">dashboard</span>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">数据仪表板</h2>
+                        <p class="text-gray-600">可视化数据展示</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 mb-6">
+                    交互式仪表板，支持搜索、筛选、排序功能。包含 4022+ 插件的详细信息。
+                </p>
+                <div class="flex items-center text-blue-600 font-medium">
+                    <span>查看仪表板</span>
+                    <span class="material-icons ml-2">arrow_forward</span>
+                </div>
+            </a>
+
+            <!-- JSON 数据卡片 -->
+            <a href="comfyui_plugins_data.json"
+               class="material-shadow card-hover bg-white rounded-2xl p-8 block"
+               target="_blank">
+                <div class="flex items-center mb-4">
+                    <div class="bg-gradient-to-br from-green-500 to-green-600 rounded-xl p-4 mr-4">
+                        <span class="material-icons text-white text-4xl">code</span>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">JSON 数据</h2>
+                        <p class="text-gray-600">原始数据文件</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 mb-6">
+                    完整的插件数据 JSON 文件，适合开发者使用和二次开发。
+                </p>
+                <div class="flex items-center text-green-600 font-medium">
+                    <span>查看数据</span>
+                    <span class="material-icons ml-2">open_in_new</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 统计信息 -->
+        <div class="mt-16 bg-white rounded-2xl material-shadow p-8 max-w-5xl mx-auto">
+            <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <span class="material-icons mr-3 text-purple-600">analytics</span>
+                数据概览
+            </h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-purple-600 mb-2">4022</div>
+                    <div class="text-gray-600">总插件数</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-green-600 mb-2">3973</div>
+                    <div class="text-gray-600">有数据</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">4007</div>
+                    <div class="text-gray-600">仓库数</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-orange-600 mb-2">每日</div>
+                    <div class="text-gray-600">更新频率</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 更新时间 -->
+        <div class="mt-8 text-center text-gray-500">
+            <p>
+                <span class="material-icons align-middle mr-1">schedule</span>
+                最后更新: <span id="update-time"></span>
+            </p>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-white border-t border-gray-200 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="text-center">
+                <p class="text-gray-600 mb-2">
+                    <strong>何为造物 (He Forge Studio)</strong> - 何为造物 - 魔盒
+                </p>
+                <p class="text-gray-500 text-sm mb-4">
+                    每个想法，都值得被创造
+                </p>
+                <div class="flex justify-center items-center space-x-6 text-sm text-gray-500">
+                    <a href="https://blog.msola.com" target="_blank" class="hover:text-purple-600 transition">
+                        BLOG
+                    </a>
+                    <a href="https://github.com/msola-ht" target="_blank" class="hover:text-purple-600 transition">
+                        GitHub
+                    </a>
+                    <a href="https://space.bilibili.com/1313066" target="_blank" class="hover:text-purple-600 transition">
+                        B站
+                    </a>
+                    <a href="https://t.me/hegenai" target="_blank" class="hover:text-purple-600 transition">
+                        Telegram
+                    </a>
+                </div>
+                <p class="text-gray-400 text-xs mt-4">
+                    © 2026 He Forge Studio. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 显示当前日期
+        const updateTime = () => {
+            const now = new Date();
+            const timeStr = now.toLocaleString('zh-CN', {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            document.getElementById('update-time').textContent = timeStr;
+        };
+        updateTime();
+    </script>
+</body>
+</html>
