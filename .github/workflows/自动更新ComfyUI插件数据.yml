@@ -1,0 +1,119 @@
+name: 自动更新 ComfyUI 插件数据
+
+# 每天北京时间 00:00 运行
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update-comfyui-plugins:
+    name: 更新 ComfyUI 插件数据
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: |
+          pip install requests
+
+      - name: 下载并合并 ComfyUI 插件数据
+        run: |
+          python << 'EOF'
+          import json
+          import requests
+
+          def download_and_merge():
+              """下载并合并ComfyUI插件数据"""
+              # URL地址
+              stats_url = "https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main/github-stats.json"
+              plugins_url = "https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main/custom-node-list.json"
+
+              print("🌐 下载数据中...")
+
+              try:
+                  # 下载统计数据
+                  print("  - 下载 github-stats.json")
+                  stats_response = requests.get(stats_url, timeout=30)
+                  stats_response.raise_for_status()
+                  stats_data = stats_response.json()
+
+                  # 下载插件列表
+                  print("  - 下载 custom-node-list.json")
+                  plugins_response = requests.get(plugins_url, timeout=30)
+                  plugins_response.raise_for_status()
+                  plugins_data = plugins_response.json()
+
+                  print("✅ 下载完成\n")
+
+              except Exception as e:
+                  print(f"❌ 下载失败: {e}")
+                  return
+
+              # 合并数据
+              print("🔄 合并数据中...")
+
+              merged_result = {
+                  "custom_nodes": []
+              }
+
+              for plugin in plugins_data.get("custom_nodes", []):
+                  # 复制插件信息
+                  merged_plugin = plugin.copy()
+
+                  # 查找对应的统计数据
+                  reference = plugin.get("reference", "")
+                  if reference in stats_data:
+                      merged_plugin["github_stats"] = stats_data[reference]
+                  else:
+                      merged_plugin["github_stats"] = None
+
+                  merged_result["custom_nodes"].append(merged_plugin)
+
+              print(f"✅ 合并完成，共 {len(merged_result['custom_nodes'])} 个插件\n")
+
+              # 确保目录存在
+              import os
+              os.makedirs("he-forge-magic-box", exist_ok=True)
+
+              # 保存为JSON文件
+              output_file = "he-forge-magic-box/comfyui_plugins.json"
+              with open(output_file, 'w', encoding='utf-8') as f:
+                  json.dump(merged_result, f, ensure_ascii=False, indent=2)
+
+              print(f"💾 已保存到: {output_file}")
+              print(f"📊 文件大小: {len(json.dumps(merged_result)) / 1024:.2f} KB")
+
+          if __name__ == "__main__":
+              download_and_merge()
+          EOF
+
+      - name: 提交并推送
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # 检查文件是否有变化
+          if [[ -n "$(git diff he-forge-magic-box/comfyui_plugins.json)" ]]; then
+            git add he-forge-magic-box/comfyui_plugins.json
+            git commit -m "chore: 自动更新 ComfyUI 插件数据"
+            git push
+            echo "✅ 文件有更新，已提交并推送"
+          else
+            echo "ℹ️ 文件无变化，跳过提交"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
