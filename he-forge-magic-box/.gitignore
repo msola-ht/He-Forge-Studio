@@ -1,0 +1,11 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ComfyUI 插件数据缓存
+github-stats.json
+custom-node-list.json
+
+# ComfyUI 插件分析器输出
+# comfyui_plugin_analyzer/
