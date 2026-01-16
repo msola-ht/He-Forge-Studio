@@ -102,7 +102,7 @@ class ComfyUIPluginAnalyzer:
         """计算距离最后更新的天数"""
         try:
             last_update = datetime.strptime(last_update_str, "%Y-%m-%d %H:%M:%S")
-            current_time = datetime(2026, 1, 16, 11, 11, 24)
+            current_time = datetime.now()
             delta = current_time - last_update
             return delta.days
         except:
@@ -358,6 +358,9 @@ class ComfyUIPluginAnalyzer:
         import html as html_module
         import json
 
+        # 生成时间
+        generated_time = datetime.now().strftime("%Y/%m/%d %a %H:%M:%S")
+
         # 统计数据
         total = len(merged_data)
         total_stars = 0
@@ -438,28 +441,196 @@ class ComfyUIPluginAnalyzer:
     <title>ComfyUI 插件统计报告</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
         body {{ font-family: 'Inter', sans-serif; }}
         .gradient-bg {{ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }}
         .card-hover {{ transition: all 0.3s ease; }}
+        .card-hover {{ transition: all 0.3s ease; }}
         .card-hover:hover {{ transform: translateY(-5px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }}
         .status-badge {{ display: inline-flex; align-items: center; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.875rem; font-weight: 500; }}
-        .status-active {{ background-color: #d1fae5; color: #065f46; }}
-        .status-normal {{ background-color: #fef3c7; color: #92400e; }}
-        .status-old {{ background-color: #fed7aa; color: #9a3412; }}
-        .status-stale {{ background-color: #fecaca; color: #991b1b; }}
-        .status-unknown {{ background-color: #e5e7eb; color: #374151; }}
         .loading {{ display: flex; align-items: center; justify-content: center; padding: 2rem; }}
         .spinner {{ border: 3px solid #f3f3f3; border-top: 3px solid #667eea; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; }}
         @keyframes spin {{ 0% {{ transform: rotate(0deg); }} 100% {{ transform: rotate(360deg); }} }}
+
+        /* 主题变量 */
+        :root {{
+            --bg-primary: #f5f5f5;
+            --bg-card: #ffffff;
+            --bg-card-hover: #fafafa;
+            --text-primary: #212121;
+            --text-secondary: #757575;
+            --border-color: #e0e0e0;
+            --icon-bg-blue: #dbeafe;
+            --icon-text-blue: #2563eb;
+            --icon-bg-green: #dcfce7;
+            --icon-text-green: #16a34a;
+            --icon-bg-yellow: #fef9c3;
+            --icon-text-yellow: #ca8a04;
+            --icon-bg-orange: #fed7aa;
+            --icon-text-orange: #ea580c;
+            --icon-bg-red: #fee2e2;
+            --icon-text-red: #dc2626;
+            --status-card-green: #f0fdf4;
+            --status-card-yellow: #fefce8;
+            --status-card-orange: #fff7ed;
+            --status-card-red: #fef2f2;
+            --status-active-bg: #d1fae5;
+            --status-active-text: #065f46;
+            --status-normal-bg: #fef3c7;
+            --status-normal-text: #92400e;
+            --status-old-bg: #fed7aa;
+            --status-old-text: #9a3412;
+            --status-stale-bg: #fecaca;
+            --status-stale-text: #991b1b;
+            --status-unknown-bg: #e5e7eb;
+            --status-unknown-text: #374151;
+        }}
+
+        .dark {{
+            --bg-primary: #0a0a0a;
+            --bg-card: #1a1a1a;
+            --bg-card-hover: #242424;
+            --text-primary: #e5e5e5;
+            --text-secondary: #a3a3a3;
+            --border-color: #404040;
+            --icon-bg-blue: #1e3a5f;
+            --icon-text-blue: #60a5fa;
+            --icon-bg-green: #14532d;
+            --icon-text-green: #4ade80;
+            --icon-bg-yellow: #422006;
+            --icon-text-yellow: #facc15;
+            --icon-bg-orange: #7c2d12;
+            --icon-text-orange: #fb923c;
+            --icon-bg-red: #450a0a;
+            --icon-text-red: #f87171;
+            --status-card-green: #14532d;
+            --status-card-yellow: #422006;
+            --status-card-orange: #7c2d12;
+            --status-card-red: #450a0a;
+            --status-active-bg: #14532d;
+            --status-active-text: #4ade80;
+            --status-normal-bg: #422006;
+            --status-normal-text: #facc15;
+            --status-old-bg: #7c2d12;
+            --status-old-text: #fb923c;
+            --status-stale-bg: #450a0a;
+            --status-stale-text: #f87171;
+            --status-unknown-bg: #404040;
+            --status-unknown-text: #a3a3a3;
+        }}
+
+        body {{
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }}
+
+        /* 覆盖 Tailwind 颜色类 */
+        .bg-white {{ background-color: var(--bg-card) !important; }}
+        .bg-gray-50 {{ background-color: var(--bg-primary) !important; }}
+        .bg-blue-100 {{ background-color: var(--icon-bg-blue) !important; }}
+        .bg-green-100 {{ background-color: var(--icon-bg-green) !important; }}
+        .bg-yellow-100 {{ background-color: var(--icon-bg-yellow) !important; }}
+        .bg-red-100 {{ background-color: var(--icon-bg-red) !important; }}
+        .bg-orange-100 {{ background-color: var(--icon-bg-orange) !important; }}
+
+        /* 状态说明卡片背景 */
+        .bg-green-50 {{ background-color: var(--status-card-green) !important; }}
+        .bg-yellow-50 {{ background-color: var(--status-card-yellow) !important; }}
+        .bg-orange-50 {{ background-color: var(--status-card-orange) !important; }}
+        .bg-red-50 {{ background-color: var(--status-card-red) !important; }}
+        .bg-gray-200 {{ background-color: var(--bg-card-hover) !important; }}
+
+        /* 悬浮颜色 */
+        .hover\\:bg-gray-50:hover {{ background-color: var(--bg-card-hover) !important; }}
+        .hover\\:bg-gray-100:hover {{ background-color: var(--bg-card-hover) !important; }}
+        .hover\\:bg-green-100:hover {{ background-color: var(--icon-bg-green) !important; }}
+        .hover\\:bg-yellow-100:hover {{ background-color: var(--icon-bg-yellow) !important; }}
+        .hover\\:bg-orange-100:hover {{ background-color: var(--icon-bg-orange) !important; }}
+        .hover\\:bg-red-100:hover {{ background-color: var(--icon-bg-red) !important; }}
+        .hover\\:bg-purple-700:hover {{ background-color: #9333ea !important; }}
+
+        .text-gray-900 {{ color: var(--text-primary) !important; }}
+        .text-gray-600 {{ color: var(--text-secondary) !important; }}
+        .text-gray-500 {{ color: var(--text-secondary) !important; }}
+        .text-gray-400 {{ color: var(--text-secondary) !important; }}
+        .text-blue-600 {{ color: var(--icon-text-blue) !important; }}
+        .text-green-600 {{ color: var(--icon-text-green) !important; }}
+        .text-yellow-600 {{ color: var(--icon-text-yellow) !important; }}
+        .text-red-600 {{ color: var(--icon-text-red) !important; }}
+        .text-purple-600 {{ color: #c084fc !important; }}
+        .text-gray-700 {{ color: var(--text-primary) !important; }}
+
+        .border-gray-200 {{ border-color: var(--border-color) !important; }}
+        .border-gray-300 {{ border-color: var(--border-color) !important; }}
+        .divide-gray-200 > * + * {{ border-color: var(--border-color) !important; }}
+
+        /* 状态徽章 */
+        .status-active {{ background-color: var(--status-active-bg); color: var(--status-active-text); }}
+        .status-normal {{ background-color: var(--status-normal-bg); color: var(--status-normal-text); }}
+        .status-old {{ background-color: var(--status-old-bg); color: var(--status-old-text); }}
+        .status-stale {{ background-color: var(--status-stale-bg); color: var(--status-stale-text); }}
+        .status-unknown {{ background-color: var(--status-unknown-bg); color: var(--status-unknown-text); }}
+
+        /* 筛选按钮样式 */
+        .filter-btn {{ transition: all 0.2s; }}
+        .filter-btn.bg-gray-200 {{ background-color: var(--bg-card-hover) !important; }}
+        .filter-btn.text-gray-700 {{ color: var(--text-primary) !important; }}
+
+        /* 表单元素样式 */
+        input[type="text"], select {{
+            background-color: var(--bg-card) !important;
+            color: var(--text-primary) !important;
+            border-color: var(--border-color) !important;
+        }}
+
+        input[type="text"]::placeholder {{
+            color: var(--text-secondary) !important;
+            opacity: 0.7;
+        }}
+
+        input[type="text"]:focus, select:focus {{
+            background-color: var(--bg-card) !important;
+            color: var(--text-primary) !important;
+            border-color: #9333ea !important;
+            box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.2);
+        }}
+
+        /* 下拉选项 */
+        select option {{
+            background-color: var(--bg-card) !important;
+            color: var(--text-primary) !important;
+        }}
+
+        /* 主题切换按钮 */
+        .theme-toggle {{
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }}
+        .theme-toggle:hover {{
+            background: rgba(255, 255, 255, 0.2);
+        }}
     </style>
 </head>
-<body class="bg-gray-50">
+<body class="dark">
     <div class="gradient-bg text-white py-12 px-4 sm:px-6 lg:px-8">
         <div class="max-w-7xl mx-auto">
+            <div class="flex justify-end mb-4">
+                <button onclick="toggleTheme()" class="theme-toggle flex items-center" title="切换深色/浅色模式">
+                    <span class="material-icons" id="themeIcon">light_mode</span>
+                    <span class="ml-2">切换主题</span>
+                </button>
+            </div>
             <h1 class="text-4xl font-bold text-center mb-2">🎨 ComfyUI 插件统计报告</h1>
-            <p class="text-center text-white/80 text-lg">生成时间: 2026/1/16 周五 11:11:24</p>
+            <p class="text-center text-white/80 text-lg">生成时间: {generated_time}</p>
             <p class="text-center text-white/70 text-sm mt-2">
                 作者: <a href="{AUTHOR_INFO['github']}" class="text-white hover:text-white/80 underline">{AUTHOR_INFO['name']}</a> ({AUTHOR_INFO['title']})
             </p>
@@ -655,6 +826,34 @@ class ComfyUIPluginAnalyzer:
         let currentFilter = 'all';
         let searchQuery = '';
 
+        // 主题切换函数
+        function toggleTheme() {{
+            const body = document.body;
+            const themeIcon = document.getElementById('themeIcon');
+            if (body.classList.contains('dark')) {{
+                body.classList.remove('dark');
+                themeIcon.textContent = 'dark_mode';
+                localStorage.setItem('theme', 'light');
+            }} else {{
+                body.classList.add('dark');
+                themeIcon.textContent = 'light_mode';
+                localStorage.setItem('theme', 'dark');
+            }}
+        }}
+
+        // 加载保存的主题
+        function loadTheme() {{
+            const savedTheme = localStorage.getItem('theme');
+            const themeIcon = document.getElementById('themeIcon');
+            if (savedTheme === 'light') {{
+                document.body.classList.remove('dark');
+                themeIcon.textContent = 'dark_mode';
+            }} else {{
+                document.body.classList.add('dark');
+                themeIcon.textContent = 'light_mode';
+            }}
+        }}
+
         function init() {{
             const ctx = document.getElementById('statusChart').getContext('2d');
             new Chart(ctx, {{
@@ -840,6 +1039,7 @@ class ComfyUIPluginAnalyzer:
             renderTable();
         }});
 
+        loadTheme();
         init();
     </script>
 </body>
@@ -865,10 +1065,10 @@ def main():
     print()
     
     analyzer = ComfyUIPluginAnalyzer()
-    
+
     # 下载数据
     print("🚀 开始下载数据...\n")
-    if not analyzer.download_data(use_cache=True):
+    if not analyzer.download_data(use_cache=False):
         print("❌ 数据下载失败，程序退出")
         return
     
