@@ -3,133 +3,26 @@
   "updated_at": "2026-01-19T00:00:00Z",
   "announcements": {
     "zh": [
-      {
-        "type": "title",
-        "text": "欢迎使用何为造物魔盒 ComfyUI 启动器"
-      },
-      {
-        "type": "author",
-        "text": "HeGenAI",
-        "brand": "何为造物 (He Forge Studio)"
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "title": "联系方式",
-        "items": [
-          {
-            "type": "contact",
-            "icon": "campaign",
-            "label": "公众号",
-            "value": "老何的AIGC研究室",
-            "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyNDI2Mzg3OA==#wechat_redirect"
-          },
-          {
-            "type": "contact",
-            "icon": "chat",
-            "label": "微信",
-            "value": "hlsaigc"
-          },
-          {
-            "type": "contact",
-            "icon": "article",
-            "label": "博客",
-            "value": "blog.msola.com",
-            "url": "https://blog.msola.com"
-          },
-          {
-            "type": "contact",
-            "icon": "code",
-            "label": "GitHub",
-            "value": "msola-ht",
-            "url": "https://github.com/msola-ht"
-          },
-          {
-            "type": "contact",
-            "icon": "play_circle",
-            "label": "B站",
-            "value": "HeGenAI",
-            "url": "https://space.bilibili.com/1313066"
-          },
-          {
-            "type": "contact",
-            "icon": "send",
-            "label": "Telegram",
-            "value": "hegenai",
-            "url": "https://t.me/hegenai"
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "slogan",
-        "text": "每个想法，都值得被创造"
-      }
+      "欢迎使用【何为造物 - 魔盒】ComfyUI 启动器！",
+      "作者：HeGenAI | 品牌：何为造物",
+      "公众号：[老何的AIGC研究室](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyNDI2Mzg3OA==#wechat_redirect)",
+      "博客：[blog.msola.com](https://blog.msola.com)",
+      "GitHub：[msola-ht](https://github.com/msola-ht)",
+      "B站：[HeGenAI 的主页](https://space.bilibili.com/1313066)",
+      "微信：hlsaigc",
+      "Telegram：[@hegenai](https://t.me/hegenai)",
+      "项目口号：每个想法，都值得被创造"
     ],
     "en": [
-      {
-        "type": "title",
-        "text": "Welcome to He Forge Magic Box ComfyUI Launcher"
-      },
-      {
-        "type": "author",
-        "text": "HeGenAI",
-        "brand": "He Forge Studio"
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "section",
-        "title": "Contact",
-        "items": [
-          {
-            "type": "contact",
-            "icon": "chat",
-            "label": "WeChat",
-            "value": "hlsaigc"
-          },
-          {
-            "type": "contact",
-            "icon": "article",
-            "label": "Blog",
-            "value": "blog.msola.com",
-            "url": "https://blog.msola.com"
-          },
-          {
-            "type": "contact",
-            "icon": "code",
-            "label": "GitHub",
-            "value": "msola-ht",
-            "url": "https://github.com/msola-ht"
-          },
-          {
-            "type": "contact",
-            "icon": "play_circle",
-            "label": "Bilibili",
-            "value": "HeGenAI",
-            "url": "https://space.bilibili.com/1313066"
-          },
-          {
-            "type": "contact",
-            "icon": "send",
-            "label": "Telegram",
-            "value": "hegenai",
-            "url": "https://t.me/hegenai"
-          }
-        ]
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "slogan",
-        "text": "From Concept to Reality, Instantly"
-      }
+      "Welcome to [He Forge Magic Box](https://github.com/msola-ht) ComfyUI Launcher!",
+      "Author: HeGenAI | Brand: He Forge Studio",
+      "Official Account: 老何的AIGC研究室",
+      "Blog: [blog.msola.com](https://blog.msola.com)",
+      "GitHub: [msola-ht](https://github.com/msola-ht)",
+      "Bilibili: [HeGenAI](https://space.bilibili.com/1313066)",
+      "WeChat: hlsaigc",
+      "Telegram: [@hegenai](https://t.me/hegenai)",
+      "Slogan: From Concept to Reality, Instantly"
     ]
   }
 }
