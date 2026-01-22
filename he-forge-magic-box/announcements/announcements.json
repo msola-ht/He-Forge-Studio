@@ -1,11 +1,11 @@
 {
-  "version": "1768828955",
-  "updated_at": "2026-01-19T13:22:36Z",
+  "version": "1769055583",
+  "updated_at": "2026-01-22T04:19:43Z",
   "announcements": {
     "zh": [
       "欢迎使用【何为造物 - 魔盒】ComfyUI 启动器！",
       "作者：HeGenAI | 品牌：何为造物",
-      "公众号：[老何的AIGC研究室](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzYyNDI2Mzg3OA==#wechat_redirect)",
+      "公众号：[老何的AIGC研究室](https://open.weixin.qq.com/qr/code?username=gh_c3a3a1a04037)",
       "博客：[blog.msola.com](https://blog.msola.com)",
       "GitHub：[msola-ht](https://github.com/msola-ht)",
       "B站：[何老的的AIGC 的主页](https://space.bilibili.com/1313066)",
@@ -16,7 +16,7 @@
     "en": [
       "Welcome to [He Forge Magic Box](https://github.com/msola-ht) ComfyUI Launcher!",
       "Author: HeGenAI | Brand: He Forge Studio",
-      "Official Account: 老何的AIGC研究室",
+      "Official Account: [老何的AIGC研究室](https://open.weixin.qq.com/qr/code?username=gh_c3a3a1a04037)",
       "Blog: [blog.msola.com](https://blog.msola.com)",
       "GitHub: [msola-ht](https://github.com/msola-ht)",
       "Bilibili: [HeGenAI](https://space.bilibili.com/1313066)",
