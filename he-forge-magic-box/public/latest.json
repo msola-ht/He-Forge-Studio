@@ -5,7 +5,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY3BTMUdPY1BHWFJjY0g4dVlrMnlKMUNwNWk5Szl0UFZrRjhpZW9UMko1UFI5NUxSNFAxWHRHbmZkVFpPQmRGK3VLWjZNUTlPVUlYZ0FSK1A2QWg0VkJTcUxsK1Faa2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzY5MzMzNDAzCWZpbGU6aGUtZm9yZ2UtbWFnaWMtYm94XzAuMS4wX3g2NC1zZXR1cC5leGUKZDYwSktBZEpKMW5Rc3FFTFdCaFh2UUN4L2FjNUJ2dkIrc0ZDK1pMUXJPeGJMaU1OejJyS1ZCS1NIeTVJMHZWMkFuN1hLUUc3T0tnc1dSWGFIWHJ3QXc9PQo=",
-      "url": "https://github.com/msola-ht/he-forge-magic-box/releases/download/v0.1.0/he-forge-magic-box_0.1.0_x64-setup.exe"
+      "url": "https://cdn.jsdelivr.net/gh/msola-ht/He-Forge-Studio@main/he-forge-magic-box/public/he-forge-magic-box_0.1.0_x64-setup.exe"
     }
   }
 }
