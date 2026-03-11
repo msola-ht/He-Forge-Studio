@@ -3,7 +3,7 @@
     "total_plugins": 4308,
     "plugins_with_stats": 4260,
     "total_stars": 345670,
-    "generated_at": "2026-03-11 13:56:49",
+    "generated_at": "2026-03-11 14:41:16",
     "author": {
       "brand_cn": "何为造物",
       "brand_en": "He Forge Studio",
@@ -140,7 +140,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-10 14:00:29",
-        "days_since_update": 0,
+        "days_since_update": 1,
         "author_account_age_days": 1086,
         "author_account_age_years": 3.0,
         "status_emoji": "🟢",
@@ -158,7 +158,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-10 14:00:13",
-        "days_since_update": 0,
+        "days_since_update": 1,
         "author_account_age_days": 1086,
         "author_account_age_years": 3.0,
         "status_emoji": "🟢",
@@ -725,7 +725,7 @@
       "stats": {
         "stars": 178,
         "last_update": "2024-09-10 14:16:30",
-        "days_since_update": 546,
+        "days_since_update": 547,
         "author_account_age_days": 5130,
         "author_account_age_years": 14.1,
         "status_emoji": "🔴",
@@ -1121,7 +1121,7 @@
       "stats": {
         "stars": 122,
         "last_update": "2024-12-06 14:22:11",
-        "days_since_update": 459,
+        "days_since_update": 460,
         "author_account_age_days": 1146,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -1553,7 +1553,7 @@
       "stats": {
         "stars": 112,
         "last_update": "2026-02-25 13:59:19",
-        "days_since_update": 13,
+        "days_since_update": 14,
         "author_account_age_days": 5994,
         "author_account_age_years": 16.4,
         "status_emoji": "🟡",
@@ -2453,7 +2453,7 @@
       "stats": {
         "stars": 403,
         "last_update": "2024-07-09 14:21:09",
-        "days_since_update": 609,
+        "days_since_update": 610,
         "author_account_age_days": 5640,
         "author_account_age_years": 15.5,
         "status_emoji": "🔴",
@@ -2696,7 +2696,7 @@
       "stats": {
         "stars": 50,
         "last_update": "2025-12-05 14:19:43",
-        "days_since_update": 95,
+        "days_since_update": 96,
         "author_account_age_days": 2502,
         "author_account_age_years": 6.9,
         "status_emoji": "🟠",
@@ -3002,7 +3002,7 @@
       "stats": {
         "stars": 34,
         "last_update": "2024-08-13 14:19:11",
-        "days_since_update": 574,
+        "days_since_update": 575,
         "author_account_age_days": 3773,
         "author_account_age_years": 10.3,
         "status_emoji": "🔴",
@@ -4532,7 +4532,7 @@
       "stats": {
         "stars": 13,
         "last_update": "2025-07-08 14:27:15",
-        "days_since_update": 245,
+        "days_since_update": 246,
         "author_account_age_days": 2357,
         "author_account_age_years": 6.5,
         "status_emoji": "🔴",
@@ -7025,7 +7025,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-27 13:58:47",
-        "days_since_update": 42,
+        "days_since_update": 43,
         "author_account_age_days": 1665,
         "author_account_age_years": 4.6,
         "status_emoji": "🟠",
@@ -7061,7 +7061,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-07-21 14:00:53",
-        "days_since_update": 232,
+        "days_since_update": 233,
         "author_account_age_days": 4808,
         "author_account_age_years": 13.2,
         "status_emoji": "🔴",
@@ -7115,7 +7115,7 @@
       "stats": {
         "stars": 142,
         "last_update": "2025-07-10 14:02:42",
-        "days_since_update": 243,
+        "days_since_update": 244,
         "author_account_age_days": 5421,
         "author_account_age_years": 14.9,
         "status_emoji": "🔴",
@@ -7367,7 +7367,7 @@
       "stats": {
         "stars": 384,
         "last_update": "2024-05-22 14:14:46",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7421,7 +7421,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2024-05-22 14:15:52",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7439,7 +7439,7 @@
       "stats": {
         "stars": 1442,
         "last_update": "2024-05-22 13:57:55",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7457,7 +7457,7 @@
       "stats": {
         "stars": 817,
         "last_update": "2024-05-22 14:13:49",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7475,7 +7475,7 @@
       "stats": {
         "stars": 220,
         "last_update": "2024-05-22 14:14:57",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7565,7 +7565,7 @@
       "stats": {
         "stars": 834,
         "last_update": "2024-05-22 14:14:18",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -7583,7 +7583,7 @@
       "stats": {
         "stars": 75,
         "last_update": "2024-05-22 14:14:03",
-        "days_since_update": 657,
+        "days_since_update": 658,
         "author_account_age_days": 963,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -8339,7 +8339,7 @@
       "stats": {
         "stars": 1419,
         "last_update": "2025-04-16 14:02:54",
-        "days_since_update": 328,
+        "days_since_update": 329,
         "author_account_age_days": 828,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -8942,7 +8942,7 @@
       "stats": {
         "stars": 194,
         "last_update": "2025-07-10 14:15:13",
-        "days_since_update": 243,
+        "days_since_update": 244,
         "author_account_age_days": 3121,
         "author_account_age_years": 8.6,
         "status_emoji": "🔴",
@@ -10922,7 +10922,7 @@
       "stats": {
         "stars": 165,
         "last_update": "2024-08-28 14:27:12",
-        "days_since_update": 559,
+        "days_since_update": 560,
         "author_account_age_days": 5392,
         "author_account_age_years": 14.8,
         "status_emoji": "🔴",
@@ -11876,7 +11876,7 @@
       "stats": {
         "stars": 214,
         "last_update": "2026-01-02 14:30:25",
-        "days_since_update": 67,
+        "days_since_update": 68,
         "author_account_age_days": 2776,
         "author_account_age_years": 7.6,
         "status_emoji": "🟠",
@@ -12794,7 +12794,7 @@
       "stats": {
         "stars": 118,
         "last_update": "2026-02-10 14:34:27",
-        "days_since_update": 28,
+        "days_since_update": 29,
         "author_account_age_days": 2953,
         "author_account_age_years": 8.1,
         "status_emoji": "🟡",
@@ -13460,7 +13460,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-04-03 14:25:24",
-        "days_since_update": 341,
+        "days_since_update": 342,
         "author_account_age_days": 1828,
         "author_account_age_years": 5.0,
         "status_emoji": "🔴",
@@ -13604,7 +13604,7 @@
       "stats": {
         "stars": 21,
         "last_update": "2025-05-23 14:21:58",
-        "days_since_update": 291,
+        "days_since_update": 292,
         "author_account_age_days": 1828,
         "author_account_age_years": 5.0,
         "status_emoji": "🔴",
@@ -15368,7 +15368,7 @@
       "stats": {
         "stars": 126,
         "last_update": "2025-04-19 14:09:03",
-        "days_since_update": 325,
+        "days_since_update": 326,
         "author_account_age_days": 732,
         "author_account_age_years": 2.0,
         "status_emoji": "🔴",
@@ -16880,7 +16880,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2025-04-06 14:11:25",
-        "days_since_update": 338,
+        "days_since_update": 339,
         "author_account_age_days": 1313,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -17609,7 +17609,7 @@
       "stats": {
         "stars": 24,
         "last_update": "2024-06-14 13:59:05",
-        "days_since_update": 634,
+        "days_since_update": 635,
         "author_account_age_days": 2152,
         "author_account_age_years": 5.9,
         "status_emoji": "🔴",
@@ -17663,7 +17663,7 @@
       "stats": {
         "stars": 140,
         "last_update": "2024-12-19 14:39:39",
-        "days_since_update": 446,
+        "days_since_update": 447,
         "author_account_age_days": 2093,
         "author_account_age_years": 5.7,
         "status_emoji": "🔴",
@@ -17969,7 +17969,7 @@
       "stats": {
         "stars": 16,
         "last_update": "2024-06-19 13:59:49",
-        "days_since_update": 629,
+        "days_since_update": 630,
         "author_account_age_days": 855,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -17987,7 +17987,7 @@
       "stats": {
         "stars": 22,
         "last_update": "2024-06-27 14:00:16",
-        "days_since_update": 621,
+        "days_since_update": 622,
         "author_account_age_days": 855,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -18185,7 +18185,7 @@
       "stats": {
         "stars": 180,
         "last_update": "2024-09-16 14:16:06",
-        "days_since_update": 540,
+        "days_since_update": 541,
         "author_account_age_days": 855,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -18221,7 +18221,7 @@
       "stats": {
         "stars": 52,
         "last_update": "2024-09-13 14:38:59",
-        "days_since_update": 543,
+        "days_since_update": 544,
         "author_account_age_days": 855,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -18293,7 +18293,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2024-10-10 13:59:16",
-        "days_since_update": 516,
+        "days_since_update": 517,
         "author_account_age_days": 855,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -19085,7 +19085,7 @@
       "stats": {
         "stars": 58,
         "last_update": "2025-04-09 14:21:57",
-        "days_since_update": 335,
+        "days_since_update": 336,
         "author_account_age_days": 978,
         "author_account_age_years": 2.7,
         "status_emoji": "🔴",
@@ -19337,7 +19337,7 @@
       "stats": {
         "stars": 36,
         "last_update": "2025-07-21 14:04:20",
-        "days_since_update": 232,
+        "days_since_update": 233,
         "author_account_age_days": 978,
         "author_account_age_years": 2.7,
         "status_emoji": "🔴",
@@ -19769,7 +19769,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-06-14 13:59:24",
-        "days_since_update": 634,
+        "days_since_update": 635,
         "author_account_age_days": 696,
         "author_account_age_years": 1.9,
         "status_emoji": "🔴",
@@ -20687,7 +20687,7 @@
       "stats": {
         "stars": 19,
         "last_update": "2025-03-10 14:31:22",
-        "days_since_update": 365,
+        "days_since_update": 366,
         "author_account_age_days": 1013,
         "author_account_age_years": 2.8,
         "status_emoji": "🔴",
@@ -21119,7 +21119,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-04-24 14:09:18",
-        "days_since_update": 320,
+        "days_since_update": 321,
         "author_account_age_days": 1113,
         "author_account_age_years": 3.0,
         "status_emoji": "🔴",
@@ -23054,7 +23054,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2024-06-14 13:59:48",
-        "days_since_update": 634,
+        "days_since_update": 635,
         "author_account_age_days": 4941,
         "author_account_age_years": 13.5,
         "status_emoji": "🔴",
@@ -23504,7 +23504,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2024-06-20 13:57:29",
-        "days_since_update": 628,
+        "days_since_update": 629,
         "author_account_age_days": 4931,
         "author_account_age_years": 13.5,
         "status_emoji": "🔴",
@@ -23594,7 +23594,7 @@
       "stats": {
         "stars": 283,
         "last_update": "2025-06-20 14:10:06",
-        "days_since_update": 263,
+        "days_since_update": 264,
         "author_account_age_days": 1437,
         "author_account_age_years": 3.9,
         "status_emoji": "🔴",
@@ -24206,7 +24206,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-07-31 14:04:26",
-        "days_since_update": 587,
+        "days_since_update": 588,
         "author_account_age_days": 2003,
         "author_account_age_years": 5.5,
         "status_emoji": "🔴",
@@ -24224,7 +24224,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-07-31 14:13:17",
-        "days_since_update": 587,
+        "days_since_update": 588,
         "author_account_age_days": 2003,
         "author_account_age_years": 5.5,
         "status_emoji": "🔴",
@@ -24494,7 +24494,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2025-10-12 13:57:31",
-        "days_since_update": 149,
+        "days_since_update": 150,
         "author_account_age_days": 3764,
         "author_account_age_years": 10.3,
         "status_emoji": "🟠",
@@ -24656,7 +24656,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-07-15 14:13:58",
-        "days_since_update": 603,
+        "days_since_update": 604,
         "author_account_age_days": 4561,
         "author_account_age_years": 12.5,
         "status_emoji": "🔴",
@@ -24854,7 +24854,7 @@
       "stats": {
         "stars": 25,
         "last_update": "2024-07-20 13:58:46",
-        "days_since_update": 598,
+        "days_since_update": 599,
         "author_account_age_days": 625,
         "author_account_age_years": 1.7,
         "status_emoji": "🔴",
@@ -25340,7 +25340,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-07-31 13:59:12",
-        "days_since_update": 587,
+        "days_since_update": 588,
         "author_account_age_days": 2740,
         "author_account_age_years": 7.5,
         "status_emoji": "🔴",
@@ -25835,7 +25835,7 @@
       "stats": {
         "stars": 60,
         "last_update": "2024-07-23 14:39:52",
-        "days_since_update": 595,
+        "days_since_update": 596,
         "author_account_age_days": 595,
         "author_account_age_years": 1.6,
         "status_emoji": "🔴",
@@ -27941,7 +27941,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2025-03-27 14:39:40",
-        "days_since_update": 348,
+        "days_since_update": 349,
         "author_account_age_days": 3066,
         "author_account_age_years": 8.4,
         "status_emoji": "🔴",
@@ -27959,7 +27959,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2025-03-27 14:40:27",
-        "days_since_update": 348,
+        "days_since_update": 349,
         "author_account_age_days": 3066,
         "author_account_age_years": 8.4,
         "status_emoji": "🔴",
@@ -28067,7 +28067,7 @@
       "stats": {
         "stars": 76,
         "last_update": "2025-06-19 14:20:29",
-        "days_since_update": 264,
+        "days_since_update": 265,
         "author_account_age_days": 4313,
         "author_account_age_years": 11.8,
         "status_emoji": "🔴",
@@ -28175,7 +28175,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2025-05-26 14:26:57",
-        "days_since_update": 288,
+        "days_since_update": 289,
         "author_account_age_days": 4313,
         "author_account_age_years": 11.8,
         "status_emoji": "🔴",
@@ -28193,7 +28193,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-02-13 14:11:09",
-        "days_since_update": 25,
+        "days_since_update": 26,
         "author_account_age_days": 4313,
         "author_account_age_years": 11.8,
         "status_emoji": "🟡",
@@ -28229,7 +28229,7 @@
       "stats": {
         "stars": 99,
         "last_update": "2024-08-24 14:10:43",
-        "days_since_update": 563,
+        "days_since_update": 564,
         "author_account_age_days": 2749,
         "author_account_age_years": 7.5,
         "status_emoji": "🔴",
@@ -28337,7 +28337,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-03-27 14:09:26",
-        "days_since_update": 348,
+        "days_since_update": 349,
         "author_account_age_days": 2373,
         "author_account_age_years": 6.5,
         "status_emoji": "🔴",
@@ -28607,7 +28607,7 @@
       "stats": {
         "stars": 143,
         "last_update": "2025-12-14 14:27:01",
-        "days_since_update": 86,
+        "days_since_update": 87,
         "author_account_age_days": 826,
         "author_account_age_years": 2.3,
         "status_emoji": "🟠",
@@ -29561,7 +29561,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-11-09 14:06:53",
-        "days_since_update": 121,
+        "days_since_update": 122,
         "author_account_age_days": 1010,
         "author_account_age_years": 2.8,
         "status_emoji": "🟠",
@@ -29651,7 +29651,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2025-12-03 14:13:35",
-        "days_since_update": 97,
+        "days_since_update": 98,
         "author_account_age_days": 1252,
         "author_account_age_years": 3.4,
         "status_emoji": "🟠",
@@ -30047,7 +30047,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2025-09-22 14:35:07",
-        "days_since_update": 169,
+        "days_since_update": 170,
         "author_account_age_days": 3909,
         "author_account_age_years": 10.7,
         "status_emoji": "🟠",
@@ -30839,7 +30839,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2026-01-21 14:35:20",
-        "days_since_update": 48,
+        "days_since_update": 49,
         "author_account_age_days": 2125,
         "author_account_age_years": 5.8,
         "status_emoji": "🟠",
@@ -31469,7 +31469,7 @@
       "stats": {
         "stars": 81,
         "last_update": "2026-03-01 14:27:09",
-        "days_since_update": 9,
+        "days_since_update": 10,
         "author_account_age_days": 2101,
         "author_account_age_years": 5.8,
         "status_emoji": "🟡",
@@ -31487,7 +31487,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-09-29 14:18:23",
-        "days_since_update": 527,
+        "days_since_update": 528,
         "author_account_age_days": 3519,
         "author_account_age_years": 9.6,
         "status_emoji": "🔴",
@@ -32081,7 +32081,7 @@
       "stats": {
         "stars": 219,
         "last_update": "2026-02-05 14:25:34",
-        "days_since_update": 33,
+        "days_since_update": 34,
         "author_account_age_days": 718,
         "author_account_age_years": 2.0,
         "status_emoji": "🟠",
@@ -33674,7 +33674,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-12-15 14:05:35",
-        "days_since_update": 85,
+        "days_since_update": 86,
         "author_account_age_days": 1947,
         "author_account_age_years": 5.3,
         "status_emoji": "🟠",
@@ -35258,7 +35258,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-09-14 14:27:33",
-        "days_since_update": 177,
+        "days_since_update": 178,
         "author_account_age_days": 2160,
         "author_account_age_years": 5.9,
         "status_emoji": "🟠",
@@ -36140,7 +36140,7 @@
       "stats": {
         "stars": 46,
         "last_update": "2025-05-12 14:17:10",
-        "days_since_update": 302,
+        "days_since_update": 303,
         "author_account_age_days": 5250,
         "author_account_age_years": 14.4,
         "status_emoji": "🔴",
@@ -36500,7 +36500,7 @@
       "stats": {
         "stars": 23,
         "last_update": "2026-02-20 14:00:32",
-        "days_since_update": 18,
+        "days_since_update": 19,
         "author_account_age_days": 480,
         "author_account_age_years": 1.3,
         "status_emoji": "🟡",
@@ -36788,7 +36788,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-25 14:11:04",
-        "days_since_update": 289,
+        "days_since_update": 290,
         "author_account_age_days": 2718,
         "author_account_age_years": 7.4,
         "status_emoji": "🔴",
@@ -36986,7 +36986,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-03-08 13:58:12",
-        "days_since_update": 367,
+        "days_since_update": 368,
         "author_account_age_days": 4101,
         "author_account_age_years": 11.2,
         "status_emoji": "🔴",
@@ -37454,7 +37454,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2024-12-24 14:07:18",
-        "days_since_update": 441,
+        "days_since_update": 442,
         "author_account_age_days": 1052,
         "author_account_age_years": 2.9,
         "status_emoji": "🔴",
@@ -37868,7 +37868,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-17 14:16:32",
-        "days_since_update": 113,
+        "days_since_update": 114,
         "author_account_age_days": 3557,
         "author_account_age_years": 9.7,
         "status_emoji": "🟠",
@@ -38552,7 +38552,7 @@
       "stats": {
         "stars": 33,
         "last_update": "2025-06-02 14:03:36",
-        "days_since_update": 281,
+        "days_since_update": 282,
         "author_account_age_days": 2559,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -38660,7 +38660,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-06-02 14:00:17",
-        "days_since_update": 281,
+        "days_since_update": 282,
         "author_account_age_days": 2559,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -38804,7 +38804,7 @@
       "stats": {
         "stars": 214,
         "last_update": "2025-06-02 14:14:35",
-        "days_since_update": 281,
+        "days_since_update": 282,
         "author_account_age_days": 2559,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -39668,7 +39668,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-02-04 14:15:08",
-        "days_since_update": 399,
+        "days_since_update": 400,
         "author_account_age_days": 1522,
         "author_account_age_years": 4.2,
         "status_emoji": "🔴",
@@ -39686,7 +39686,7 @@
       "stats": {
         "stars": 17,
         "last_update": "2026-03-06 14:36:49",
-        "days_since_update": 4,
+        "days_since_update": 5,
         "author_account_age_days": 962,
         "author_account_age_years": 2.6,
         "status_emoji": "🟢",
@@ -40397,7 +40397,7 @@
       "stats": {
         "stars": 41,
         "last_update": "2026-03-09 14:01:16",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 473,
         "author_account_age_years": 1.3,
         "status_emoji": "🟢",
@@ -41306,7 +41306,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-11-06 14:32:52",
-        "days_since_update": 124,
+        "days_since_update": 125,
         "author_account_age_days": 601,
         "author_account_age_years": 1.6,
         "status_emoji": "🟠",
@@ -41774,7 +41774,7 @@
       "stats": {
         "stars": 168,
         "last_update": "2026-03-04 14:35:27",
-        "days_since_update": 6,
+        "days_since_update": 7,
         "author_account_age_days": 2180,
         "author_account_age_years": 6.0,
         "status_emoji": "🟢",
@@ -41990,7 +41990,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-02-13 14:29:22",
-        "days_since_update": 390,
+        "days_since_update": 391,
         "author_account_age_days": 4721,
         "author_account_age_years": 12.9,
         "status_emoji": "🔴",
@@ -43448,7 +43448,7 @@
       "stats": {
         "stars": 11,
         "last_update": "2025-11-28 14:26:22",
-        "days_since_update": 102,
+        "days_since_update": 103,
         "author_account_age_days": 2381,
         "author_account_age_years": 6.5,
         "status_emoji": "🟠",
@@ -44870,7 +44870,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-27 14:27:46",
-        "days_since_update": 11,
+        "days_since_update": 12,
         "author_account_age_days": 3583,
         "author_account_age_years": 9.8,
         "status_emoji": "🟡",
@@ -46148,7 +46148,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-05-28 14:27:42",
-        "days_since_update": 286,
+        "days_since_update": 287,
         "author_account_age_days": 327,
         "author_account_age_years": 0.9,
         "status_emoji": "🔴",
@@ -46310,7 +46310,7 @@
       "stats": {
         "stars": 21,
         "last_update": "2025-06-10 14:12:16",
-        "days_since_update": 273,
+        "days_since_update": 274,
         "author_account_age_days": 2469,
         "author_account_age_years": 6.8,
         "status_emoji": "🔴",
@@ -47282,7 +47282,7 @@
       "stats": {
         "stars": 45,
         "last_update": "2026-03-05 14:06:58",
-        "days_since_update": 5,
+        "days_since_update": 6,
         "author_account_age_days": 712,
         "author_account_age_years": 2.0,
         "status_emoji": "🟢",
@@ -47534,7 +47534,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-09 14:22:51",
-        "days_since_update": 305,
+        "days_since_update": 306,
         "author_account_age_days": 2734,
         "author_account_age_years": 7.5,
         "status_emoji": "🔴",
@@ -47966,12 +47966,12 @@
       "stats": {
         "stars": 22,
         "last_update": "2026-02-08 14:38:21",
-        "days_since_update": 30,
+        "days_since_update": 31,
         "author_account_age_days": 1071,
         "author_account_age_years": 2.9,
-        "status_emoji": "🟡",
-        "status_text": "正常",
-        "status_color": "yellow"
+        "status_emoji": "🟠",
+        "status_text": "较旧",
+        "status_color": "orange"
       }
     },
     {
@@ -48002,7 +48002,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2025-07-18 14:34:09",
-        "days_since_update": 235,
+        "days_since_update": 236,
         "author_account_age_days": 4673,
         "author_account_age_years": 12.8,
         "status_emoji": "🔴",
@@ -48614,7 +48614,7 @@
       "stats": {
         "stars": 69,
         "last_update": "2026-01-05 14:14:14",
-        "days_since_update": 64,
+        "days_since_update": 65,
         "author_account_age_days": 4729,
         "author_account_age_years": 13.0,
         "status_emoji": "🟠",
@@ -48758,7 +48758,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2025-10-28 14:17:15",
-        "days_since_update": 133,
+        "days_since_update": 134,
         "author_account_age_days": 652,
         "author_account_age_years": 1.8,
         "status_emoji": "🟠",
@@ -49991,7 +49991,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-07-07 14:39:55",
-        "days_since_update": 246,
+        "days_since_update": 247,
         "author_account_age_days": 1205,
         "author_account_age_years": 3.3,
         "status_emoji": "🔴",
@@ -50333,7 +50333,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-16 14:14:42",
-        "days_since_update": 114,
+        "days_since_update": 115,
         "author_account_age_days": 404,
         "author_account_age_years": 1.1,
         "status_emoji": "🟠",
@@ -50765,7 +50765,7 @@
       "stats": {
         "stars": 20,
         "last_update": "2026-02-02 14:15:16",
-        "days_since_update": 36,
+        "days_since_update": 37,
         "author_account_age_days": 561,
         "author_account_age_years": 1.5,
         "status_emoji": "🟠",
@@ -50801,7 +50801,7 @@
       "stats": {
         "stars": 93,
         "last_update": "2025-12-19 14:20:40",
-        "days_since_update": 81,
+        "days_since_update": 82,
         "author_account_age_days": 561,
         "author_account_age_years": 1.5,
         "status_emoji": "🟠",
@@ -50819,7 +50819,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-06-04 14:38:13",
-        "days_since_update": 279,
+        "days_since_update": 280,
         "author_account_age_days": 598,
         "author_account_age_years": 1.6,
         "status_emoji": "🔴",
@@ -51161,7 +51161,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-03-05 14:11:46",
-        "days_since_update": 5,
+        "days_since_update": 6,
         "author_account_age_days": 2379,
         "author_account_age_years": 6.5,
         "status_emoji": "🟢",
@@ -51197,7 +51197,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-03-05 14:11:46",
-        "days_since_update": 5,
+        "days_since_update": 6,
         "author_account_age_days": 2379,
         "author_account_age_years": 6.5,
         "status_emoji": "🟢",
@@ -51863,7 +51863,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-06-23 14:03:22",
-        "days_since_update": 260,
+        "days_since_update": 261,
         "author_account_age_days": 290,
         "author_account_age_years": 0.8,
         "status_emoji": "🔴",
@@ -52016,7 +52016,7 @@
       "stats": {
         "stars": 34,
         "last_update": "2025-06-24 14:38:58",
-        "days_since_update": 259,
+        "days_since_update": 260,
         "author_account_age_days": 3643,
         "author_account_age_years": 10.0,
         "status_emoji": "🔴",
@@ -52898,7 +52898,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-06-29 13:58:28",
-        "days_since_update": 254,
+        "days_since_update": 255,
         "author_account_age_days": 2697,
         "author_account_age_years": 7.4,
         "status_emoji": "🔴",
@@ -53456,7 +53456,7 @@
       "stats": {
         "stars": 22,
         "last_update": "2026-02-11 14:06:14",
-        "days_since_update": 27,
+        "days_since_update": 28,
         "author_account_age_days": 3434,
         "author_account_age_years": 9.4,
         "status_emoji": "🟡",
@@ -53654,12 +53654,12 @@
       "stats": {
         "stars": 28,
         "last_update": "2026-02-08 14:01:36",
-        "days_since_update": 30,
+        "days_since_update": 31,
         "author_account_age_days": 784,
         "author_account_age_years": 2.1,
-        "status_emoji": "🟡",
-        "status_text": "正常",
-        "status_color": "yellow"
+        "status_emoji": "🟠",
+        "status_text": "较旧",
+        "status_color": "orange"
       }
     },
     {
@@ -53726,7 +53726,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2026-02-06 14:25:09",
-        "days_since_update": 32,
+        "days_since_update": 33,
         "author_account_age_days": 1795,
         "author_account_age_years": 4.9,
         "status_emoji": "🟠",
@@ -53870,7 +53870,7 @@
       "stats": {
         "stars": 134,
         "last_update": "2025-10-31 14:19:35",
-        "days_since_update": 130,
+        "days_since_update": 131,
         "author_account_age_days": 248,
         "author_account_age_years": 0.7,
         "status_emoji": "🟠",
@@ -53942,7 +53942,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-07-18 14:28:36",
-        "days_since_update": 235,
+        "days_since_update": 236,
         "author_account_age_days": 376,
         "author_account_age_years": 1.0,
         "status_emoji": "🔴",
@@ -54446,7 +54446,7 @@
       "stats": {
         "stars": 35,
         "last_update": "2025-08-08 14:30:19",
-        "days_since_update": 214,
+        "days_since_update": 215,
         "author_account_age_days": 475,
         "author_account_age_years": 1.3,
         "status_emoji": "🔴",
@@ -55544,7 +55544,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-07-31 14:35:16",
-        "days_since_update": 222,
+        "days_since_update": 223,
         "author_account_age_days": 2916,
         "author_account_age_years": 8.0,
         "status_emoji": "🔴",
@@ -55670,7 +55670,7 @@
       "stats": {
         "stars": 17,
         "last_update": "2025-12-23 14:23:25",
-        "days_since_update": 77,
+        "days_since_update": 78,
         "author_account_age_days": 442,
         "author_account_age_years": 1.2,
         "status_emoji": "🟠",
@@ -55958,7 +55958,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-13 14:30:09",
-        "days_since_update": 25,
+        "days_since_update": 26,
         "author_account_age_days": 315,
         "author_account_age_years": 0.9,
         "status_emoji": "🟡",
@@ -56120,7 +56120,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-16 14:30:58",
-        "days_since_update": 22,
+        "days_since_update": 23,
         "author_account_age_days": 413,
         "author_account_age_years": 1.1,
         "status_emoji": "🟡",
@@ -56444,7 +56444,7 @@
       "stats": {
         "stars": 32,
         "last_update": "2025-08-13 14:21:14",
-        "days_since_update": 209,
+        "days_since_update": 210,
         "author_account_age_days": 1654,
         "author_account_age_years": 4.5,
         "status_emoji": "🔴",
@@ -57713,7 +57713,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-09-06 14:18:12",
-        "days_since_update": 185,
+        "days_since_update": 186,
         "author_account_age_days": 1205,
         "author_account_age_years": 3.3,
         "status_emoji": "🔴",
@@ -58325,7 +58325,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-06 14:24:52",
-        "days_since_update": 32,
+        "days_since_update": 33,
         "author_account_age_days": 4345,
         "author_account_age_years": 11.9,
         "status_emoji": "🟠",
@@ -59009,7 +59009,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-09-09 14:09:43",
-        "days_since_update": 182,
+        "days_since_update": 183,
         "author_account_age_days": 186,
         "author_account_age_years": 0.5,
         "status_emoji": "🔴",
@@ -59171,7 +59171,7 @@
       "stats": {
         "stars": 58,
         "last_update": "2026-01-30 14:07:20",
-        "days_since_update": 39,
+        "days_since_update": 40,
         "author_account_age_days": 1524,
         "author_account_age_years": 4.2,
         "status_emoji": "🟠",
@@ -59945,7 +59945,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-27 14:05:30",
-        "days_since_update": 11,
+        "days_since_update": 12,
         "author_account_age_days": 2295,
         "author_account_age_years": 6.3,
         "status_emoji": "🟡",
@@ -60539,7 +60539,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-09-23 14:22:09",
-        "days_since_update": 168,
+        "days_since_update": 169,
         "author_account_age_days": 987,
         "author_account_age_years": 2.7,
         "status_emoji": "🟠",
@@ -61367,7 +61367,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-10-06 14:27:34",
-        "days_since_update": 155,
+        "days_since_update": 156,
         "author_account_age_days": 2259,
         "author_account_age_years": 6.2,
         "status_emoji": "🟠",
@@ -62177,7 +62177,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2026-02-12 14:12:32",
-        "days_since_update": 26,
+        "days_since_update": 27,
         "author_account_age_days": 2316,
         "author_account_age_years": 6.3,
         "status_emoji": "🟡",
@@ -62231,7 +62231,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2026-02-12 14:12:32",
-        "days_since_update": 26,
+        "days_since_update": 27,
         "author_account_age_days": 2316,
         "author_account_age_years": 6.3,
         "status_emoji": "🟡",
@@ -62915,7 +62915,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-10-19 14:03:25",
-        "days_since_update": 142,
+        "days_since_update": 143,
         "author_account_age_days": 2924,
         "author_account_age_years": 8.0,
         "status_emoji": "🟠",
@@ -63779,7 +63779,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-10-28 14:32:45",
-        "days_since_update": 133,
+        "days_since_update": 134,
         "author_account_age_days": 5261,
         "author_account_age_years": 14.4,
         "status_emoji": "🟠",
@@ -63833,7 +63833,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-10-28 14:04:44",
-        "days_since_update": 133,
+        "days_since_update": 134,
         "author_account_age_days": 5940,
         "author_account_age_years": 16.3,
         "status_emoji": "🟠",
@@ -64895,7 +64895,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-11-09 14:06:53",
-        "days_since_update": 121,
+        "days_since_update": 122,
         "author_account_age_days": 1010,
         "author_account_age_years": 2.8,
         "status_emoji": "🟠",
@@ -65543,7 +65543,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-11-11 14:26:29",
-        "days_since_update": 119,
+        "days_since_update": 120,
         "author_account_age_days": 4312,
         "author_account_age_years": 11.8,
         "status_emoji": "🟠",
@@ -66533,7 +66533,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-11-21 14:03:38",
-        "days_since_update": 109,
+        "days_since_update": 110,
         "author_account_age_days": 768,
         "author_account_age_years": 2.1,
         "status_emoji": "🟠",
@@ -67181,7 +67181,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-12-01 14:12:22",
-        "days_since_update": 99,
+        "days_since_update": 100,
         "author_account_age_days": 832,
         "author_account_age_years": 2.3,
         "status_emoji": "🟠",
@@ -67613,7 +67613,7 @@
       "stats": {
         "stars": 425,
         "last_update": "2026-02-10 14:38:00",
-        "days_since_update": 28,
+        "days_since_update": 29,
         "author_account_age_days": 1315,
         "author_account_age_years": 3.6,
         "status_emoji": "🟡",
@@ -68567,7 +68567,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-09 14:31:18",
-        "days_since_update": 91,
+        "days_since_update": 92,
         "author_account_age_days": 92,
         "author_account_age_years": 0.3,
         "status_emoji": "🟠",
@@ -69071,7 +69071,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-19 14:35:46",
-        "days_since_update": 81,
+        "days_since_update": 82,
         "author_account_age_days": 863,
         "author_account_age_years": 2.4,
         "status_emoji": "🟠",
@@ -70079,7 +70079,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-28 14:20:11",
-        "days_since_update": 72,
+        "days_since_update": 73,
         "author_account_age_days": 1490,
         "author_account_age_years": 4.1,
         "status_emoji": "🟠",
@@ -70277,7 +70277,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-17 14:18:42",
-        "days_since_update": 83,
+        "days_since_update": 84,
         "author_account_age_days": 3374,
         "author_account_age_years": 9.2,
         "status_emoji": "🟠",
@@ -70925,7 +70925,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-03 14:29:04",
-        "days_since_update": 66,
+        "days_since_update": 67,
         "author_account_age_days": 3707,
         "author_account_age_years": 10.2,
         "status_emoji": "🟠",
@@ -72338,7 +72338,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-05 14:08:18",
-        "days_since_update": 5,
+        "days_since_update": 6,
         "author_account_age_days": 55,
         "author_account_age_years": 0.2,
         "status_emoji": "🟢",
@@ -74660,7 +74660,7 @@
       "stats": {
         "stars": 13,
         "last_update": "2026-02-05 14:22:04",
-        "days_since_update": 33,
+        "days_since_update": 34,
         "author_account_age_days": 2684,
         "author_account_age_years": 7.4,
         "status_emoji": "🟠",
@@ -75434,7 +75434,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-02-17 14:39:58",
-        "days_since_update": 21,
+        "days_since_update": 22,
         "author_account_age_days": 450,
         "author_account_age_years": 1.2,
         "status_emoji": "🟡",
@@ -76190,7 +76190,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-03-01 14:12:19",
-        "days_since_update": 9,
+        "days_since_update": 10,
         "author_account_age_days": 1408,
         "author_account_age_years": 3.9,
         "status_emoji": "🟡",
@@ -76334,7 +76334,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-02-26 14:16:59",
-        "days_since_update": 12,
+        "days_since_update": 13,
         "author_account_age_days": 3721,
         "author_account_age_years": 10.2,
         "status_emoji": "🟡",
