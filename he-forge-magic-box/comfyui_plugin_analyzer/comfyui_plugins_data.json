@@ -1,9 +1,9 @@
 {
   "summary": {
-    "total_plugins": 4587,
+    "total_plugins": 4721,
     "plugins_with_stats": 4536,
     "total_stars": 365364,
-    "generated_at": "2026-05-19 22:03:10",
+    "generated_at": "2026-05-19 23:51:26",
     "author": {
       "brand_cn": "何为造物",
       "brand_en": "He Forge Studio",
@@ -140,7 +140,7 @@
       "stats": {
         "stars": 207,
         "last_update": "2025-09-26 22:22:30",
-        "days_since_update": 234,
+        "days_since_update": 235,
         "author_account_age_days": 1156,
         "author_account_age_years": 3.2,
         "status_emoji": "🔴",
@@ -473,7 +473,7 @@
       "stats": {
         "stars": 1469,
         "last_update": "2026-03-31 23:47:53",
-        "days_since_update": 48,
+        "days_since_update": 49,
         "author_account_age_days": 4565,
         "author_account_age_years": 12.5,
         "status_emoji": "🟠",
@@ -671,7 +671,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2026-04-19 23:08:50",
-        "days_since_update": 29,
+        "days_since_update": 30,
         "author_account_age_days": 5319,
         "author_account_age_years": 14.6,
         "status_emoji": "🟡",
@@ -725,7 +725,7 @@
       "stats": {
         "stars": 13,
         "last_update": "2026-02-18 23:14:30",
-        "days_since_update": 89,
+        "days_since_update": 90,
         "author_account_age_days": 5319,
         "author_account_age_years": 14.6,
         "status_emoji": "🟠",
@@ -995,7 +995,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2024-08-06 22:44:33",
-        "days_since_update": 650,
+        "days_since_update": 651,
         "author_account_age_days": 1191,
         "author_account_age_years": 3.3,
         "status_emoji": "🔴",
@@ -1013,7 +1013,7 @@
       "stats": {
         "stars": 110,
         "last_update": "2024-08-06 22:38:54",
-        "days_since_update": 650,
+        "days_since_update": 651,
         "author_account_age_days": 1191,
         "author_account_age_years": 3.3,
         "status_emoji": "🔴",
@@ -1625,7 +1625,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-11-18 23:47:59",
-        "days_since_update": 181,
+        "days_since_update": 182,
         "author_account_age_days": 4230,
         "author_account_age_years": 11.6,
         "status_emoji": "🔴",
@@ -2345,7 +2345,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2025-01-30 23:01:52",
-        "days_since_update": 473,
+        "days_since_update": 474,
         "author_account_age_days": 1135,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -3002,7 +3002,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-04-11 23:06:17",
-        "days_since_update": 37,
+        "days_since_update": 38,
         "author_account_age_days": 1009,
         "author_account_age_years": 2.8,
         "status_emoji": "🟠",
@@ -3182,7 +3182,7 @@
       "stats": {
         "stars": 44,
         "last_update": "2025-06-19 22:54:08",
-        "days_since_update": 333,
+        "days_since_update": 334,
         "author_account_age_days": 3844,
         "author_account_age_years": 10.5,
         "status_emoji": "🔴",
@@ -3614,7 +3614,7 @@
       "stats": {
         "stars": 66,
         "last_update": "2025-01-06 23:45:28",
-        "days_since_update": 497,
+        "days_since_update": 498,
         "author_account_age_days": 3897,
         "author_account_age_years": 10.7,
         "status_emoji": "🔴",
@@ -3711,6 +3711,15 @@
         "status_text": "停滞",
         "status_color": "red"
       }
+    },
+    {
+      "title": "ComfyUI-Anima-LLLite",
+      "author": "kohya-ss",
+      "id": "",
+      "reference": "https://github.com/kohya-ss/ComfyUI-Anima-LLLite",
+      "description": "ComfyUI custom node for ControlNet-LLLite for Anima (DiT-based).",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-Jjk-Nodes",
@@ -3866,7 +3875,7 @@
       "stats": {
         "stars": 49,
         "last_update": "2025-04-01 22:18:02",
-        "days_since_update": 412,
+        "days_since_update": 413,
         "author_account_age_days": 4066,
         "author_account_age_years": 11.1,
         "status_emoji": "🔴",
@@ -4190,7 +4199,7 @@
       "stats": {
         "stars": 127,
         "last_update": "2026-05-16 22:47:39",
-        "days_since_update": 2,
+        "days_since_update": 3,
         "author_account_age_days": 5554,
         "author_account_age_years": 15.2,
         "status_emoji": "🟢",
@@ -4298,7 +4307,7 @@
       "stats": {
         "stars": 69,
         "last_update": "2025-07-25 22:08:03",
-        "days_since_update": 297,
+        "days_since_update": 298,
         "author_account_age_days": 3359,
         "author_account_age_years": 9.2,
         "status_emoji": "🔴",
@@ -4442,7 +4451,7 @@
       "stats": {
         "stars": 173,
         "last_update": "2026-05-17 23:50:01",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 988,
         "author_account_age_years": 2.7,
         "status_emoji": "🟢",
@@ -4460,7 +4469,7 @@
       "stats": {
         "stars": 71,
         "last_update": "2026-03-13 23:33:32",
-        "days_since_update": 66,
+        "days_since_update": 67,
         "author_account_age_days": 2982,
         "author_account_age_years": 8.2,
         "status_emoji": "🟠",
@@ -5432,7 +5441,7 @@
       "stats": {
         "stars": 203,
         "last_update": "2026-01-30 22:11:18",
-        "days_since_update": 108,
+        "days_since_update": 109,
         "author_account_age_days": 2877,
         "author_account_age_years": 7.9,
         "status_emoji": "🟠",
@@ -5468,7 +5477,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2026-03-26 23:38:18",
-        "days_since_update": 53,
+        "days_since_update": 54,
         "author_account_age_days": 2876,
         "author_account_age_years": 7.9,
         "status_emoji": "🟠",
@@ -5702,7 +5711,7 @@
       "stats": {
         "stars": 14,
         "last_update": "2025-10-09 23:23:49",
-        "days_since_update": 221,
+        "days_since_update": 222,
         "author_account_age_days": 1295,
         "author_account_age_years": 3.5,
         "status_emoji": "🔴",
@@ -7259,7 +7268,7 @@
       "stats": {
         "stars": 373,
         "last_update": "2024-05-24 22:14:42",
-        "days_since_update": 724,
+        "days_since_update": 725,
         "author_account_age_days": 3116,
         "author_account_age_years": 8.5,
         "status_emoji": "🔴",
@@ -7709,7 +7718,7 @@
       "stats": {
         "stars": 73,
         "last_update": "2025-06-24 22:38:01",
-        "days_since_update": 328,
+        "days_since_update": 329,
         "author_account_age_days": 5583,
         "author_account_age_years": 15.3,
         "status_emoji": "🔴",
@@ -8186,6 +8195,15 @@
       }
     },
     {
+      "title": "ComfyUI-WD-Timm-Tagger",
+      "author": "bedovyy",
+      "id": "",
+      "reference": "https://github.com/bedovyy/ComfyUI-WD-Timm-Tagger",
+      "description": "ComfyUI custom node for image tagging using WD v3 models, based on .",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI-off-suite",
       "author": "Off-Live",
       "id": "",
@@ -8465,7 +8483,7 @@
       "stats": {
         "stars": 176,
         "last_update": "2026-04-25 22:42:56",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8483,7 +8501,7 @@
       "stats": {
         "stars": 224,
         "last_update": "2026-04-25 22:42:30",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8501,7 +8519,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2026-04-25 22:42:42",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8519,7 +8537,7 @@
       "stats": {
         "stars": 129,
         "last_update": "2026-04-25 22:41:54",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8537,7 +8555,7 @@
       "stats": {
         "stars": 20,
         "last_update": "2026-04-25 22:42:38",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8555,7 +8573,7 @@
       "stats": {
         "stars": 59,
         "last_update": "2026-04-25 22:42:23",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8573,7 +8591,7 @@
       "stats": {
         "stars": 20,
         "last_update": "2026-04-25 22:42:35",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -8591,7 +8609,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2024-05-22 22:08:07",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5109,
         "author_account_age_years": 14.0,
         "status_emoji": "🔴",
@@ -8708,7 +8726,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-05-22 22:08:50",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5298,
         "author_account_age_years": 14.5,
         "status_emoji": "🔴",
@@ -8816,7 +8834,7 @@
       "stats": {
         "stars": 88,
         "last_update": "2024-05-22 22:09:42",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5990,
         "author_account_age_years": 16.4,
         "status_emoji": "🔴",
@@ -8834,7 +8852,7 @@
       "stats": {
         "stars": 181,
         "last_update": "2024-05-22 22:09:53",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5990,
         "author_account_age_years": 16.4,
         "status_emoji": "🔴",
@@ -8870,7 +8888,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2024-05-22 22:10:18",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2595,
         "author_account_age_years": 7.1,
         "status_emoji": "🔴",
@@ -8924,7 +8942,7 @@
       "stats": {
         "stars": 53,
         "last_update": "2024-05-22 22:10:41",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1277,
         "author_account_age_years": 3.5,
         "status_emoji": "🔴",
@@ -8960,7 +8978,7 @@
       "stats": {
         "stars": 33,
         "last_update": "2024-05-22 22:11:14",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4121,
         "author_account_age_years": 11.3,
         "status_emoji": "🔴",
@@ -9014,7 +9032,7 @@
       "stats": {
         "stars": 36,
         "last_update": "2024-05-22 22:12:04",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 938,
         "author_account_age_years": 2.6,
         "status_emoji": "🔴",
@@ -9086,7 +9104,7 @@
       "stats": {
         "stars": 11,
         "last_update": "2024-05-22 22:12:53",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5198,
         "author_account_age_years": 14.2,
         "status_emoji": "🔴",
@@ -9266,7 +9284,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-05-22 22:13:32",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4774,
         "author_account_age_years": 13.1,
         "status_emoji": "🔴",
@@ -9302,7 +9320,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-05-22 22:13:55",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4118,
         "author_account_age_years": 11.3,
         "status_emoji": "🔴",
@@ -9536,7 +9554,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2024-05-22 22:16:41",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 880,
         "author_account_age_years": 2.4,
         "status_emoji": "🔴",
@@ -9554,7 +9572,7 @@
       "stats": {
         "stars": 22,
         "last_update": "2024-05-22 22:16:57",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1469,
         "author_account_age_years": 4.0,
         "status_emoji": "🔴",
@@ -9662,7 +9680,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-04-12 23:26:57",
-        "days_since_update": 36,
+        "days_since_update": 37,
         "author_account_age_days": 5451,
         "author_account_age_years": 14.9,
         "status_emoji": "🟠",
@@ -9680,7 +9698,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-02-26 23:24:23",
-        "days_since_update": 81,
+        "days_since_update": 82,
         "author_account_age_days": 5451,
         "author_account_age_years": 14.9,
         "status_emoji": "🟠",
@@ -9734,7 +9752,7 @@
       "stats": {
         "stars": 40,
         "last_update": "2024-05-22 22:18:07",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2540,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -9752,7 +9770,7 @@
       "stats": {
         "stars": 11,
         "last_update": "2024-05-22 22:18:18",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2540,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -9770,7 +9788,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2024-05-22 22:18:29",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2677,
         "author_account_age_years": 7.3,
         "status_emoji": "🔴",
@@ -9788,7 +9806,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-05-22 22:18:40",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1969,
         "author_account_age_years": 5.4,
         "status_emoji": "🔴",
@@ -9878,7 +9896,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-05-22 22:19:32",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2197,
         "author_account_age_years": 6.0,
         "status_emoji": "🔴",
@@ -9896,7 +9914,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-05-22 22:19:44",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2197,
         "author_account_age_years": 6.0,
         "status_emoji": "🔴",
@@ -9914,7 +9932,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2024-05-22 22:19:54",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2197,
         "author_account_age_years": 6.0,
         "status_emoji": "🔴",
@@ -9968,7 +9986,7 @@
       "stats": {
         "stars": 17,
         "last_update": "2024-05-22 22:20:27",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1608,
         "author_account_age_years": 4.4,
         "status_emoji": "🔴",
@@ -10004,7 +10022,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-05-22 22:21:00",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 882,
         "author_account_age_years": 2.4,
         "status_emoji": "🔴",
@@ -10040,7 +10058,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-05-22 22:21:23",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2215,
         "author_account_age_years": 6.1,
         "status_emoji": "🔴",
@@ -10112,7 +10130,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2024-05-22 22:21:57",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4553,
         "author_account_age_years": 12.5,
         "status_emoji": "🔴",
@@ -10130,7 +10148,7 @@
       "stats": {
         "stars": 18,
         "last_update": "2025-01-05 23:21:23",
-        "days_since_update": 498,
+        "days_since_update": 499,
         "author_account_age_days": 4553,
         "author_account_age_years": 12.5,
         "status_emoji": "🔴",
@@ -10148,7 +10166,7 @@
       "stats": {
         "stars": 38,
         "last_update": "2024-05-22 22:22:14",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2411,
         "author_account_age_years": 6.6,
         "status_emoji": "🔴",
@@ -10166,7 +10184,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-05-22 22:22:25",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5744,
         "author_account_age_years": 15.7,
         "status_emoji": "🔴",
@@ -10184,7 +10202,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-05-22 22:22:37",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3477,
         "author_account_age_years": 9.5,
         "status_emoji": "🔴",
@@ -10274,7 +10292,7 @@
       "stats": {
         "stars": 16,
         "last_update": "2024-05-22 22:23:10",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2101,
         "author_account_age_years": 5.8,
         "status_emoji": "🔴",
@@ -10346,7 +10364,7 @@
       "stats": {
         "stars": 56,
         "last_update": "2024-05-22 22:24:00",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10400,7 +10418,7 @@
       "stats": {
         "stars": 293,
         "last_update": "2024-05-22 22:25:07",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10418,7 +10436,7 @@
       "stats": {
         "stars": 159,
         "last_update": "2024-05-22 22:25:31",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10436,7 +10454,7 @@
       "stats": {
         "stars": 253,
         "last_update": "2024-05-22 22:26:03",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10454,7 +10472,7 @@
       "stats": {
         "stars": 39,
         "last_update": "2024-05-22 22:26:30",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10472,7 +10490,7 @@
       "stats": {
         "stars": 24,
         "last_update": "2024-05-22 22:26:47",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10508,7 +10526,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-05-22 22:27:12",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10526,7 +10544,7 @@
       "stats": {
         "stars": 23,
         "last_update": "2024-05-22 22:27:33",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10544,7 +10562,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-05-22 22:27:47",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 5528,
         "author_account_age_years": 15.1,
         "status_emoji": "🔴",
@@ -10976,7 +10994,7 @@
       "stats": {
         "stars": 20,
         "last_update": "2024-07-08 22:53:25",
-        "days_since_update": 679,
+        "days_since_update": 680,
         "author_account_age_days": 4440,
         "author_account_age_years": 12.2,
         "status_emoji": "🔴",
@@ -11120,7 +11138,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-12-07 23:43:19",
-        "days_since_update": 162,
+        "days_since_update": 163,
         "author_account_age_days": 2909,
         "author_account_age_years": 8.0,
         "status_emoji": "🟠",
@@ -11138,7 +11156,7 @@
       "stats": {
         "stars": 29,
         "last_update": "2026-02-22 23:01:09",
-        "days_since_update": 85,
+        "days_since_update": 86,
         "author_account_age_days": 2909,
         "author_account_age_years": 8.0,
         "status_emoji": "🟠",
@@ -11228,7 +11246,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-05-22 23:10:19",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3540,
         "author_account_age_years": 9.7,
         "status_emoji": "🔴",
@@ -11372,7 +11390,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2024-05-22 23:11:46",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 6262,
         "author_account_age_years": 17.2,
         "status_emoji": "🔴",
@@ -11408,7 +11426,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-05-22 23:12:11",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 852,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -11426,7 +11444,7 @@
       "stats": {
         "stars": 24,
         "last_update": "2024-05-22 23:12:23",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4603,
         "author_account_age_years": 12.6,
         "status_emoji": "🔴",
@@ -11462,7 +11480,7 @@
       "stats": {
         "stars": 31,
         "last_update": "2024-05-22 23:12:46",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1384,
         "author_account_age_years": 3.8,
         "status_emoji": "🔴",
@@ -11606,7 +11624,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-05-22 23:14:06",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3767,
         "author_account_age_years": 10.3,
         "status_emoji": "🔴",
@@ -11624,7 +11642,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-05-22 23:14:18",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2916,
         "author_account_age_years": 8.0,
         "status_emoji": "🔴",
@@ -11660,7 +11678,7 @@
       "stats": {
         "stars": 102,
         "last_update": "2024-05-22 23:15:17",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1326,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -11678,7 +11696,7 @@
       "stats": {
         "stars": 17,
         "last_update": "2024-05-22 23:15:37",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4525,
         "author_account_age_years": 12.4,
         "status_emoji": "🔴",
@@ -11804,7 +11822,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2024-05-22 23:16:28",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 995,
         "author_account_age_years": 2.7,
         "status_emoji": "🔴",
@@ -11876,7 +11894,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2024-05-22 23:17:02",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2846,
         "author_account_age_years": 7.8,
         "status_emoji": "🔴",
@@ -11912,7 +11930,7 @@
       "stats": {
         "stars": 29,
         "last_update": "2024-05-22 23:17:27",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2846,
         "author_account_age_years": 7.8,
         "status_emoji": "🔴",
@@ -12218,7 +12236,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-05-22 23:19:02",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1671,
         "author_account_age_years": 4.6,
         "status_emoji": "🔴",
@@ -12254,7 +12272,7 @@
       "stats": {
         "stars": 78,
         "last_update": "2024-05-22 23:19:43",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4153,
         "author_account_age_years": 11.4,
         "status_emoji": "🔴",
@@ -12308,7 +12326,7 @@
       "stats": {
         "stars": 230,
         "last_update": "2024-05-22 23:20:17",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3529,
         "author_account_age_years": 9.7,
         "status_emoji": "🔴",
@@ -12326,7 +12344,7 @@
       "stats": {
         "stars": 67,
         "last_update": "2024-05-22 23:20:28",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3529,
         "author_account_age_years": 9.7,
         "status_emoji": "🔴",
@@ -12380,7 +12398,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2024-05-22 23:21:14",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 3529,
         "author_account_age_years": 9.7,
         "status_emoji": "🔴",
@@ -12560,7 +12578,7 @@
       "stats": {
         "stars": 76,
         "last_update": "2024-05-22 23:22:03",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2560,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -12578,7 +12596,7 @@
       "stats": {
         "stars": 13,
         "last_update": "2024-05-22 23:22:14",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2560,
         "author_account_age_years": 7.0,
         "status_emoji": "🔴",
@@ -12650,7 +12668,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-05-22 23:23:03",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4416,
         "author_account_age_years": 12.1,
         "status_emoji": "🔴",
@@ -12686,7 +12704,7 @@
       "stats": {
         "stars": 84,
         "last_update": "2024-05-22 23:23:28",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 6668,
         "author_account_age_years": 18.3,
         "status_emoji": "🔴",
@@ -12722,7 +12740,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-05-22 23:23:50",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 4201,
         "author_account_age_years": 11.5,
         "status_emoji": "🔴",
@@ -12776,7 +12794,7 @@
       "stats": {
         "stars": 208,
         "last_update": "2025-02-10 23:25:24",
-        "days_since_update": 462,
+        "days_since_update": 463,
         "author_account_age_days": 5212,
         "author_account_age_years": 14.3,
         "status_emoji": "🔴",
@@ -12830,7 +12848,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2024-05-22 23:24:45",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 1397,
         "author_account_age_years": 3.8,
         "status_emoji": "🔴",
@@ -12920,7 +12938,7 @@
       "stats": {
         "stars": 21,
         "last_update": "2024-05-22 23:25:08",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 829,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -12938,7 +12956,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2024-05-22 23:25:21",
-        "days_since_update": 726,
+        "days_since_update": 727,
         "author_account_age_days": 2465,
         "author_account_age_years": 6.8,
         "status_emoji": "🔴",
@@ -13514,7 +13532,7 @@
       "stats": {
         "stars": 11,
         "last_update": "2025-05-03 22:06:22",
-        "days_since_update": 380,
+        "days_since_update": 381,
         "author_account_age_days": 1899,
         "author_account_age_years": 5.2,
         "status_emoji": "🔴",
@@ -14090,7 +14108,7 @@
       "stats": {
         "stars": 41,
         "last_update": "2025-12-11 23:23:52",
-        "days_since_update": 158,
+        "days_since_update": 159,
         "author_account_age_days": 1145,
         "author_account_age_years": 3.1,
         "status_emoji": "🟠",
@@ -14108,7 +14126,7 @@
       "stats": {
         "stars": 108,
         "last_update": "2025-11-17 23:19:10",
-        "days_since_update": 182,
+        "days_since_update": 183,
         "author_account_age_days": 1145,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -14378,7 +14396,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-08-24 23:33:09",
-        "days_since_update": 632,
+        "days_since_update": 633,
         "author_account_age_days": 816,
         "author_account_age_years": 2.2,
         "status_emoji": "🔴",
@@ -14396,7 +14414,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-08-24 23:31:10",
-        "days_since_update": 632,
+        "days_since_update": 633,
         "author_account_age_days": 816,
         "author_account_age_years": 2.2,
         "status_emoji": "🔴",
@@ -14432,7 +14450,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2024-09-01 22:17:49",
-        "days_since_update": 624,
+        "days_since_update": 625,
         "author_account_age_days": 816,
         "author_account_age_years": 2.2,
         "status_emoji": "🔴",
@@ -16808,7 +16826,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2024-11-07 22:10:50",
-        "days_since_update": 557,
+        "days_since_update": 558,
         "author_account_age_days": 2307,
         "author_account_age_years": 6.3,
         "status_emoji": "🔴",
@@ -17267,7 +17285,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2024-08-22 22:28:30",
-        "days_since_update": 634,
+        "days_since_update": 635,
         "author_account_age_days": 5438,
         "author_account_age_years": 14.9,
         "status_emoji": "🔴",
@@ -17915,7 +17933,7 @@
       "stats": {
         "stars": 117,
         "last_update": "2024-06-17 22:26:53",
-        "days_since_update": 700,
+        "days_since_update": 701,
         "author_account_age_days": 925,
         "author_account_age_years": 2.5,
         "status_emoji": "🔴",
@@ -18077,7 +18095,7 @@
       "stats": {
         "stars": 293,
         "last_update": "2024-09-10 22:21:37",
-        "days_since_update": 615,
+        "days_since_update": 616,
         "author_account_age_days": 925,
         "author_account_age_years": 2.5,
         "status_emoji": "🔴",
@@ -18455,7 +18473,7 @@
       "stats": {
         "stars": 12,
         "last_update": "2025-02-19 23:21:48",
-        "days_since_update": 453,
+        "days_since_update": 454,
         "author_account_age_days": 925,
         "author_account_age_years": 2.5,
         "status_emoji": "🔴",
@@ -19562,6 +19580,15 @@
       }
     },
     {
+      "title": "ComfyUI_RefineAnything",
+      "author": "smthemex",
+      "id": "",
+      "reference": "https://github.com/smthemex/ComfyUI_RefineAnything",
+      "description": "Multimodal region-specific refinement node for perfect local details, based on RefineAnything with support for color alignment and RGBA image saving. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "Comfy-Topaz",
       "author": "choey",
       "id": "topaz",
@@ -19715,7 +19742,7 @@
       "stats": {
         "stars": 246,
         "last_update": "2026-05-02 23:18:36",
-        "days_since_update": 16,
+        "days_since_update": 17,
         "author_account_age_days": 2825,
         "author_account_age_years": 7.7,
         "status_emoji": "🟡",
@@ -20651,7 +20678,7 @@
       "stats": {
         "stars": 93,
         "last_update": "2025-04-19 22:57:17",
-        "days_since_update": 394,
+        "days_since_update": 395,
         "author_account_age_days": 1426,
         "author_account_age_years": 3.9,
         "status_emoji": "🔴",
@@ -21425,7 +21452,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2024-10-23 22:23:03",
-        "days_since_update": 572,
+        "days_since_update": 573,
         "author_account_age_days": 4366,
         "author_account_age_years": 12.0,
         "status_emoji": "🔴",
@@ -21551,7 +21578,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-06-05 22:35:06",
-        "days_since_update": 712,
+        "days_since_update": 713,
         "author_account_age_days": 4316,
         "author_account_age_years": 11.8,
         "status_emoji": "🔴",
@@ -21875,7 +21902,7 @@
       "stats": {
         "stars": 32,
         "last_update": "2025-07-07 23:30:54",
-        "days_since_update": 315,
+        "days_since_update": 316,
         "author_account_age_days": 3223,
         "author_account_age_years": 8.8,
         "status_emoji": "🔴",
@@ -23450,7 +23477,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-25 23:10:30",
-        "days_since_update": 54,
+        "days_since_update": 55,
         "author_account_age_days": 5108,
         "author_account_age_years": 14.0,
         "status_emoji": "🟠",
@@ -23594,7 +23621,7 @@
       "stats": {
         "stars": 27,
         "last_update": "2026-03-16 22:15:35",
-        "days_since_update": 63,
+        "days_since_update": 64,
         "author_account_age_days": 844,
         "author_account_age_years": 2.3,
         "status_emoji": "🟠",
@@ -23990,7 +24017,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2025-03-27 23:13:16",
-        "days_since_update": 417,
+        "days_since_update": 418,
         "author_account_age_days": 1282,
         "author_account_age_years": 3.5,
         "status_emoji": "🔴",
@@ -24332,7 +24359,7 @@
       "stats": {
         "stars": 52,
         "last_update": "2026-05-07 23:27:38",
-        "days_since_update": 11,
+        "days_since_update": 12,
         "author_account_age_days": 4284,
         "author_account_age_years": 11.7,
         "status_emoji": "🟡",
@@ -25529,7 +25556,7 @@
       "stats": {
         "stars": 31,
         "last_update": "2026-04-14 22:18:38",
-        "days_since_update": 34,
+        "days_since_update": 35,
         "author_account_age_days": 4356,
         "author_account_age_years": 11.9,
         "status_emoji": "🟠",
@@ -25997,7 +26024,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2026-05-09 22:37:05",
-        "days_since_update": 9,
+        "days_since_update": 10,
         "author_account_age_days": 663,
         "author_account_age_years": 1.8,
         "status_emoji": "🟡",
@@ -26213,7 +26240,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-12-29 22:40:04",
-        "days_since_update": 140,
+        "days_since_update": 141,
         "author_account_age_days": 1713,
         "author_account_age_years": 4.7,
         "status_emoji": "🟠",
@@ -26951,7 +26978,7 @@
       "stats": {
         "stars": 53,
         "last_update": "2024-09-02 23:00:00",
-        "days_since_update": 623,
+        "days_since_update": 624,
         "author_account_age_days": 3996,
         "author_account_age_years": 10.9,
         "status_emoji": "🔴",
@@ -26969,7 +26996,7 @@
       "stats": {
         "stars": 49,
         "last_update": "2025-08-08 22:25:29",
-        "days_since_update": 283,
+        "days_since_update": 284,
         "author_account_age_days": 1364,
         "author_account_age_years": 3.7,
         "status_emoji": "🔴",
@@ -27977,7 +28004,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2026-01-12 22:21:50",
-        "days_since_update": 126,
+        "days_since_update": 127,
         "author_account_age_days": 1786,
         "author_account_age_years": 4.9,
         "status_emoji": "🟠",
@@ -28535,7 +28562,7 @@
       "stats": {
         "stars": 18,
         "last_update": "2024-08-20 22:39:19",
-        "days_since_update": 636,
+        "days_since_update": 637,
         "author_account_age_days": 4241,
         "author_account_age_years": 11.6,
         "status_emoji": "🔴",
@@ -28643,7 +28670,7 @@
       "stats": {
         "stars": 982,
         "last_update": "2026-01-08 23:22:02",
-        "days_since_update": 130,
+        "days_since_update": 131,
         "author_account_age_days": 897,
         "author_account_age_years": 2.5,
         "status_emoji": "🟠",
@@ -29237,7 +29264,7 @@
       "stats": {
         "stars": 38,
         "last_update": "2024-08-27 23:15:18",
-        "days_since_update": 629,
+        "days_since_update": 630,
         "author_account_age_days": 1246,
         "author_account_age_years": 3.4,
         "status_emoji": "🔴",
@@ -29327,7 +29354,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2025-06-09 23:34:07",
-        "days_since_update": 343,
+        "days_since_update": 344,
         "author_account_age_days": 1442,
         "author_account_age_years": 4.0,
         "status_emoji": "🔴",
@@ -29669,7 +29696,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-11-03 22:46:57",
-        "days_since_update": 196,
+        "days_since_update": 197,
         "author_account_age_days": 1316,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -30245,7 +30272,7 @@
       "stats": {
         "stars": 10,
         "last_update": "2025-12-01 22:21:43",
-        "days_since_update": 168,
+        "days_since_update": 169,
         "author_account_age_days": 1438,
         "author_account_age_years": 3.9,
         "status_emoji": "🟠",
@@ -30731,7 +30758,7 @@
       "stats": {
         "stars": 211,
         "last_update": "2025-03-31 22:54:28",
-        "days_since_update": 413,
+        "days_since_update": 414,
         "author_account_age_days": 1805,
         "author_account_age_years": 4.9,
         "status_emoji": "🔴",
@@ -30839,7 +30866,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-25 23:02:40",
-        "days_since_update": 358,
+        "days_since_update": 359,
         "author_account_age_days": 2827,
         "author_account_age_years": 7.7,
         "status_emoji": "🔴",
@@ -31001,7 +31028,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2026-05-02 23:20:03",
-        "days_since_update": 16,
+        "days_since_update": 17,
         "author_account_age_days": 2195,
         "author_account_age_years": 6.0,
         "status_emoji": "🟡",
@@ -31062,6 +31089,15 @@
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "ComfyUI-QuantHandlerRegistration-POC",
+      "author": "silveroxides",
+      "id": "",
+      "reference": "https://github.com/silveroxides/ComfyUI-QuantHandlerRegistration-POC",
+      "description": "Proof of concept for quantization handler registration. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-SmartCrop",
@@ -31181,7 +31217,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-04-03 22:17:46",
-        "days_since_update": 45,
+        "days_since_update": 46,
         "author_account_age_days": 1756,
         "author_account_age_years": 4.8,
         "status_emoji": "🟠",
@@ -31505,7 +31541,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2024-09-29 22:35:01",
-        "days_since_update": 596,
+        "days_since_update": 597,
         "author_account_age_days": 3492,
         "author_account_age_years": 9.6,
         "status_emoji": "🔴",
@@ -31811,7 +31847,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2025-03-29 23:09:07",
-        "days_since_update": 415,
+        "days_since_update": 416,
         "author_account_age_days": 3332,
         "author_account_age_years": 9.1,
         "status_emoji": "🔴",
@@ -32405,7 +32441,7 @@
       "stats": {
         "stars": 723,
         "last_update": "2025-06-18 23:00:26",
-        "days_since_update": 334,
+        "days_since_update": 335,
         "author_account_age_days": 4293,
         "author_account_age_years": 11.8,
         "status_emoji": "🔴",
@@ -33674,7 +33710,7 @@
       "stats": {
         "stars": 587,
         "last_update": "2026-02-21 22:55:25",
-        "days_since_update": 86,
+        "days_since_update": 87,
         "author_account_age_days": 2322,
         "author_account_age_years": 6.4,
         "status_emoji": "🟠",
@@ -33764,7 +33800,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-05-15 23:29:38",
-        "days_since_update": 368,
+        "days_since_update": 369,
         "author_account_age_days": 4200,
         "author_account_age_years": 11.5,
         "status_emoji": "🔴",
@@ -34232,7 +34268,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2024-11-18 23:28:13",
-        "days_since_update": 546,
+        "days_since_update": 547,
         "author_account_age_days": 1146,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -34358,7 +34394,7 @@
       "stats": {
         "stars": 22,
         "last_update": "2024-12-31 23:15:33",
-        "days_since_update": 503,
+        "days_since_update": 504,
         "author_account_age_days": 4569,
         "author_account_age_years": 12.5,
         "status_emoji": "🔴",
@@ -34808,7 +34844,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2025-01-29 22:26:38",
-        "days_since_update": 474,
+        "days_since_update": 475,
         "author_account_age_days": 818,
         "author_account_age_years": 2.2,
         "status_emoji": "🔴",
@@ -35294,7 +35330,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-28 23:28:46",
-        "days_since_update": 171,
+        "days_since_update": 172,
         "author_account_age_days": 646,
         "author_account_age_years": 1.8,
         "status_emoji": "🟠",
@@ -35330,7 +35366,7 @@
       "stats": {
         "stars": 36,
         "last_update": "2026-05-04 23:30:55",
-        "days_since_update": 14,
+        "days_since_update": 15,
         "author_account_age_days": 646,
         "author_account_age_years": 1.8,
         "status_emoji": "🟡",
@@ -35546,7 +35582,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2024-11-29 22:37:19",
-        "days_since_update": 535,
+        "days_since_update": 536,
         "author_account_age_days": 4612,
         "author_account_age_years": 12.6,
         "status_emoji": "🔴",
@@ -36464,7 +36500,7 @@
       "stats": {
         "stars": 94,
         "last_update": "2024-12-02 22:10:41",
-        "days_since_update": 532,
+        "days_since_update": 533,
         "author_account_age_days": 2131,
         "author_account_age_years": 5.8,
         "status_emoji": "🔴",
@@ -36986,7 +37022,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-08-26 22:21:45",
-        "days_since_update": 265,
+        "days_since_update": 266,
         "author_account_age_days": 840,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -37274,7 +37310,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2024-12-15 22:29:47",
-        "days_since_update": 519,
+        "days_since_update": 520,
         "author_account_age_days": 3618,
         "author_account_age_years": 9.9,
         "status_emoji": "🔴",
@@ -37418,7 +37454,7 @@
       "stats": {
         "stars": 89,
         "last_update": "2025-02-07 22:13:26",
-        "days_since_update": 465,
+        "days_since_update": 466,
         "author_account_age_days": 790,
         "author_account_age_years": 2.2,
         "status_emoji": "🔴",
@@ -37598,7 +37634,7 @@
       "stats": {
         "stars": 73,
         "last_update": "2026-03-24 22:10:48",
-        "days_since_update": 55,
+        "days_since_update": 56,
         "author_account_age_days": 796,
         "author_account_age_years": 2.2,
         "status_emoji": "🟠",
@@ -37634,7 +37670,7 @@
       "stats": {
         "stars": 65,
         "last_update": "2026-03-24 23:29:17",
-        "days_since_update": 55,
+        "days_since_update": 56,
         "author_account_age_days": 796,
         "author_account_age_years": 2.2,
         "status_emoji": "🟠",
@@ -38048,7 +38084,7 @@
       "stats": {
         "stars": 77,
         "last_update": "2025-12-12 22:04:13",
-        "days_since_update": 157,
+        "days_since_update": 158,
         "author_account_age_days": 522,
         "author_account_age_years": 1.4,
         "status_emoji": "🟠",
@@ -38399,6 +38435,15 @@
       }
     },
     {
+      "title": "ComfyUI_NodeInvaders",
+      "author": "SKBv0",
+      "id": "",
+      "reference": "https://github.com/SKBv0/ComfyUI_NodeInvaders",
+      "description": "A small arcade shooter that runs inside the ComfyUI canvas where players survive swarms of API nodes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI Whisper Translator",
       "author": "civen-cn",
       "id": "",
@@ -38462,7 +38507,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-04-12 22:59:21",
-        "days_since_update": 401,
+        "days_since_update": 402,
         "author_account_age_days": 847,
         "author_account_age_years": 2.3,
         "status_emoji": "🔴",
@@ -38714,7 +38759,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-05-10 23:25:19",
-        "days_since_update": 373,
+        "days_since_update": 374,
         "author_account_age_days": 868,
         "author_account_age_years": 2.4,
         "status_emoji": "🔴",
@@ -39929,6 +39974,15 @@
       }
     },
     {
+      "title": "ComfyUI-Dither",
+      "author": "jnxmx",
+      "id": "",
+      "reference": "https://github.com/jnxmx/ComfyUI-Dither",
+      "description": "High-quality image dithering node pack supporting Atkinson and Halftone methods, with channel-split capabilities for RGB/CMYK printing effects.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI-HunyuanImageLatentToVideoLatent",
       "author": "philiprodriguez",
       "id": "",
@@ -40289,7 +40343,7 @@
       "stats": {
         "stars": 42,
         "last_update": "2025-12-03 23:23:29",
-        "days_since_update": 166,
+        "days_since_update": 167,
         "author_account_age_days": 5021,
         "author_account_age_years": 13.8,
         "status_emoji": "🟠",
@@ -40595,7 +40649,7 @@
       "stats": {
         "stars": 13,
         "last_update": "2025-08-23 23:14:41",
-        "days_since_update": 268,
+        "days_since_update": 269,
         "author_account_age_days": 543,
         "author_account_age_years": 1.5,
         "status_emoji": "🔴",
@@ -40721,7 +40775,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-03-17 22:36:22",
-        "days_since_update": 427,
+        "days_since_update": 428,
         "author_account_age_days": 4058,
         "author_account_age_years": 11.1,
         "status_emoji": "🔴",
@@ -40775,12 +40829,12 @@
       "stats": {
         "stars": 183,
         "last_update": "2026-04-18 22:12:38",
-        "days_since_update": 30,
+        "days_since_update": 31,
         "author_account_age_days": 4058,
         "author_account_age_years": 11.1,
-        "status_emoji": "🟡",
-        "status_text": "正常",
-        "status_color": "yellow"
+        "status_emoji": "🟠",
+        "status_text": "较旧",
+        "status_color": "orange"
       }
     },
     {
@@ -40829,7 +40883,7 @@
       "stats": {
         "stars": 20,
         "last_update": "2025-02-05 23:48:10",
-        "days_since_update": 467,
+        "days_since_update": 468,
         "author_account_age_days": 2636,
         "author_account_age_years": 7.2,
         "status_emoji": "🔴",
@@ -40847,7 +40901,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-06-15 22:39:14",
-        "days_since_update": 337,
+        "days_since_update": 338,
         "author_account_age_days": 747,
         "author_account_age_years": 2.0,
         "status_emoji": "🔴",
@@ -40991,7 +41045,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-01-26 22:42:52",
-        "days_since_update": 477,
+        "days_since_update": 478,
         "author_account_age_days": 478,
         "author_account_age_years": 1.3,
         "status_emoji": "🔴",
@@ -41099,7 +41153,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-09-13 23:22:31",
-        "days_since_update": 247,
+        "days_since_update": 248,
         "author_account_age_days": 5339,
         "author_account_age_years": 14.6,
         "status_emoji": "🔴",
@@ -41648,7 +41702,7 @@
       "stats": {
         "stars": 42,
         "last_update": "2025-08-29 23:04:42",
-        "days_since_update": 262,
+        "days_since_update": 263,
         "author_account_age_days": 2291,
         "author_account_age_years": 6.3,
         "status_emoji": "🔴",
@@ -41684,7 +41738,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-02-05 23:06:48",
-        "days_since_update": 467,
+        "days_since_update": 468,
         "author_account_age_days": 3643,
         "author_account_age_years": 10.0,
         "status_emoji": "🔴",
@@ -41882,7 +41936,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-08-28 22:13:10",
-        "days_since_update": 263,
+        "days_since_update": 264,
         "author_account_age_days": 5735,
         "author_account_age_years": 15.7,
         "status_emoji": "🔴",
@@ -42152,7 +42206,7 @@
       "stats": {
         "stars": 52,
         "last_update": "2025-06-24 22:55:28",
-        "days_since_update": 328,
+        "days_since_update": 329,
         "author_account_age_days": 468,
         "author_account_age_years": 1.3,
         "status_emoji": "🔴",
@@ -42368,7 +42422,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2025-07-21 23:11:58",
-        "days_since_update": 301,
+        "days_since_update": 302,
         "author_account_age_days": 1138,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -42512,7 +42566,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-02-17 23:25:53",
-        "days_since_update": 455,
+        "days_since_update": 456,
         "author_account_age_days": 2429,
         "author_account_age_years": 6.7,
         "status_emoji": "🔴",
@@ -43106,7 +43160,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-02-28 22:07:11",
-        "days_since_update": 444,
+        "days_since_update": 445,
         "author_account_age_days": 2476,
         "author_account_age_years": 6.8,
         "status_emoji": "🔴",
@@ -43160,7 +43214,7 @@
       "stats": {
         "stars": 14,
         "last_update": "2025-05-09 22:51:17",
-        "days_since_update": 374,
+        "days_since_update": 375,
         "author_account_age_days": 2179,
         "author_account_age_years": 6.0,
         "status_emoji": "🔴",
@@ -43430,7 +43484,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-03-02 22:17:54",
-        "days_since_update": 442,
+        "days_since_update": 443,
         "author_account_age_days": 4011,
         "author_account_age_years": 11.0,
         "status_emoji": "🔴",
@@ -43916,7 +43970,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-03-11 23:36:33",
-        "days_since_update": 433,
+        "days_since_update": 434,
         "author_account_age_days": 3298,
         "author_account_age_years": 9.0,
         "status_emoji": "🔴",
@@ -43970,7 +44024,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2025-03-09 23:39:24",
-        "days_since_update": 435,
+        "days_since_update": 436,
         "author_account_age_days": 1621,
         "author_account_age_years": 4.4,
         "status_emoji": "🔴",
@@ -44240,7 +44294,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2026-03-06 23:33:30",
-        "days_since_update": 73,
+        "days_since_update": 74,
         "author_account_age_days": 3907,
         "author_account_age_years": 10.7,
         "status_emoji": "🟠",
@@ -44312,7 +44366,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-03-13 23:07:04",
-        "days_since_update": 431,
+        "days_since_update": 432,
         "author_account_age_days": 665,
         "author_account_age_years": 1.8,
         "status_emoji": "🔴",
@@ -44690,7 +44744,7 @@
       "stats": {
         "stars": 21,
         "last_update": "2025-04-05 22:05:47",
-        "days_since_update": 408,
+        "days_since_update": 409,
         "author_account_age_days": 4160,
         "author_account_age_years": 11.4,
         "status_emoji": "🔴",
@@ -45257,6 +45311,24 @@
       }
     },
     {
+      "title": "ComfyUI_Quaternion_Grayscale",
+      "author": "bemoregt",
+      "id": "",
+      "reference": "https://github.com/bemoregt/ComfyUI_Quaternion_Grayscale",
+      "description": "ComfyUI custom node that converts color images to grayscale using quaternion mathematics with multiple conversion methods.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI_StripesConv",
+      "author": "bemoregt",
+      "id": "",
+      "reference": "https://github.com/bemoregt/ComfyUI_StripesConv",
+      "description": "A ComfyUI custom node that blends a natural image with a stripe pattern image using pixel-wise multiplication, producing a geometric composite output.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "MIGraphX Node for ComfyUI",
       "author": "pnikolic-amd",
       "id": "",
@@ -45284,7 +45356,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-04-02 23:40:24",
-        "days_since_update": 411,
+        "days_since_update": 412,
         "author_account_age_days": 3419,
         "author_account_age_years": 9.4,
         "status_emoji": "🔴",
@@ -45302,7 +45374,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-07-19 22:22:37",
-        "days_since_update": 303,
+        "days_since_update": 304,
         "author_account_age_days": 5058,
         "author_account_age_years": 13.9,
         "status_emoji": "🔴",
@@ -45626,7 +45698,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2026-01-13 23:49:10",
-        "days_since_update": 125,
+        "days_since_update": 126,
         "author_account_age_days": 1350,
         "author_account_age_years": 3.7,
         "status_emoji": "🟠",
@@ -45734,7 +45806,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-04-16 22:08:20",
-        "days_since_update": 397,
+        "days_since_update": 398,
         "author_account_age_days": 423,
         "author_account_age_years": 1.2,
         "status_emoji": "🔴",
@@ -45824,7 +45896,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-04-26 22:48:50",
-        "days_since_update": 387,
+        "days_since_update": 388,
         "author_account_age_days": 410,
         "author_account_age_years": 1.1,
         "status_emoji": "🔴",
@@ -46742,7 +46814,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-04-20 22:51:50",
-        "days_since_update": 393,
+        "days_since_update": 394,
         "author_account_age_days": 694,
         "author_account_age_years": 1.9,
         "status_emoji": "🔴",
@@ -46994,7 +47066,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-05-14 23:36:32",
-        "days_since_update": 4,
+        "days_since_update": 5,
         "author_account_age_days": 2282,
         "author_account_age_years": 6.3,
         "status_emoji": "🟢",
@@ -47156,7 +47228,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-11-17 22:24:25",
-        "days_since_update": 182,
+        "days_since_update": 183,
         "author_account_age_days": 3530,
         "author_account_age_years": 9.7,
         "status_emoji": "🔴",
@@ -47192,7 +47264,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-12 23:34:55",
-        "days_since_update": 371,
+        "days_since_update": 372,
         "author_account_age_days": 4499,
         "author_account_age_years": 12.3,
         "status_emoji": "🔴",
@@ -47210,7 +47282,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-05-12 23:32:28",
-        "days_since_update": 371,
+        "days_since_update": 372,
         "author_account_age_days": 4499,
         "author_account_age_years": 12.3,
         "status_emoji": "🔴",
@@ -47876,7 +47948,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-09 22:37:03",
-        "days_since_update": 374,
+        "days_since_update": 375,
         "author_account_age_days": 378,
         "author_account_age_years": 1.0,
         "status_emoji": "🔴",
@@ -47912,7 +47984,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-03 22:22:55",
-        "days_since_update": 380,
+        "days_since_update": 381,
         "author_account_age_days": 1328,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -48038,7 +48110,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-01-03 23:39:20",
-        "days_since_update": 135,
+        "days_since_update": 136,
         "author_account_age_days": 379,
         "author_account_age_years": 1.0,
         "status_emoji": "🟠",
@@ -48074,7 +48146,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-01-04 22:44:21",
-        "days_since_update": 134,
+        "days_since_update": 135,
         "author_account_age_days": 379,
         "author_account_age_years": 1.0,
         "status_emoji": "🟠",
@@ -48146,7 +48218,7 @@
       "stats": {
         "stars": 29,
         "last_update": "2025-08-22 22:31:12",
-        "days_since_update": 269,
+        "days_since_update": 270,
         "author_account_age_days": 1542,
         "author_account_age_years": 4.2,
         "status_emoji": "🔴",
@@ -48344,7 +48416,7 @@
       "stats": {
         "stars": 14,
         "last_update": "2026-01-15 23:46:15",
-        "days_since_update": 123,
+        "days_since_update": 124,
         "author_account_age_days": 571,
         "author_account_age_years": 1.6,
         "status_emoji": "🟠",
@@ -48470,7 +48542,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-05-07 23:48:49",
-        "days_since_update": 376,
+        "days_since_update": 377,
         "author_account_age_days": 1325,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -48488,7 +48560,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-05-26 22:46:39",
-        "days_since_update": 357,
+        "days_since_update": 358,
         "author_account_age_days": 1325,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -48740,7 +48812,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-05-15 22:10:43",
-        "days_since_update": 368,
+        "days_since_update": 369,
         "author_account_age_days": 375,
         "author_account_age_years": 1.0,
         "status_emoji": "🔴",
@@ -49262,7 +49334,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-12-12 22:20:59",
-        "days_since_update": 157,
+        "days_since_update": 158,
         "author_account_age_days": 1153,
         "author_account_age_years": 3.2,
         "status_emoji": "🟠",
@@ -49622,7 +49694,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-05-30 22:51:59",
-        "days_since_update": 353,
+        "days_since_update": 354,
         "author_account_age_days": 3415,
         "author_account_age_years": 9.4,
         "status_emoji": "🔴",
@@ -49640,7 +49712,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-05-30 22:53:04",
-        "days_since_update": 353,
+        "days_since_update": 354,
         "author_account_age_days": 3415,
         "author_account_age_years": 9.4,
         "status_emoji": "🔴",
@@ -50153,7 +50225,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-02-02 22:41:04",
-        "days_since_update": 105,
+        "days_since_update": 106,
         "author_account_age_days": 3343,
         "author_account_age_years": 9.2,
         "status_emoji": "🟠",
@@ -50837,7 +50909,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2025-12-15 23:16:12",
-        "days_since_update": 154,
+        "days_since_update": 155,
         "author_account_age_days": 2713,
         "author_account_age_years": 7.4,
         "status_emoji": "🟠",
@@ -51449,7 +51521,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-06-20 22:49:39",
-        "days_since_update": 332,
+        "days_since_update": 333,
         "author_account_age_days": 4910,
         "author_account_age_years": 13.5,
         "status_emoji": "🔴",
@@ -51503,7 +51575,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2026-03-05 22:17:07",
-        "days_since_update": 74,
+        "days_since_update": 75,
         "author_account_age_days": 2449,
         "author_account_age_years": 6.7,
         "status_emoji": "🟠",
@@ -51726,6 +51798,24 @@
         "status_text": "活跃",
         "status_color": "green"
       }
+    },
+    {
+      "title": "ComfyUI-JiT-Flux2",
+      "author": "xmarre",
+      "id": "",
+      "reference": "https://github.com/xmarre/ComfyUI-JiT-Flux2",
+      "description": "An unofficial ComfyUI implementation of Just-in-Time (JiT) for Flux.2, a training-free spatial acceleration method for diffusion transformers.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ChunkedSampling",
+      "author": "xmarre",
+      "id": "",
+      "reference": "https://github.com/xmarre/ComfyUI-ChunkedSampling",
+      "description": "Custom nodes for chunked batched image-to-image workflows and sequential temporal video cleanup.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-LikeSpiderAI-UI",
@@ -52007,7 +52097,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2025-08-02 22:44:24",
-        "days_since_update": 289,
+        "days_since_update": 290,
         "author_account_age_days": 1342,
         "author_account_age_years": 3.7,
         "status_emoji": "🔴",
@@ -52151,7 +52241,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-06-12 22:37:05",
-        "days_since_update": 340,
+        "days_since_update": 341,
         "author_account_age_days": 2460,
         "author_account_age_years": 6.7,
         "status_emoji": "🔴",
@@ -52176,6 +52266,15 @@
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "ComfyUI_VideoCutter",
+      "author": "benjamin-bertram",
+      "id": "",
+      "reference": "https://github.com/benjamin-bertram/ComfyUI_VideoCutter",
+      "description": "Lightweight custom node that trims a native ComfyUI VIDEO object by timestamps or frame numbers.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-MagCache",
@@ -52646,7 +52745,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-06-14 22:11:33",
-        "days_since_update": 338,
+        "days_since_update": 339,
         "author_account_age_days": 4002,
         "author_account_age_years": 11.0,
         "status_emoji": "🔴",
@@ -53078,7 +53177,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-06-23 22:03:39",
-        "days_since_update": 329,
+        "days_since_update": 330,
         "author_account_age_days": 3576,
         "author_account_age_years": 9.8,
         "status_emoji": "🔴",
@@ -53103,6 +53202,24 @@
         "status_text": "停滞",
         "status_color": "red"
       }
+    },
+    {
+      "title": "walkyrie",
+      "author": "kpsss34",
+      "id": "",
+      "reference": "https://github.com/kpsss34/walkyrie",
+      "description": "ComfyUI custom node implementation. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-SuperAdapter",
+      "author": "kpsss34",
+      "id": "",
+      "reference": "https://github.com/kpsss34/ComfyUI-SuperAdapter",
+      "description": "ComfyUI nodes for FLUX and SDXL image generation using Super Adapter models with HDR VAE support.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "comfyui-super-captioner",
@@ -53186,7 +53303,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-07-18 23:16:47",
-        "days_since_update": 304,
+        "days_since_update": 305,
         "author_account_age_days": 2899,
         "author_account_age_years": 7.9,
         "status_emoji": "🔴",
@@ -53769,6 +53886,15 @@
         "status_text": "正常",
         "status_color": "yellow"
       }
+    },
+    {
+      "title": "comfyui_audio_translator",
+      "author": "pmarmotte2",
+      "id": "",
+      "reference": "https://github.com/pmarmotte2/comfyui_audio_translator",
+      "description": "ComfyUI node for audio translation with speaker diarization, transcription, and optional dubbed audio synthesis using DramaBox.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-FairyTaler",
@@ -54392,7 +54518,7 @@
       "stats": {
         "stars": 549,
         "last_update": "2026-04-26 22:51:09",
-        "days_since_update": 22,
+        "days_since_update": 23,
         "author_account_age_days": 4798,
         "author_account_age_years": 13.1,
         "status_emoji": "🟡",
@@ -54500,7 +54626,7 @@
       "stats": {
         "stars": 37,
         "last_update": "2025-12-23 23:16:09",
-        "days_since_update": 146,
+        "days_since_update": 147,
         "author_account_age_days": 5161,
         "author_account_age_years": 14.1,
         "status_emoji": "🟠",
@@ -54590,7 +54716,7 @@
       "stats": {
         "stars": 67,
         "last_update": "2025-11-10 22:28:10",
-        "days_since_update": 189,
+        "days_since_update": 190,
         "author_account_age_days": 1300,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -54878,7 +55004,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-07-21 22:39:24",
-        "days_since_update": 301,
+        "days_since_update": 302,
         "author_account_age_days": 4677,
         "author_account_age_years": 12.8,
         "status_emoji": "🔴",
@@ -55130,7 +55256,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-07-19 23:30:14",
-        "days_since_update": 303,
+        "days_since_update": 304,
         "author_account_age_days": 4087,
         "author_account_age_years": 11.2,
         "status_emoji": "🔴",
@@ -55580,7 +55706,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-07-24 22:13:07",
-        "days_since_update": 298,
+        "days_since_update": 299,
         "author_account_age_days": 3656,
         "author_account_age_years": 10.0,
         "status_emoji": "🔴",
@@ -55616,7 +55742,7 @@
       "stats": {
         "stars": 319,
         "last_update": "2026-02-27 22:39:37",
-        "days_since_update": 80,
+        "days_since_update": 81,
         "author_account_age_days": 5733,
         "author_account_age_years": 15.7,
         "status_emoji": "🟠",
@@ -55796,7 +55922,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-05-17 22:05:03",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 3679,
         "author_account_age_years": 10.1,
         "status_emoji": "🟢",
@@ -56516,7 +56642,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-09-23 22:08:30",
-        "days_since_update": 237,
+        "days_since_update": 238,
         "author_account_age_days": 4695,
         "author_account_age_years": 12.9,
         "status_emoji": "🔴",
@@ -57146,7 +57272,7 @@
       "stats": {
         "stars": 99,
         "last_update": "2025-11-15 23:22:39",
-        "days_since_update": 184,
+        "days_since_update": 185,
         "author_account_age_days": 1111,
         "author_account_age_years": 3.0,
         "status_emoji": "🔴",
@@ -57434,7 +57560,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-08-17 22:37:50",
-        "days_since_update": 274,
+        "days_since_update": 275,
         "author_account_age_days": 2944,
         "author_account_age_years": 8.1,
         "status_emoji": "🔴",
@@ -58253,7 +58379,7 @@
       "stats": {
         "stars": 12,
         "last_update": "2025-09-07 22:18:10",
-        "days_since_update": 253,
+        "days_since_update": 254,
         "author_account_age_days": 1275,
         "author_account_age_years": 3.5,
         "status_emoji": "🔴",
@@ -58379,7 +58505,7 @@
       "stats": {
         "stars": 62,
         "last_update": "2025-11-11 23:36:14",
-        "days_since_update": 188,
+        "days_since_update": 189,
         "author_account_age_days": 1830,
         "author_account_age_years": 5.0,
         "status_emoji": "🔴",
@@ -58433,7 +58559,7 @@
       "stats": {
         "stars": 6,
         "last_update": "2025-11-17 22:15:39",
-        "days_since_update": 182,
+        "days_since_update": 183,
         "author_account_age_days": 4727,
         "author_account_age_years": 13.0,
         "status_emoji": "🔴",
@@ -58748,7 +58874,7 @@
       "stats": {
         "stars": 22,
         "last_update": "2025-10-17 22:36:41",
-        "days_since_update": 213,
+        "days_since_update": 214,
         "author_account_age_days": 1312,
         "author_account_age_years": 3.6,
         "status_emoji": "🔴",
@@ -59702,7 +59828,7 @@
       "stats": {
         "stars": 8,
         "last_update": "2025-09-28 22:27:53",
-        "days_since_update": 232,
+        "days_since_update": 233,
         "author_account_age_days": 2681,
         "author_account_age_years": 7.3,
         "status_emoji": "🔴",
@@ -59855,6 +59981,15 @@
       }
     },
     {
+      "title": "ComfyUI-SDXLNVFP4",
+      "author": "Apache0ne",
+      "id": "",
+      "reference": "https://github.com/Apache0ne/ComfyUI-SDXLNVFP4",
+      "description": "SDXL model loader supporting custom clip_g and clip_l embeddings with NVFP4 optimization. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI-easygoing-nodes",
       "author": "easygoing0114",
       "id": "",
@@ -59900,7 +60035,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-09-08 23:42:01",
-        "days_since_update": 252,
+        "days_since_update": 253,
         "author_account_age_days": 2999,
         "author_account_age_years": 8.2,
         "status_emoji": "🔴",
@@ -59918,7 +60053,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-09-09 22:35:39",
-        "days_since_update": 251,
+        "days_since_update": 252,
         "author_account_age_days": 4443,
         "author_account_age_years": 12.2,
         "status_emoji": "🔴",
@@ -60980,7 +61115,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2026-01-14 23:20:25",
-        "days_since_update": 124,
+        "days_since_update": 125,
         "author_account_age_days": 5194,
         "author_account_age_years": 14.2,
         "status_emoji": "🟠",
@@ -61682,7 +61817,7 @@
       "stats": {
         "stars": 367,
         "last_update": "2025-12-19 23:32:49",
-        "days_since_update": 150,
+        "days_since_update": 151,
         "author_account_age_days": 2344,
         "author_account_age_years": 6.4,
         "status_emoji": "🟠",
@@ -62456,7 +62591,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2026-05-05 22:16:04",
-        "days_since_update": 13,
+        "days_since_update": 14,
         "author_account_age_days": 2917,
         "author_account_age_years": 8.0,
         "status_emoji": "🟡",
@@ -62492,7 +62627,7 @@
       "stats": {
         "stars": 18,
         "last_update": "2025-11-06 22:21:00",
-        "days_since_update": 193,
+        "days_since_update": 194,
         "author_account_age_days": 1137,
         "author_account_age_years": 3.1,
         "status_emoji": "🔴",
@@ -62744,7 +62879,7 @@
       "stats": {
         "stars": 7,
         "last_update": "2026-01-20 22:36:54",
-        "days_since_update": 118,
+        "days_since_update": 119,
         "author_account_age_days": 2248,
         "author_account_age_years": 6.2,
         "status_emoji": "🟠",
@@ -63428,7 +63563,7 @@
       "stats": {
         "stars": 15,
         "last_update": "2026-05-04 22:13:11",
-        "days_since_update": 14,
+        "days_since_update": 15,
         "author_account_age_days": 1588,
         "author_account_age_years": 4.4,
         "status_emoji": "🟡",
@@ -63518,7 +63653,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-14 23:12:48",
-        "days_since_update": 185,
+        "days_since_update": 186,
         "author_account_age_days": 244,
         "author_account_age_years": 0.7,
         "status_emoji": "🔴",
@@ -63608,7 +63743,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-10-18 23:45:21",
-        "days_since_update": 212,
+        "days_since_update": 213,
         "author_account_age_days": 337,
         "author_account_age_years": 0.9,
         "status_emoji": "🔴",
@@ -63932,7 +64067,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-10-30 22:04:34",
-        "days_since_update": 200,
+        "days_since_update": 201,
         "author_account_age_days": 642,
         "author_account_age_years": 1.8,
         "status_emoji": "🔴",
@@ -64418,7 +64553,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2026-04-04 23:32:57",
-        "days_since_update": 44,
+        "days_since_update": 45,
         "author_account_age_days": 4284,
         "author_account_age_years": 11.7,
         "status_emoji": "🟠",
@@ -64652,7 +64787,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-11-05 22:42:00",
-        "days_since_update": 194,
+        "days_since_update": 195,
         "author_account_age_days": 1516,
         "author_account_age_years": 4.2,
         "status_emoji": "🔴",
@@ -64778,7 +64913,7 @@
       "stats": {
         "stars": 4,
         "last_update": "2025-10-30 23:34:18",
-        "days_since_update": 200,
+        "days_since_update": 201,
         "author_account_age_days": 3947,
         "author_account_age_years": 10.8,
         "status_emoji": "🔴",
@@ -64814,7 +64949,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2026-04-30 23:21:14",
-        "days_since_update": 18,
+        "days_since_update": 19,
         "author_account_age_days": 3609,
         "author_account_age_years": 9.9,
         "status_emoji": "🟡",
@@ -65210,7 +65345,7 @@
       "stats": {
         "stars": 97,
         "last_update": "2025-12-22 23:32:02",
-        "days_since_update": 147,
+        "days_since_update": 148,
         "author_account_age_days": 4625,
         "author_account_age_years": 12.7,
         "status_emoji": "🟠",
@@ -65354,7 +65489,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-05-09 23:27:30",
-        "days_since_update": 9,
+        "days_since_update": 10,
         "author_account_age_days": 797,
         "author_account_age_years": 2.2,
         "status_emoji": "🟡",
@@ -66380,7 +66515,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-12 23:04:25",
-        "days_since_update": 187,
+        "days_since_update": 188,
         "author_account_age_days": 2409,
         "author_account_age_years": 6.6,
         "status_emoji": "🔴",
@@ -66488,7 +66623,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-12-04 22:11:17",
-        "days_since_update": 165,
+        "days_since_update": 166,
         "author_account_age_days": 2656,
         "author_account_age_years": 7.3,
         "status_emoji": "🟠",
@@ -66668,7 +66803,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-11-15 22:03:32",
-        "days_since_update": 184,
+        "days_since_update": 185,
         "author_account_age_days": 4137,
         "author_account_age_years": 11.3,
         "status_emoji": "🔴",
@@ -67028,7 +67163,7 @@
       "stats": {
         "stars": 29,
         "last_update": "2025-12-03 23:37:30",
-        "days_since_update": 166,
+        "days_since_update": 167,
         "author_account_age_days": 233,
         "author_account_age_years": 0.6,
         "status_emoji": "🟠",
@@ -67064,7 +67199,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-05-05 23:02:54",
-        "days_since_update": 13,
+        "days_since_update": 14,
         "author_account_age_days": 3297,
         "author_account_age_years": 9.0,
         "status_emoji": "🟡",
@@ -67406,7 +67541,7 @@
       "stats": {
         "stars": 83,
         "last_update": "2025-11-30 22:08:41",
-        "days_since_update": 169,
+        "days_since_update": 170,
         "author_account_age_days": 2155,
         "author_account_age_years": 5.9,
         "status_emoji": "🟠",
@@ -67424,7 +67559,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2025-12-03 22:07:11",
-        "days_since_update": 166,
+        "days_since_update": 167,
         "author_account_age_days": 1211,
         "author_account_age_years": 3.3,
         "status_emoji": "🟠",
@@ -67712,7 +67847,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-01 23:39:14",
-        "days_since_update": 168,
+        "days_since_update": 169,
         "author_account_age_days": 821,
         "author_account_age_years": 2.2,
         "status_emoji": "🟠",
@@ -68072,7 +68207,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-01 23:12:03",
-        "days_since_update": 168,
+        "days_since_update": 169,
         "author_account_age_days": 4254,
         "author_account_age_years": 11.7,
         "status_emoji": "🟠",
@@ -68144,7 +68279,7 @@
       "stats": {
         "stars": 21,
         "last_update": "2025-12-12 22:23:08",
-        "days_since_update": 157,
+        "days_since_update": 158,
         "author_account_age_days": 3340,
         "author_account_age_years": 9.2,
         "status_emoji": "🟠",
@@ -68252,7 +68387,7 @@
       "stats": {
         "stars": 160,
         "last_update": "2025-12-30 22:23:29",
-        "days_since_update": 139,
+        "days_since_update": 140,
         "author_account_age_days": 1385,
         "author_account_age_years": 3.8,
         "status_emoji": "🟠",
@@ -68270,13 +68405,40 @@
       "stats": {
         "stars": 23,
         "last_update": "2026-02-01 22:14:13",
-        "days_since_update": 106,
+        "days_since_update": 107,
         "author_account_age_days": 1385,
         "author_account_age_years": 3.8,
         "status_emoji": "🟠",
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "comfyui-model-diff-to-lora",
+      "author": "shootthesound",
+      "id": "",
+      "reference": "https://github.com/shootthesound/comfyui-model-diff-to-lora",
+      "description": "Bake any chain of LoRAs (and any other model edits) into a single distributable .safetensors LoRA.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-clippy-reloaded",
+      "author": "shootthesound",
+      "id": "",
+      "reference": "https://github.com/shootthesound/comfyui-clippy-reloaded",
+      "description": "Load any image straight from your clipboard into a ComfyUI workflow with a dedicated node that handles clipboard image capture automatically.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-ReferenceLatentPlus",
+      "author": "shootthesound",
+      "id": "",
+      "reference": "https://github.com/shootthesound/comfyui-ReferenceLatentPlus",
+      "description": "A drop-in replacement for ComfyUI's stock ReferenceLatent node, with per-image strength, per-image timestep gating, per-image MediaPipe auto-masks, megapixel cap on attention cost, and 1–4 image inputs in a single node.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "AfterDark Film AR Selector",
@@ -68324,7 +68486,7 @@
       "stats": {
         "stars": 14,
         "last_update": "2026-05-16 22:49:12",
-        "days_since_update": 2,
+        "days_since_update": 3,
         "author_account_age_days": 1145,
         "author_account_age_years": 3.1,
         "status_emoji": "🟢",
@@ -68378,7 +68540,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-15 23:27:04",
-        "days_since_update": 154,
+        "days_since_update": 155,
         "author_account_age_days": 2198,
         "author_account_age_years": 6.0,
         "status_emoji": "🟠",
@@ -68486,7 +68648,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-04 22:09:43",
-        "days_since_update": 165,
+        "days_since_update": 166,
         "author_account_age_days": 2227,
         "author_account_age_years": 6.1,
         "status_emoji": "🟠",
@@ -68567,6 +68729,15 @@
       }
     },
     {
+      "title": "ComfyUI-LTXAudioLatentTrim",
+      "author": "ckinpdx",
+      "id": "",
+      "reference": "https://github.com/ckinpdx/ComfyUI-LTXAudioLatentTrim",
+      "description": "Utility nodes for trimming and processing LTX2 AV audio latents in ComfyUI sliding window generation workflows.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "SimpleVariables",
       "author": "jessesep",
       "id": "",
@@ -68630,7 +68801,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2025-11-26 23:27:36",
-        "days_since_update": 173,
+        "days_since_update": 174,
         "author_account_age_days": 181,
         "author_account_age_years": 0.5,
         "status_emoji": "🟠",
@@ -68936,7 +69107,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-10 23:32:57",
-        "days_since_update": 159,
+        "days_since_update": 160,
         "author_account_age_days": 2372,
         "author_account_age_years": 6.5,
         "status_emoji": "🟠",
@@ -69134,7 +69305,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-02-10 22:16:51",
-        "days_since_update": 97,
+        "days_since_update": 98,
         "author_account_age_days": 586,
         "author_account_age_years": 1.6,
         "status_emoji": "🟠",
@@ -69422,7 +69593,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-09 22:27:11",
-        "days_since_update": 160,
+        "days_since_update": 161,
         "author_account_age_days": 784,
         "author_account_age_years": 2.1,
         "status_emoji": "🟠",
@@ -69782,7 +69953,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-01-01 23:45:56",
-        "days_since_update": 137,
+        "days_since_update": 138,
         "author_account_age_days": 157,
         "author_account_age_years": 0.4,
         "status_emoji": "🟠",
@@ -69800,7 +69971,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-01-01 23:45:57",
-        "days_since_update": 137,
+        "days_since_update": 138,
         "author_account_age_days": 157,
         "author_account_age_years": 0.4,
         "status_emoji": "🟠",
@@ -70016,7 +70187,7 @@
       "stats": {
         "stars": 9,
         "last_update": "2026-01-21 23:24:17",
-        "days_since_update": 117,
+        "days_since_update": 118,
         "author_account_age_days": 6125,
         "author_account_age_years": 16.8,
         "status_emoji": "🟠",
@@ -70106,7 +70277,7 @@
       "stats": {
         "stars": 59,
         "last_update": "2026-01-26 22:41:49",
-        "days_since_update": 112,
+        "days_since_update": 113,
         "author_account_age_days": 442,
         "author_account_age_years": 1.2,
         "status_emoji": "🟠",
@@ -70457,6 +70628,15 @@
       }
     },
     {
+      "title": "pixellatent-comfyui-frontend-react-extension-template",
+      "author": "vjumpkung",
+      "id": "",
+      "reference": "https://github.com/vjumpkung/pixellatent-comfyui-frontend-react-extension-template",
+      "description": "A template for building ComfyUI extensions using React 19, TypeScript, and Vite.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI_fal_image",
       "author": "Paddel87",
       "id": "",
@@ -70466,7 +70646,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2025-12-23 22:45:12",
-        "days_since_update": 146,
+        "days_since_update": 147,
         "author_account_age_days": 771,
         "author_account_age_years": 2.1,
         "status_emoji": "🟠",
@@ -71024,7 +71204,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2025-12-30 22:38:25",
-        "days_since_update": 139,
+        "days_since_update": 140,
         "author_account_age_days": 1326,
         "author_account_age_years": 3.6,
         "status_emoji": "🟠",
@@ -71330,7 +71510,7 @@
       "stats": {
         "stars": 5,
         "last_update": "2026-02-08 22:35:40",
-        "days_since_update": 99,
+        "days_since_update": 100,
         "author_account_age_days": 3410,
         "author_account_age_years": 9.3,
         "status_emoji": "🟠",
@@ -72086,7 +72266,7 @@
       "stats": {
         "stars": 55,
         "last_update": "2026-03-24 22:26:27",
-        "days_since_update": 55,
+        "days_since_update": 56,
         "author_account_age_days": 436,
         "author_account_age_years": 1.2,
         "status_emoji": "🟠",
@@ -72149,6 +72329,15 @@
       }
     },
     {
+      "title": "ComfyUI-LoRA-Block-Filter",
+      "author": "DanrisiUA",
+      "id": "",
+      "reference": "https://github.com/DanrisiUA/ComfyUI-LoRA-Block-Filter",
+      "description": "Per-block and per-layer-type LoRA filtering for Anima and Flux models in ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI-Text-Preserve",
       "author": "yangrui511",
       "id": "",
@@ -72176,7 +72365,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-06 22:36:31",
-        "days_since_update": 132,
+        "days_since_update": 133,
         "author_account_age_days": 1685,
         "author_account_age_years": 4.6,
         "status_emoji": "🟠",
@@ -72437,7 +72626,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-01-10 22:37:34",
-        "days_since_update": 128,
+        "days_since_update": 129,
         "author_account_age_days": 1156,
         "author_account_age_years": 3.2,
         "status_emoji": "🟠",
@@ -72473,7 +72662,7 @@
       "stats": {
         "stars": 36,
         "last_update": "2026-02-01 23:45:07",
-        "days_since_update": 106,
+        "days_since_update": 107,
         "author_account_age_days": 4074,
         "author_account_age_years": 11.2,
         "status_emoji": "🟠",
@@ -72545,7 +72734,7 @@
       "stats": {
         "stars": 87,
         "last_update": "2026-05-18 23:00:38",
-        "days_since_update": 0,
+        "days_since_update": 1,
         "author_account_age_days": 4472,
         "author_account_age_years": 12.3,
         "status_emoji": "🟢",
@@ -72671,7 +72860,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-01-12 22:08:38",
-        "days_since_update": 126,
+        "days_since_update": 127,
         "author_account_age_days": 4901,
         "author_account_age_years": 13.4,
         "status_emoji": "🟠",
@@ -72779,13 +72968,22 @@
       "stats": {
         "stars": 4,
         "last_update": "2026-04-21 23:34:24",
-        "days_since_update": 27,
+        "days_since_update": 28,
         "author_account_age_days": 3837,
         "author_account_age_years": 10.5,
         "status_emoji": "🟡",
         "status_text": "正常",
         "status_color": "yellow"
       }
+    },
+    {
+      "title": "comfyui-hires",
+      "author": "Enferlain",
+      "id": "",
+      "reference": "https://github.com/Enferlain/comfyui-hires",
+      "description": "Workspace for a new high-quality, high-performance hires-fix / upscale custom node for ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-3D-Human-Pose",
@@ -72851,7 +73049,7 @@
       "stats": {
         "stars": 419,
         "last_update": "2026-05-04 22:51:16",
-        "days_since_update": 14,
+        "days_since_update": 15,
         "author_account_age_days": 130,
         "author_account_age_years": 0.4,
         "status_emoji": "🟡",
@@ -73103,7 +73301,7 @@
       "stats": {
         "stars": 102,
         "last_update": "2026-05-17 22:36:46",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 1143,
         "author_account_age_years": 3.1,
         "status_emoji": "🟢",
@@ -73128,6 +73326,15 @@
         "status_text": "活跃",
         "status_color": "green"
       }
+    },
+    {
+      "title": "ComfyUI-Anima-Prompt-Rewriter",
+      "author": "sinanzoo2nd",
+      "id": "",
+      "reference": "https://github.com/sinanzoo2nd/ComfyUI-Anima-Prompt-Rewriter",
+      "description": "Converts Danbooru-style tag lists to natural English prompts using local LLM, preventing concept bleeding in multi-character generation with smart hybrid execution engine. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "Comfyui-WL-MainImageDesign",
@@ -73553,7 +73760,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-30 23:12:12",
-        "days_since_update": 108,
+        "days_since_update": 109,
         "author_account_age_days": 950,
         "author_account_age_years": 2.6,
         "status_emoji": "🟠",
@@ -74003,7 +74210,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-15 23:13:02",
-        "days_since_update": 123,
+        "days_since_update": 124,
         "author_account_age_days": 4640,
         "author_account_age_years": 12.7,
         "status_emoji": "🟠",
@@ -74111,7 +74318,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-23 23:24:12",
-        "days_since_update": 115,
+        "days_since_update": 116,
         "author_account_age_days": 4588,
         "author_account_age_years": 12.6,
         "status_emoji": "🟠",
@@ -74255,7 +74462,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-01-26 23:20:21",
-        "days_since_update": 112,
+        "days_since_update": 113,
         "author_account_age_days": 6536,
         "author_account_age_years": 17.9,
         "status_emoji": "🟠",
@@ -74309,7 +74516,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-05-17 23:36:20",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 1957,
         "author_account_age_years": 5.4,
         "status_emoji": "🟢",
@@ -74352,6 +74559,15 @@
         "status_text": "活跃",
         "status_color": "green"
       }
+    },
+    {
+      "title": "ComfyUI-EvalSampler",
+      "author": "BobJohnson24",
+      "id": "",
+      "reference": "https://github.com/BobJohnson24/ComfyUI-EvalSampler",
+      "description": "ComfyUI node for running evaluation after collecting latents with the EvalSampler, comparing against baseline BF16 latents. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyuiSmartColorMatch",
@@ -74417,7 +74633,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-02-09 23:24:29",
-        "days_since_update": 98,
+        "days_since_update": 99,
         "author_account_age_days": 509,
         "author_account_age_years": 1.4,
         "status_emoji": "🟠",
@@ -74453,7 +74669,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-01 23:08:58",
-        "days_since_update": 106,
+        "days_since_update": 107,
         "author_account_age_days": 1464,
         "author_account_age_years": 4.0,
         "status_emoji": "🟠",
@@ -74676,6 +74892,15 @@
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "comfyui-ToonComposer",
+      "author": "Meisoftcoltd",
+      "id": "",
+      "reference": "https://github.com/Meisoftcoltd/comfyui-ToonComposer",
+      "description": "A toon composition tool for ComfyUI. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-StrokeReveal",
@@ -74939,7 +75164,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-01-31 22:10:40",
-        "days_since_update": 107,
+        "days_since_update": 108,
         "author_account_age_days": 4066,
         "author_account_age_years": 11.1,
         "status_emoji": "🟠",
@@ -75335,7 +75560,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-05 23:42:39",
-        "days_since_update": 102,
+        "days_since_update": 103,
         "author_account_age_days": 2124,
         "author_account_age_years": 5.8,
         "status_emoji": "🟠",
@@ -75425,7 +75650,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-04-08 23:39:39",
-        "days_since_update": 40,
+        "days_since_update": 41,
         "author_account_age_days": 130,
         "author_account_age_years": 0.4,
         "status_emoji": "🟠",
@@ -75677,7 +75902,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-02-18 22:39:28",
-        "days_since_update": 89,
+        "days_since_update": 90,
         "author_account_age_days": 1163,
         "author_account_age_years": 3.2,
         "status_emoji": "🟠",
@@ -75821,7 +76046,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-05-13 23:09:23",
-        "days_since_update": 5,
+        "days_since_update": 6,
         "author_account_age_days": 1550,
         "author_account_age_years": 4.2,
         "status_emoji": "🟢",
@@ -76181,7 +76406,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-02-12 23:43:12",
-        "days_since_update": 95,
+        "days_since_update": 96,
         "author_account_age_days": 908,
         "author_account_age_years": 2.5,
         "status_emoji": "🟠",
@@ -76332,6 +76557,15 @@
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "comfyui-lmstudio-flux2-prompt-generator-simple",
+      "author": "Slartibart23",
+      "id": "",
+      "reference": "https://github.com/Slartibart23/comfyui-lmstudio-flux2-prompt-generator-simple",
+      "description": "Simple ComfyUI custom nodes for generating FLUX.2-style prompts with a local LM Studio model, with simplified controls optimized for cleaner output.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "ComfyUI-FlowMatch-Advanced",
@@ -76505,7 +76739,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-05-06 23:09:08",
-        "days_since_update": 12,
+        "days_since_update": 13,
         "author_account_age_days": 2537,
         "author_account_age_years": 7.0,
         "status_emoji": "🟡",
@@ -76667,7 +76901,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-03-10 22:42:31",
-        "days_since_update": 69,
+        "days_since_update": 70,
         "author_account_age_days": 2437,
         "author_account_age_years": 6.7,
         "status_emoji": "🟠",
@@ -76721,7 +76955,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-20 23:09:31",
-        "days_since_update": 59,
+        "days_since_update": 60,
         "author_account_age_days": 107,
         "author_account_age_years": 0.3,
         "status_emoji": "🟠",
@@ -77567,7 +77801,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-07 22:50:23",
-        "days_since_update": 72,
+        "days_since_update": 73,
         "author_account_age_days": 5093,
         "author_account_age_years": 14.0,
         "status_emoji": "🟠",
@@ -78026,6 +78260,24 @@
       }
     },
     {
+      "title": "Anzhc-ComfyUI-Cosmos-Reference",
+      "author": "Anzhc",
+      "id": "",
+      "reference": "https://github.com/Anzhc/Anzhc-ComfyUI-Cosmos-Reference",
+      "description": "ComfyUI custom nodes for Cosmos reference latent conditioning.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Euler_A2_Sampler-ComfyUI",
+      "author": "Anzhc",
+      "id": "",
+      "reference": "https://github.com/Anzhc/Euler_A2_Sampler-ComfyUI",
+      "description": "ComfyUI custom sampler node implementing Euler A2 sampling algorithm. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI Save Image Without Metadata",
       "author": "George Jiang",
       "id": "",
@@ -78449,7 +78701,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-03-17 22:16:04",
-        "days_since_update": 62,
+        "days_since_update": 63,
         "author_account_age_days": 2503,
         "author_account_age_years": 6.9,
         "status_emoji": "🟠",
@@ -78701,7 +78953,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-04-29 22:56:22",
-        "days_since_update": 19,
+        "days_since_update": 20,
         "author_account_age_days": 5027,
         "author_account_age_years": 13.8,
         "status_emoji": "🟡",
@@ -78773,7 +79025,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-21 23:27:01",
-        "days_since_update": 58,
+        "days_since_update": 59,
         "author_account_age_days": 1222,
         "author_account_age_years": 3.3,
         "status_emoji": "🟠",
@@ -78935,7 +79187,7 @@
       "stats": {
         "stars": 3,
         "last_update": "2026-05-06 23:09:08",
-        "days_since_update": 12,
+        "days_since_update": 13,
         "author_account_age_days": 2537,
         "author_account_age_years": 7.0,
         "status_emoji": "🟡",
@@ -79025,7 +79277,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-30 23:10:55",
-        "days_since_update": 49,
+        "days_since_update": 50,
         "author_account_age_days": 3649,
         "author_account_age_years": 10.0,
         "status_emoji": "🟠",
@@ -79502,6 +79754,15 @@
       }
     },
     {
+      "title": "ComfyUI-SplitImage",
+      "author": "QuigleyDown",
+      "id": "",
+      "reference": "https://github.com/QuigleyDown/ComfyUI-SplitImage",
+      "description": "A collection of custom nodes for ComfyUI to split an image into overlapping tiles and stitch them back together seamlessly.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "ComfyUI-NodeColorizer",
       "author": "noesclavo",
       "id": "",
@@ -79529,7 +79790,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-03-01 22:43:54",
-        "days_since_update": 78,
+        "days_since_update": 79,
         "author_account_age_days": 3915,
         "author_account_age_years": 10.7,
         "status_emoji": "🟠",
@@ -79871,7 +80132,7 @@
       "stats": {
         "stars": 11,
         "last_update": "2026-04-30 23:28:09",
-        "days_since_update": 18,
+        "days_since_update": 19,
         "author_account_age_days": 4162,
         "author_account_age_years": 11.4,
         "status_emoji": "🟡",
@@ -79889,7 +80150,7 @@
       "stats": {
         "stars": 52,
         "last_update": "2026-05-14 22:58:36",
-        "days_since_update": 4,
+        "days_since_update": 5,
         "author_account_age_days": 4162,
         "author_account_age_years": 11.4,
         "status_emoji": "🟢",
@@ -80040,6 +80301,15 @@
         "status_text": "较旧",
         "status_color": "orange"
       }
+    },
+    {
+      "title": "ComfyUI-MultiModel3D",
+      "author": "xuxiao305",
+      "id": "",
+      "reference": "https://github.com/xuxiao305/ComfyUI-MultiModel3D",
+      "description": "ComfyUI custom nodes for merging multiple GLB files and interactively controlling sub-models within a single GLB.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "comfyui-promptsegmentselector",
@@ -80231,7 +80501,7 @@
       "stats": {
         "stars": 1,
         "last_update": "2026-04-25 22:41:38",
-        "days_since_update": 23,
+        "days_since_update": 24,
         "author_account_age_days": 2430,
         "author_account_age_years": 6.7,
         "status_emoji": "🟡",
@@ -80249,7 +80519,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-04-21 23:03:45",
-        "days_since_update": 27,
+        "days_since_update": 28,
         "author_account_age_days": 3094,
         "author_account_age_years": 8.5,
         "status_emoji": "🟡",
@@ -80501,7 +80771,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-05-07 22:25:04",
-        "days_since_update": 11,
+        "days_since_update": 12,
         "author_account_age_days": 3831,
         "author_account_age_years": 10.5,
         "status_emoji": "🟡",
@@ -80627,7 +80897,7 @@
       "stats": {
         "stars": 2,
         "last_update": "2026-05-08 23:37:06",
-        "days_since_update": 10,
+        "days_since_update": 11,
         "author_account_age_days": 1060,
         "author_account_age_years": 2.9,
         "status_emoji": "🟡",
@@ -81257,7 +81527,7 @@
       "stats": {
         "stars": 0,
         "last_update": "2026-05-17 22:42:49",
-        "days_since_update": 1,
+        "days_since_update": 2,
         "author_account_age_days": 3177,
         "author_account_age_years": 8.7,
         "status_emoji": "🟢",
@@ -81536,6 +81806,15 @@
       }
     },
     {
+      "title": "ComfyUI_FreeFuse_Main_Prompt",
+      "author": "Aiconomist",
+      "id": "",
+      "reference": "https://github.com/Aiconomist/ComfyUI_FreeFuse_Main_Prompt",
+      "description": "A custom node for ComfyUI designed to streamline the prompting process when using the FreeFuse workflow.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
       "title": "afloy_audio_tools",
       "author": "afloy011-spec",
       "id": "",
@@ -81807,10 +82086,10 @@
     },
     {
       "title": "AntiMatter Nodes",
-      "author": "antimatter",
-      "id": "",
+      "author": "AntiMatterComfy",
+      "id": "antimatter-nodes",
       "reference": "https://github.com/AntiMatterComfy/antimatter-nodes",
-      "description": "AntiMatter custom nodes for ComfyUI, including Flux, Z-Image, and ERNIE-oriented aspect ratio tools.",
+      "description": "AntiMatter custom nodes for ComfyUI. Includes Anti_aspect_ratio_master for Flux, Z-Image, and ERNIE-oriented aspect ratio and resolution latent creation.",
       "install_type": "git-clone",
       "stats": {
         "stars": 0,
@@ -81822,6 +82101,933 @@
         "status_text": "活跃",
         "status_color": "green"
       }
+    },
+    {
+      "title": "ComfyUI-Base64-Nodes",
+      "author": "dewittethomas",
+      "id": "",
+      "reference": "https://github.com/dewittethomas/ComfyUI-Base64-Nodes",
+      "description": "Nodes to convert data such as images and audio from Base64 format into comprehensible format for use with other ComfyUI nodes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-OneShotOutputs",
+      "author": "redstonewhite",
+      "id": "",
+      "reference": "https://github.com/redstonewhite/ComfyUI-OneShotOutputs",
+      "description": "A minimal ComfyUI extension that lets you mark any node to discard its output from cache immediately after all downstream nodes have consumed it.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "timeline_viewer_AV_comfyUI",
+      "author": "Alvidi",
+      "id": "",
+      "reference": "https://github.com/Alvidi/timeline_viewer_AV_comfyUI",
+      "description": "A custom ComfyUI node that provides an interactive video player with timeline scrubbing and audio waveform display.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "resize_fill_background",
+      "author": "zhoul1",
+      "id": "",
+      "reference": "https://github.com/zhoul1/resize_fill_background",
+      "description": "A ComfyUI custom node that scales images proportionally and fills to specified dimensions with a solid color background, supporting size reduction and centered placement. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Falcon-Perception",
+      "author": "222222222l",
+      "id": "",
+      "reference": "https://github.com/222222222l/ComfyUI-Falcon-Perception",
+      "description": "An elegant, robust, and highly-optimized ComfyUI custom node package for the tiiuae/Falcon-Perception vision-language model for open-vocabulary grounding and instance segmentation.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "JStudio_Wildcards",
+      "author": "cyanideoverdose",
+      "id": "",
+      "reference": "https://github.com/cyanideoverdose/JStudio_Wildcards",
+      "description": "A wildcard prompt node for ComfyUI with Jinja2 templating, YAML wildcard support, negative prompt resolution, and hot-reload — no server restart needed when you update your wildcard files.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui-LatentOR",
+      "author": "allegiancerecords0-afk",
+      "id": "",
+      "reference": "https://github.com/allegiancerecords0-afk/Comfyui-LatentOR",
+      "description": "Latent detection logic node",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-PaletteCanvas",
+      "author": "c0yotte",
+      "id": "",
+      "reference": "https://github.com/c0yotte/ComfyUI-PaletteCanvas",
+      "description": "Control lighting in AI-generated images through color gradients and shapes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ContextualRepulsion",
+      "author": "Hyun-Puer",
+      "id": "",
+      "reference": "https://github.com/Hyun-Puer/ComfyUI-ContextualRepulsion",
+      "description": "One node, instant batch diversity. Same prompt, wildly different images.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI_Speaker_Diarization",
+      "author": "ldfla",
+      "id": "",
+      "reference": "https://github.com/ldfla/ComfyUI_Speaker_Diarization",
+      "description": "Custom node for ComfyUI that performs speaker diarization with chronological output ordering.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-DF-ResizeImage",
+      "author": "Hu-Tao66",
+      "id": "",
+      "reference": "https://github.com/Hu-Tao66/comfyui-DF-ResizeImage",
+      "description": "This custom node resizes an image while forcing the final width and height to be multiples of a chosen value.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui_ToAPIs_nano_banana",
+      "author": "zhangyi196",
+      "id": "",
+      "reference": "https://github.com/zhangyi196/Comfyui_ToAPIs_nano_banana",
+      "description": "Custom ComfyUI node for calling ToAPIs image generation interface with support for text-to-image and image-to-image operations. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-InfiniTalk-AutoScale",
+      "author": "Biyikgokhan",
+      "id": "",
+      "reference": "https://github.com/Biyikgokhan/ComfyUI-InfiniTalk-AutoScale",
+      "description": "A custom ComfyUI node that automatically scales Wan2.1 InfiniTalk video generation to any audio duration without manual segment chaining.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui-InputSwapper",
+      "author": "allegiancerecords0-afk",
+      "id": "",
+      "reference": "https://github.com/allegiancerecords0-afk/Comfyui-InputSwapper",
+      "description": "In a dual sampler workflow with mixture of experts setup where one model provides the early steps and another provides the late steps, it may be useful to switch the order of the models.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Color-Palette",
+      "author": "leozongmac",
+      "id": "",
+      "reference": "https://github.com/leozongmac/ComfyUI-Color-Palette",
+      "description": "A custom node for ComfyUI that extracts the main color palette from an uploaded image and calculates the percentage of each color.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "lip_mask_from_pose",
+      "author": "Jalen-Brunson",
+      "id": "",
+      "reference": "https://github.com/Jalen-Brunson/lip_mask_from_pose",
+      "description": "A ComfyUI custom node that generates precise mouth and lip masks from DWPose output with multiple mask modes for inpainting teeth, lips, or mouth regions.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-HiresFix-Ultra-AllInOne",
+      "author": "ThetaCursed",
+      "id": "",
+      "reference": "https://github.com/ThetaCursed/ComfyUI-HiresFix-Ultra-AllInOne",
+      "description": "Ultimate high-performance hires fix solution combining latent/model upscaling, sampling, and advanced histogram-based color correction into one unified node.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-WooshNode",
+      "author": "huiksxx",
+      "id": "",
+      "reference": "https://github.com/huiksxx/ComfyUI-WooshNode",
+      "description": "Sony Woosh audio generation custom node for generating immersive sound effects from text and video. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ProtoTeller",
+      "author": "DoctorDiffusion",
+      "id": "",
+      "reference": "https://github.com/DoctorDiffusion/ComfyUI-ProtoTeller",
+      "description": "Custom ComfyUI nodes for a tarot card reader workflow.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-TysiguUtilityNodes",
+      "author": "tysigu-project",
+      "id": "",
+      "reference": "https://github.com/tysigu-project/ComfyUI-TysiguUtilityNodes",
+      "description": "A collection of highly functional custom nodes for ComfyUI designed to manage line-by-line text reading, progress visualization, and dynamic input switching without complex wiring. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-LTX-Resolution-Helper",
+      "author": "Neyroslav",
+      "id": "",
+      "reference": "https://github.com/Neyroslav/ComfyUI-LTX-Resolution-Helper",
+      "description": "Small custom node for ComfyUI that helps pick a base resolution for LTX workflows and shows the final resolution after two 2x upscale passes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI_sd_forge_multidiffusion",
+      "author": "StableJeet",
+      "id": "",
+      "reference": "https://github.com/StableJeet/ComfyUI_sd_forge_multidiffusion",
+      "description": "This custom node ports the sd_forge_multidiffusion model wrapper into ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Video-Prompt-Architect",
+      "author": "JetterTW",
+      "id": "",
+      "reference": "https://github.com/JetterTW/ComfyUI-Video-Prompt-Architect",
+      "description": "Advanced ComfyUI node for video generation workflows that uses multimodal LLMs to analyze start and end frames, generating high-quality video prompts with cinematic descriptions of camera movement, lighting transitions, and environmental atmosphere in English and Chinese. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-ComfyUI-Basic-Drawing",
+      "author": "lololerigolo60",
+      "id": "",
+      "reference": "https://github.com/lololerigolo60/comfyui-ComfyUI-Basic-Drawing",
+      "description": "The Basic Drawing Board is a hybrid creative tool designed for ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-jmtools",
+      "author": "jeremymeyers",
+      "id": "",
+      "reference": "https://github.com/jeremymeyers/comfyui-jmtools",
+      "description": "Custom ComfyUI tools and utilities. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-fashn-human-parser",
+      "author": "dsrunpod",
+      "id": "",
+      "reference": "https://github.com/dsrunpod/comfyui-fashn-human-parser",
+      "description": "Custom nodes for FASHN Human Parser, a SegFormer-B4 model fine-tuned for human parsing with 18 semantic classes optimized for fashion and virtual try-on workflows.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Cosmos-Reference",
+      "author": "Mirumo0u0",
+      "id": "",
+      "reference": "https://github.com/Mirumo0u0/ComfyUI-Cosmos-Reference",
+      "description": "Add an image reference feature to the Cosmos model or models based on it, such as the Anima model",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-GiftHelperSuite",
+      "author": "lingziwyh",
+      "id": "",
+      "reference": "https://github.com/lingziwyh/ComfyUI-GiftHelperSuite",
+      "description": "Fast utility nodes for ComfyUI gift and livestream animation pipelines, optimized for high-speed processing of short video frame sequences. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-LoRA-Captioner",
+      "author": "JetterTW",
+      "id": "",
+      "reference": "https://github.com/JetterTW/ComfyUI-LoRA-Captioner",
+      "description": "A custom ComfyUI node designed for LoRA training that integrates local LLM APIs to automatically generate high-quality, multilingual captions in English, Traditional Chinese, and Simplified Chinese with customizable system prompts and configurable parameters. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ImageToPrompt",
+      "author": "chrismrutherford",
+      "id": "",
+      "reference": "https://github.com/chrismrutherford/ComfyUI-ImageToPrompt",
+      "description": "A custom ComfyUI node that sends images to OpenAI-compatible vision APIs and returns the LLM's text response for image analysis and captioning.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "My_sample-scheduler_GATTO",
+      "author": "Gattopeloso",
+      "id": "",
+      "reference": "https://github.com/Gattopeloso/My_sample-scheduler_GATTO",
+      "description": "Lightweight ComfyUI custom node pack to manage reusable sampler/scheduler presets with configuration and selection separated in two nodes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-AnimaPromptWeaver",
+      "author": "naukri7707",
+      "id": "",
+      "reference": "https://github.com/naukri7707/ComfyUI-AnimaPromptWeaver",
+      "description": "Custom node set for ComfyUI to assist in constructing prompts for Anima text-to-image generation with structured assembly, Danbooru tag validation, and tag normalization. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-floor-warp-v7",
+      "author": "jessie-jitdot",
+      "id": "",
+      "reference": "https://github.com/jessie-jitdot/comfyui-floor-warp-v7",
+      "description": "Custom ComfyUI node for compositing material textures onto floors with perspective using SAM2 floor masks and perspective warping. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-HairOverlay",
+      "author": "mingyu4537-creator",
+      "id": "",
+      "reference": "https://github.com/mingyu4537-creator/ComfyUI-HairOverlay",
+      "description": "Hair Edge Color Overlay node for ComfyUI that applies a soft airbrush-style color overlay to hair areas near the face. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-hsl-mask-node",
+      "author": "HelloWNW",
+      "id": "",
+      "reference": "https://github.com/HelloWNW/comfyui-hsl-mask-node",
+      "description": "Pick a range of colours by Hue / Saturation / Lightness and get back a clean mask where every matching pixel is white and everything else is black.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-tag-filter",
+      "author": "inflatebot",
+      "id": "",
+      "reference": "https://github.com/inflatebot/comfyui-tag-filter",
+      "description": "Smart tag filtering node for ComfyUI workflows with semantic category support for Danbooru/E621 tags.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-VdoFlash",
+      "author": "inboxabhishek",
+      "id": "",
+      "reference": "https://github.com/inboxabhishek/ComfyUI-VdoFlash",
+      "description": "Robust ComfyUI custom node for automated image-to-video pipelines with VRAM-aware memory management and intelligent fallback handling.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-SNR-quant",
+      "author": "liconstudio",
+      "id": "",
+      "reference": "https://github.com/liconstudio/ComfyUI-SNR-quant",
+      "description": "ComfyUI nodes for adaptive FP8/BF16 mixed precision quantization of diffusion models with automatic fragility detection and outlier protection.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-YoloNSFW",
+      "author": "er1cw00",
+      "id": "",
+      "reference": "https://github.com/er1cw00/ComfyUI-YoloNSFW",
+      "description": "A ComfyUI custom node for NSFW (Not Safe For Work) content detection using YOLO models with optional blur functionality.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-shadow-outline",
+      "author": "Victor8730",
+      "id": "",
+      "reference": "https://github.com/Victor8730/comfyui-shadow-outline",
+      "description": "One node for ComfyUI that takes an image with alpha after background removal and returns either shadow only or outline only.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "random_resolution_picker",
+      "author": "JakoError",
+      "id": "",
+      "reference": "https://github.com/JakoError/random_resolution_picker",
+      "description": "A ComfyUI node that randomly picks width and height from a user-defined list on every generation with support for weighted entries.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyNodesPlus",
+      "author": "chemicalshock",
+      "id": "",
+      "reference": "https://github.com/chemicalshock/ComfyNodesPlus",
+      "description": "A growing collection of practical, high-quality nodes designed to extend ComfyUI with useful utilities, smarter workflow controls, and flexible generation tools.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-EasyPortrait",
+      "author": "preposition17",
+      "id": "",
+      "reference": "https://github.com/preposition17/ComfyUI-EasyPortrait",
+      "description": "ComfyUI custom node for portrait segmentation and face parsing using ONNX exports of the pretrained EasyPortrait checkpoints.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-EqualRandomInteger",
+      "author": "Lingyuuuux",
+      "id": "",
+      "reference": "https://github.com/Lingyuuuux/ComfyUI-EqualRandomInteger",
+      "description": "This custom node returns one uniformly selected integer from an inclusive range.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-KleinRefGrid",
+      "author": "xb1n0ry",
+      "id": "",
+      "reference": "https://github.com/xb1n0ry/ComfyUI-KleinRefGrid",
+      "description": "A single-node ComfyUI custom package that turns up to 4 reference images into a 2×2 stitched grid and injects it into Flux Klein 9B conditioning.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-IfBranchRouter",
+      "author": "Lingyuuuux",
+      "id": "",
+      "reference": "https://github.com/Lingyuuuux/ComfyUI-IfBranchRouter",
+      "description": "A conditional branch node for ComfyUI that inputs an INT or STRING and selects output paths by multiple conditions. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-BILL-Concept_Isolator-Captioner",
+      "author": "0-bill-0",
+      "id": "",
+      "reference": "https://github.com/0-bill-0/ComfyUI-BILL-Concept_Isolator-Captioner",
+      "description": "Specialized ComfyUI node designed to automate the creation of high-precision captioning datasets using multimodal LLMs. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyU",
+      "author": "jz54101",
+      "id": "",
+      "reference": "https://github.com/jz54101/ComfyU",
+      "description": "ComfyUI image batch loader manager plugin with efficient batch upload, preview, and management functionality. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ImagePrompt",
+      "author": "JetterTW",
+      "id": "",
+      "reference": "https://github.com/JetterTW/ComfyUI-ImagePrompt",
+      "description": "A powerful prompt generation node designed for vision models that analyzes images and transforms visual features into high-quality prompts. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui-Wan-latent-Resizer",
+      "author": "LBH-123-AI",
+      "id": "",
+      "reference": "https://github.com/LBH-123-AI/Comfyui-Wan-latent-Resizer",
+      "description": "A dedicated ComfyUI node that replaces naive interpolation with a trained neural network to resize Wan video latents.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-IterSwitch",
+      "author": "younger15",
+      "id": "",
+      "reference": "https://github.com/younger15/ComfyUI-IterSwitch",
+      "description": "Dynamic switch nodes for ComfyUI providing flexible iterative input selection with intelligent fallback logic.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "standard-resolution-presets-comfyui-custom-node",
+      "author": "vimal-v-2006",
+      "id": "",
+      "reference": "https://github.com/vimal-v-2006/standard-resolution-presets-comfyui-custom-node",
+      "description": "A ComfyUI custom node that provides quick access to standard image resolutions for AI image generation.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-DCW-Diffusion-Color-Wavelets-Node",
+      "author": "DawnW0lf",
+      "id": "",
+      "reference": "https://github.com/DawnW0lf/ComfyUI-DCW-Diffusion-Color-Wavelets-Node",
+      "description": "A ComfyUI node implementation of the Dynamic Consistency Weighting (DCW) technique that enables high-quality image generation with drastically reduced inference steps.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-nano-banana",
+      "author": "jeremytenjo",
+      "id": "",
+      "reference": "https://github.com/jeremytenjo/comfyui-nano-banana",
+      "description": "ComfyUI custom node that interfaces with Nano Banana Pro image generation API through Google AI Studio.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUi-PhotoRX",
+      "author": "rh6423",
+      "id": "",
+      "reference": "https://github.com/rh6423/ComfyUi-PhotoRX",
+      "description": "A physics-based film grain synthesis plugin that brings authentic film grain to your ComfyUI workflows.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Slimy_ImageComparer",
+      "author": "Slimy-Comfy",
+      "id": "",
+      "reference": "https://github.com/Slimy-Comfy/Slimy_ImageComparer",
+      "description": "A/B image interactive comparison node for ComfyUI with multiple comparison modes (A, B, Slide). (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ColorCode-Bridge",
+      "author": "Doki21yy",
+      "id": "",
+      "reference": "https://github.com/Doki21yy/ComfyUI-ColorCode-Bridge",
+      "description": "Tiny type adapter for workflows where one node outputs a hex color string and another node requires a color input.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-character-composer",
+      "author": "unh1nge",
+      "id": "",
+      "reference": "https://github.com/unh1nge/comfyui-character-composer",
+      "description": "Structured, JSON-driven character prompt system for ComfyUI enabling consistent, controllable character generation with Qwen workflows.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-face-beauty",
+      "author": "FeiJiu518",
+      "id": "",
+      "reference": "https://github.com/FeiJiu518/comfyui-face-beauty",
+      "description": "ComfyUI plugin for face detection, square cropping with dilation, and paste-back with feathered edges for smooth blending.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui_VideoCombine_Plus",
+      "author": "peterducan-hub",
+      "id": "",
+      "reference": "https://github.com/peterducan-hub/Comfyui_VideoCombine_Plus",
+      "description": "Enhanced video combination node for ComfyUI with GPU-accelerated preview, sound volume control, video timeline, and frame-to-image export capabilities.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-AIMDO-XPU",
+      "author": "allanmeng",
+      "id": "",
+      "reference": "https://github.com/allanmeng/ComfyUI-AIMDO-XPU",
+      "description": "Intel XPU dynamic model unloader for ComfyUI, reimplements NVIDIA CUDA VRAM management for Arc B series GPUs. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-scalar-mask-blend",
+      "author": "Notimefornuts",
+      "id": "",
+      "reference": "https://github.com/Notimefornuts/comfyui-scalar-mask-blend",
+      "description": "A lightweight ComfyUI custom node for blending two image batches using a per-frame scalar mask without requiring full resolution mask upscaling.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Group-Bypasser",
+      "author": "jeremytenjo",
+      "id": "",
+      "reference": "https://github.com/jeremytenjo/ComfyUI-Group-Bypasser",
+      "description": "ComfyUI custom node that shows one toggle per unique frame/group name and can bypass all nodes inside matching frames.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-WepeNerd",
+      "author": "WepeNerd",
+      "id": "",
+      "reference": "https://github.com/WepeNerd/ComfyUI-WepeNerd",
+      "description": "Custom node pack featuring an interactive visual resolution picker and resolution suggestion tool with real-time dimension readout and divisor snapping. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-InstantTensorLoaders",
+      "author": "redstonewhite",
+      "id": "",
+      "reference": "https://github.com/redstonewhite/ComfyUI-InstantTensorLoaders",
+      "description": "InstantTensor-backed variants of ComfyUI's built-in model loader nodes for CUDA-only devices with streaming support for large models.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-LightQueueCounter",
+      "author": "ruminar",
+      "id": "",
+      "reference": "https://github.com/ruminar/ComfyUI-LightQueueCounter",
+      "description": "Lightweight custom node for ComfyUI that displays backend queue count during workflow execution with minimal performance impact (0.004s overhead) and flexible display modes. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-RogoAI-PromptRelay",
+      "author": "RogoAI-Takeji",
+      "id": "",
+      "reference": "https://github.com/RogoAI-Takeji/ComfyUI-RogoAI-PromptRelay",
+      "description": "Prompt Relay custom nodes for Wan2.2 I2V and LTX-Video 2.3 that connect multiple scenes in latent space to reduce character drift and improve consistency. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Audio2GuitarTabSheet",
+      "author": "xrmatic",
+      "id": "",
+      "reference": "https://github.com/xrmatic/ComfyUI-Audio2GuitarTabSheet",
+      "description": "Detects monophonic pitches in audio clips and renders ASCII guitar tabs with multiple tuning support. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-MaskSpikeRemover-V2",
+      "author": "Eden123321",
+      "id": "",
+      "reference": "https://github.com/Eden123321/ComfyUI-MaskSpikeRemover-V2",
+      "description": "A ComfyUI custom node that removes spikes from masks and converts them to smooth elliptical masks with feathered edges.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-wwdm-cystylediy",
+      "author": "wwsmiao",
+      "id": "",
+      "reference": "https://github.com/wwsmiao/comfyui-wwdm-cystylediy",
+      "description": "Comprehensive ComfyUI theme plugin with cyberpunk aesthetics, dynamic visual effects, multilingual support, and extensive customization features for workflows. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Bricolage",
+      "author": "sheldongriffin",
+      "id": "",
+      "reference": "https://github.com/sheldongriffin/ComfyUI-Bricolage",
+      "description": "Personal ComfyUI experiments and utilities repository. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-memory-manager",
+      "author": "darshd9941",
+      "id": "",
+      "reference": "https://github.com/darshd9941/comfyui-memory-manager",
+      "description": "ComfyUI custom nodes for preventing OOM crashes with real-time VRAM monitoring, automatic model unloading, LRU cache, and memory budget gates.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Comfyui-Vates-sampler",
+      "author": "sy00186",
+      "id": "",
+      "reference": "https://github.com/sy00186/Comfyui-Vates-sampler",
+      "description": "Vates brand high-performance sampling pipeline with Rust components, offering precision σ scheduling, memory optimization, and noise alignment for efficient multi-batch image generation. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Prompt-List",
+      "author": "jeremytenjo",
+      "id": "",
+      "reference": "https://github.com/jeremytenjo/ComfyUI-Prompt-List",
+      "description": "Simple ComfyUI custom node that splits text into multiple prompt blocks using a configurable divider for multi-image generation in one queue run.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui_mask2points",
+      "author": "zhiruizz",
+      "id": "",
+      "reference": "https://github.com/zhiruizz/comfyui_mask2points",
+      "description": "A ComfyUI custom node that converts segmentation masks into random coordinate points compatible with SAM2 prompts.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-iterationNode",
+      "author": "ilia-zykov",
+      "id": "",
+      "reference": "https://github.com/ilia-zykov/ComfyUI-iterationNode",
+      "description": "Combines prompts from multiple categories and automatically advances through every combination across queue runs for batch variation generation.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Audio-Notifier",
+      "author": "uni-miao",
+      "id": "",
+      "reference": "https://github.com/uni-miao/ComfyUI-Audio-Notifier",
+      "description": "Lightweight ComfyUI custom node pack that plays audio notifications at different workflow execution stages on the backend machine.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Pixel-Locker",
+      "author": "Bogyie",
+      "id": "",
+      "reference": "https://github.com/Bogyie/ComfyUI-Pixel-Locker",
+      "description": "ComfyUI custom nodes for preserving masked pixels while sampling.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Atom_AI",
+      "author": "AtomAI-GR",
+      "id": "",
+      "reference": "https://github.com/AtomAI-GR/Atom_AI",
+      "description": "Clean, practical node pack for LoRA management and image enhancement with LoRA Loader, LoRA Pro, LoRA Stack, and Detail Enhance nodes compatible with SD 1.5, SDXL, Flux, and HiDream. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "character-consistency-auditor",
+      "author": "darshd9941",
+      "id": "",
+      "reference": "https://github.com/darshd9941/character-consistency-auditor",
+      "description": "Audit character consistency across AI-generated image batches using Claude's vision API.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-RefineNode",
+      "author": "1Kynx",
+      "id": "",
+      "reference": "https://github.com/1Kynx/ComfyUI-RefineNode",
+      "description": "Provides model-agnostic ComfyUI nodes for local repainting, detail repair, product/logo/text refinement, and paste-back compositing.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui_toriigate",
+      "author": "litch230",
+      "id": "",
+      "reference": "https://github.com/litch230/comfyui_toriigate",
+      "description": "ComfyUI custom nodes for ToriiGate-0.5, an image captioning model for anime-style and digital art.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui_dreamlite",
+      "author": "lussifa",
+      "id": "",
+      "reference": "https://github.com/lussifa/comfyui_dreamlite",
+      "description": "Experimental ComfyUI custom node wrapper for ByteVisionLab/DreamLite, providing text-to-image and text-guided image editing through official pipeline API.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-VS",
+      "author": "jackson4242",
+      "id": "",
+      "reference": "https://github.com/jackson4242/ComfyUI-VS",
+      "description": "Visual comparison and retro transition nodes for ComfyUI, creating animated transitions between source and generated images with multiple wipe effects.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-kepri-nodes-pack",
+      "author": "wearekhepri",
+      "id": "",
+      "reference": "https://github.com/wearekhepri/comfyui-kepri-nodes-pack",
+      "description": "A lightweight ComfyUI custom-node pack for the Kepri Background Removal V2 pipeline containing mask merge and image finalization nodes.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-PromptTimelineSplitter",
+      "author": "singhdivyanshi",
+      "id": "",
+      "reference": "https://github.com/singhdivyanshi/ComfyUI-PromptTimelineSplitter",
+      "description": "Simple timeline-based prompt parser for cinematic image-to-video workflows in ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI.RaccoonAI",
+      "author": "sayuno",
+      "id": "",
+      "reference": "https://github.com/sayuno/ComfyUI.RaccoonAI",
+      "description": "Custom nodes for ComfyUI that integrate with the RaccoonAI local AI management system.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Flux_ID_Adjuster",
+      "author": "Magirad",
+      "id": "",
+      "reference": "https://github.com/Magirad/Flux_ID_Adjuster",
+      "description": "The node has been created through vibe coding. The main objective is for identity consistency for FLUX.2 klein 9b models in ComfyUI.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-JFA",
+      "author": "moniewski",
+      "id": "",
+      "reference": "https://github.com/moniewski/comfyui-JFA",
+      "description": "A custom node for ComfyUI that implements the Jump Flood Algorithm (JFA).",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-prompt-clean-append",
+      "author": "kryzbell2",
+      "id": "",
+      "reference": "https://github.com/kryzbell2/comfyui-prompt-clean-append",
+      "description": "A small ComfyUI custom node that cleans up prompt text and appends style terms.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-LLPS",
+      "author": "nicarinai",
+      "id": "",
+      "reference": "https://github.com/nicarinai/ComfyUI-LLPS",
+      "description": "LiveLatentPreviewer & Saver (LLPS) provides live preview and disk saving functionality with per-node control via LLPS KSampler, including configurable preview methods and save intervals.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "Slimy_HMR2_VNCCS",
+      "author": "Slimy-Comfy",
+      "id": "",
+      "reference": "https://github.com/Slimy-Comfy/Slimy_HMR2_VNCCS",
+      "description": "A ComfyUI custom node that converts HMR2 output into Pose JSON format compatible with VNCCS PoseStudio.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-expobooth-prompt-public",
+      "author": "TheDuke1974",
+      "id": "",
+      "reference": "https://github.com/TheDuke1974/comfyui-expobooth-prompt-public",
+      "description": "A lightweight ComfyUI custom node for generating structured exhibition booth prompts.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-PromptRandomChoice",
+      "author": "ruminar",
+      "id": "",
+      "reference": "https://github.com/ruminar/ComfyUI-PromptRandomChoice",
+      "description": "Lightweight random selection node for rapid prompt variations with independent multiple-node support and wildcard processing capabilities. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ZTurbo-Style-Transfer",
+      "author": "WuMIn259",
+      "id": "",
+      "reference": "https://github.com/WuMIn259/ComfyUI-ZTurbo-Style-Transfer",
+      "description": "High-speed style and color transfer plugin designed for z-image-turbo with color-hijacking mechanism that transfers reference image color tones while preserving composition freedom. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-ltx-int8-loader",
+      "author": "overpresentme",
+      "id": "",
+      "reference": "https://github.com/overpresentme/ComfyUI-ltx-int8-loader",
+      "description": "ComfyUI loader for LTX models with int8 quantization, requiring ComfyKitchen, latest ComfyUI, and Triton. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI_KleinAngleSelector",
+      "author": "Bisnis3d",
+      "id": "",
+      "reference": "https://github.com/Bisnis3d/ComfyUI_KleinAngleSelector",
+      "description": "Visual 3D camera-angle selector node with interactive hemisphere of 72 camera positions and distance controls.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-Music-Flamingo-Analyzer",
+      "author": "tavy315",
+      "id": "",
+      "reference": "https://github.com/tavy315/ComfyUI-Music-Flamingo-Analyzer",
+      "description": "Custom node for ComfyUI that analyzes songs using NVIDIA's Music Flamingo 2601 model with optimized 4-bit quantization.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI_Text2PixelCharacter",
+      "author": "BlancheVall",
+      "id": "",
+      "reference": "https://github.com/BlancheVall/ComfyUI_Text2PixelCharacter",
+      "description": "A custom ComfyUI node for generating cozy fantasy JRPG-style pixel characters from text prompts.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "comfyui-fp8-load-clip",
+      "author": "DrywFiltiarn",
+      "id": "",
+      "reference": "https://github.com/DrywFiltiarn/comfyui-fp8-load-clip",
+      "description": "A ComfyUI custom node that replaces the stock Load CLIP node with one that stores text encoder weights as FP8 buffers on the GPU, nearly halving persistent VRAM consumption for large models while preserving full inference correctness.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-marge-string-list",
+      "author": "palealloy2999-prog",
+      "id": "",
+      "reference": "https://github.com/palealloy2999-prog/ComfyUI-marge-string-list",
+      "description": "ComfyUI custom node for merging multiple text or tag lists with deduplication and custom delimiter support. (Description by CC)",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-vid2frames",
+      "author": "Pmobilee",
+      "id": "",
+      "reference": "https://github.com/Pmobilee/ComfyUI-vid2frames",
+      "description": "A small ComfyUI custom node package for selecting useful still frames from a decoded video frame batch.",
+      "install_type": "git-clone",
+      "stats": null
+    },
+    {
+      "title": "ComfyUI-TextOnImage",
+      "author": "albergrs90",
+      "id": "",
+      "reference": "https://github.com/albergrs90/ComfyUI-TextOnImage",
+      "description": "Simple and efficient custom node for overlaying customizable text onto images with font support, multi-language ready, and full position/color control.",
+      "install_type": "git-clone",
+      "stats": null
     },
     {
       "title": "SDXL_sizing",
