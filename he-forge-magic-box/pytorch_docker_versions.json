@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-06-17T03:27:41.853739",
+  "updated_at": "2026-06-18T02:56:18.016364",
   "author": "HeGenAI (老何的AIGC研究室)",
   "source": "Docker Hub (pytorch/pytorch)",
-  "total_combinations": 22,
+  "total_combinations": 25,
   "versions": [
+    {
+      "tag": "2.12.1+cu13.2",
+      "torch": "2.12.1",
+      "torchvision": "0.27.1",
+      "torchaudio": "2.12.1",
+      "cuda": "13.2",
+      "docker_image": "pytorch/pytorch:2.12.1-cuda13.2-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cu132",
+        "linux_rocm": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1"
+      }
+    },
     {
       "tag": "2.12.0+cu13.2",
       "torch": "2.12.0",
@@ -16,6 +30,20 @@
         "linux_rocm": "pip install torch==2.12.0 torchvision==0.27.0 torchaudio==2.12.0 --index-url https://download.pytorch.org/whl/rocm6.4",
         "cpu_only": "pip install torch==2.12.0 torchvision==0.27.0 torchaudio==2.12.0 --index-url https://download.pytorch.org/whl/cpu",
         "osx_mac": "pip install torch==2.12.0 torchvision==0.27.0 torchaudio==2.12.0"
+      }
+    },
+    {
+      "tag": "2.12.1+cu13.0",
+      "torch": "2.12.1",
+      "torchvision": "0.27.1",
+      "torchaudio": "2.12.1",
+      "cuda": "13.0",
+      "docker_image": "pytorch/pytorch:2.12.1-cuda13.0-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cu130",
+        "linux_rocm": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1"
       }
     },
     {
@@ -184,6 +212,20 @@
         "linux_rocm": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/rocm6.4",
         "cpu_only": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0 --index-url https://download.pytorch.org/whl/cpu",
         "osx_mac": "pip install torch==2.7.0 torchvision==0.22.0 torchaudio==2.7.0"
+      }
+    },
+    {
+      "tag": "2.12.1+cu12.6",
+      "torch": "2.12.1",
+      "torchvision": "0.27.1",
+      "torchaudio": "2.12.1",
+      "cuda": "12.6",
+      "docker_image": "pytorch/pytorch:2.12.1-cuda12.6-cudnn9-runtime",
+      "install_commands": {
+        "windows_linux_cuda": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cu126",
+        "linux_rocm": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/rocm6.4",
+        "cpu_only": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1 --index-url https://download.pytorch.org/whl/cpu",
+        "osx_mac": "pip install torch==2.12.1 torchvision==0.27.1 torchaudio==2.12.1"
       }
     },
     {
